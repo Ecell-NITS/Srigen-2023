@@ -16,7 +16,17 @@
 .contactHeader, .infoGrad{
 font-size: 48px;
 line-height: 56px;
+font-weight: 700;
 }
+
+.infoGrad{
+    background: linear-gradient(to bottom, rgba(182,33,254,1) 35%, rgba(31,209,249,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
 
 .credInfo {
     display: flex;
@@ -34,14 +44,48 @@ line-height: 56px;
 
 .containerFooter{
     margin-top: 104px;
+    background-color: #15131A;
 
 }
 .footerDesc{
     max-width: 970px;
     margin: auto;
+   padding-top: 99px;
     font-size: 24px;
+    font-weight: 900;
     line-height: 39px;
     text-align: center;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.facebookIcon{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: white;
+    margin-right: 66.36px;
+    
+}
+.instaIcon{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: white;
+    margin-right: 66.36px;
+
+}
+.linkedinIcon
+{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: white;
+    margin-right: 66.36px;
+}
+.iconSection
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 99px;
+    padding-bottom: 148px;
+    
 }
 
 

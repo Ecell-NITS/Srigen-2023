@@ -1,5 +1,8 @@
 import styles from "./Footer.module.scss";
 import React from "react";
+import {FiFacebook} from "react-icons/fi"
+import {AiOutlineInstagram} from "react-icons/ai"
+import {FiLinkedin} from "react-icons/fi"
 
 
 const Footer = () =>{
@@ -19,6 +22,11 @@ const Footer = () =>{
         </div>
         <div className={`${styles.containerFooter}`}>
             <p className= {`${styles.footerDesc}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, purus tincidunt tellus eros. Feugiat velit id sed sit id velit, adipiscing pulvinar orci. Et, bibendum nibh pellentesque id sagittis adipiscing lorem. Elit egestas bibendum morbi vitae, nullam nunc sagittis eget.</p>
+           <div className= {`${styles.iconSection}`} >
+            <FiFacebook  className= {`${styles.facebookIcon}`}/>
+            <AiOutlineInstagram className= {`${styles.instaIcon}`} />
+            <FiLinkedin className= {`${styles.linkedinIcon}`} />
+            </div>
     
         </div> 
         
