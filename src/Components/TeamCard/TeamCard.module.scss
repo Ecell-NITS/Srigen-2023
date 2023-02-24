@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+@mixin flex-dispay($direction, $content, $item) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $item;
+}
+
+.cardContainer {
+  position: relative;
+  width: 12rem;
+  height: 16rem;
+  &:hover {
+    .cardImage > img {
+      transform: scale(0.7) translate(-10%, -5%);
+      box-shadow: 0px 4px 100px rgba(6, 0, 0, 0.66);
+    }
+
+    .cardBody {
+      opacity: 1;
+    }
+  }
+
+  .cardImage > img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cardBody {
+    transform: translateY(25%);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    @include flex-dispay(column, center, start);
+    background: linear-gradient(180deg, #cd6880 28.13%, rgba(9, 145, 222, 0.38) 100%);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+
+    .memberName {
+      padding: 0 3%;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.2rem;
+      line-height: 2rem;
+
+      color: #ffffff;
+    }
+
+    .memberDesignation {
+      padding: 0 3%;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .mediaLinks {
+      @include flex-dispay(column, space-around, end);
+      height: 8rem;
+      width: 100%;
+      padding-right: 3%;
+
+      .Links {
+        color: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
