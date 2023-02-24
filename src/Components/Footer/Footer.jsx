@@ -13,10 +13,10 @@ const Footer = () =>{
          <div className={`${styles.containerContact}`}>
             <p className={`${styles.contactHeader}`}>Contact<span className={`${styles.infoGrad}`}> Info</span></p>
             <div className={`${styles.credInfo}`}>
-                <p className={`${styles.credItems}`}>Address<br/>National Institute of Technology Silchar Cachar, Assam</p>
-                <p className={`${styles.credItems}`}>Website<br/>www.nits.ac.in</p>
-                <p className={`${styles.credItems}`}>Email<br/>xxxx@xxx.com</p>
-                <p className={`${styles.credItems}`}>Phone Number<br/>+91-xxxxxxxxxx</p>
+                <p className={`${styles.credItems}`}>Address<span className={`${styles.credText}`}>National Institute of Technology Silchar Cachar, Assam</span></p>
+                <p className={`${styles.credItems}`}>Website<span className={`${styles.credText}`}>www.nits.ac.in</span></p>
+                <p className={`${styles.credItems}`}>Email<span className={`${styles.credText}`}>xxxx@xxx.com</span></p>
+                <p className={`${styles.credItems}`}>Phone Number<span className={`${styles.credText}`}>+91-xxxxxxxxxx</span></p>
             </div>
 
         </div>
