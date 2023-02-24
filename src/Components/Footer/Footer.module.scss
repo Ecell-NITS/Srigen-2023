@@ -40,6 +40,7 @@ font-weight: 700;
 .credItems{
     width: 264px;
     margin-right: 33px;
+    margin-left: 33px;
 }
 
 .containerFooter{
@@ -63,6 +64,7 @@ font-weight: 700;
     height: 2.91rem;
     color: white;
     margin-right: 66.36px;
+    margin-left: 66.36px;
     
 }
 .instaIcon{
@@ -83,10 +85,33 @@ font-weight: 700;
 {
     display: flex;
     justify-content: center;
-    margin-top: 99px;
+    margin-top: 87px;
     padding-bottom: 148px;
     
 }
 
+@media screen and (max-width: 1200px)
+{
+    .contactHeader, .infoGrad{
+        font-size: 48px;
+        margin-bottom: 3rem;
+        
+    }
+    .credInfo{
+        flex-direction: column;
+        max-width: 80vh;
+        margin: auto;
+        
+    }
+    .credItems{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .footerDesc{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
 
+}
 
