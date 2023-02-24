@@ -1,5 +1,5 @@
 import style from "./Registration.module.scss";
-import {Form} from "../../Components";
+import {Form1, Form2} from "../../Components";
 
 const Registration = ()=> {
 
@@ -17,7 +17,7 @@ const Registration = ()=> {
                     <img src="/images/Instagram.png" alt="instagram" className={style.social} />
                 </div>
                 <div className={style.iconimgcont}>
-                    <img src="/images/Line1.png" alt="facebook" />
+                    <img src="/images/Line1.png" alt="line" />
                 </div>
             </div>
         </div>
@@ -36,8 +36,17 @@ const Registration = ()=> {
             <div className={style.formcontainer}>
                 <div className={style.formheading}>Registration Form</div>
                 <div className={style.form}>
-                    <Form />
-                    <Form />
+                    <div className={style.form2}>
+                        <Form1 />
+                    </div>
+                    <div className={style.form2}>
+                        <div>Member 2</div>
+                        <Form2 />
+                    </div>
+                    <div className={style.form2}>
+                        <div>Member 3</div>
+                        <Form2 />
+                    </div>
                 </div>
                 <div className={style.addmember}><img src="/images/addmember.png" /></div>
                 <div className={style.submit}><img src="/images/registerbutton.png" /></div>

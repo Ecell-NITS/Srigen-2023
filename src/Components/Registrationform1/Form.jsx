@@ -1,8 +1,11 @@
 import style from "./Form.module.scss";
 
-const Form =() => {
+const Form1 =() => {
     return (
         <div className={style.formelementcontainer}>
+            <div className={style.inputcontainer}>
+                <input type="text" className={style.input} placeholder="TeamName"  />
+            </div>
             <div className={style.inputcontainer}>
                 <input type="text" className={style.input} placeholder="Name"  />
             </div>
@@ -24,4 +27,4 @@ const Form =() => {
     )
 }
 
-export default Form;
+export default Form1;
