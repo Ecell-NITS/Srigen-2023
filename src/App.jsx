@@ -8,8 +8,13 @@ import { Navbar,Button,Footer } from "./Components";
 const App = () => {
   return (
     <>
+
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer/>
-     
+  
     </>
   );
 };

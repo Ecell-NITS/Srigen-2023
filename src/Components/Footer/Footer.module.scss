@@ -1,12 +1,4 @@
 
-@font-face{
-    font-family: 'Gilroy-Bold';
-    src: url(../fonts/gilroy/Gilroy-Bold.ttf);
-}
-
-
-
-
 
 .containerContact {
     display: flex;
@@ -14,12 +6,10 @@
     padding-top: 134px;
     text-align: center;
     
-    
-    
 }
 
 .contactHeader, .infoGrad{
- font-family: 'Gilroy-Bold';  
+font-family: var(--srijan4-font-2),var(--srijan4-font-1), sans-serif;  
 font-size: 48px;
 line-height: 56px;
 font-weight: 700;
@@ -48,7 +38,7 @@ font-weight: 700;
     width: 264px;
     margin-right: 33px;
     margin-left: 33px;
-    font-family: 'Gilroy-Bold';
+    font-family: var(--srijan4-font-2),var(--srijan4-font-1),sans-serif;
 }
 .credText{
     font-weight: 900;
@@ -58,7 +48,7 @@ font-weight: 700;
 
 .containerFooter{
     margin-top: 104px;
-    background-color: #15131A;
+    background-color: var(--srijan4-dark-blue);
 
 }
 .footerDesc{
