@@ -1,6 +1,7 @@
 .registrationcontainer{
     width: 100%;
     min-height: 100vh;
+    padding-top: 1em;
     display: flex;
     background-color: var(--srijan-main-theme);
 
@@ -20,20 +21,23 @@
     }
     .rightcontainer{
         width: 92%;
-
         display: flex;
+        justify-content: center;
+        height: auto;
+        overflow: auto;
+        white-space: pre-line;
         .coverpicontainer{
             width: 45%;
             .coverimgcontainer{
-                height: 23rem;
-                width: 21rem;
+                height: 20rem;
+                width: 19rem;
                 img{
                     width: 100%;
                     height: 100%;
                 }
             }
             .descriptioncontainer{
-                width: 21rem;
+                width: 19rem;
                 .descheading{
                     font-weight: 700;
                     font-size: 1.5em;
@@ -51,6 +55,64 @@
                 }
             }
         }
+        .formcontainer{
+            width: 65%;
+            .formheading{
+                color: var(--srijan-white-1);
+                font-weight: 700;
+                font-size: 1.3em;
+            }
+            .form{
+                width: 100%;
+                height: auto;
+            }  
+            .addmember{
+                margin: 1em 0;
+                cursor: pointer;
+            }
+            .submit{
+                margin-top: 2em;
+                cursor: pointer;
+            }
+
+        }
     }
 
+    .rightcontainer::-webkit-scrollbar{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .leftcontainer{
+        .iconcontainer{
+            .iconimgcont{
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+    }
+    .rightcontainer{
+        .coverpicontainer{
+            display: none;
+        }
+        .formcontainer{
+            width: 70% !important;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .leftcontainer{
+        width: 12% !important;
+    }
+    .rightcontainer{
+        width: 88%;
+        .formcontainer{
+            width: 80% !important;
+        }
+    }
 }

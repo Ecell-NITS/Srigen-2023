@@ -1,4 +1,5 @@
 import style from "./Registration.module.scss";
+import {Form} from "../../Components";
 
 const Registration = ()=> {
 
@@ -7,13 +8,13 @@ const Registration = ()=> {
         <div className={style.leftcontainer}>
             <div className={style.iconcontainer}>
                 <div className={style.iconimgcont}>
-                    <img src="/images/Facebook.png" alt="facebook" />
+                    <img src="/images/linkedin.png" alt="linkedin" className={style.social} />
                 </div>
                 <div className={style.iconimgcont}>
-                    <img src="/images/Facebook.png" alt="facebook" />
+                    <img src="/images/Facebook.png" alt="facebook" className={style.social} />
                 </div>
                 <div className={style.iconimgcont}>
-                    <img src="/images/Facebook.png" alt="facebook" />
+                    <img src="/images/Instagram.png" alt="instagram" className={style.social} />
                 </div>
                 <div className={style.iconimgcont}>
                     <img src="/images/Line1.png" alt="facebook" />
@@ -31,6 +32,15 @@ const Registration = ()=> {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque numquam officiis delectus nam tenetur iusto mollitia magni voluptatum nisi? Tenetur.
                     </div>
                 </div>
+            </div>
+            <div className={style.formcontainer}>
+                <div className={style.formheading}>Registration Form</div>
+                <div className={style.form}>
+                    <Form />
+                    <Form />
+                </div>
+                <div className={style.addmember}><img src="/images/addmember.png" /></div>
+                <div className={style.submit}><img src="/images/registerbutton.png" /></div>
             </div>
         </div>
     </div>
