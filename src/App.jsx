@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home } from "./Pages";
+import { Home, Registration } from "./Pages";
 
 import { Navbar } from "./Components";
 
@@ -10,6 +10,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/registration" element={<Registration />} />
       </Routes>
     </>
   );
