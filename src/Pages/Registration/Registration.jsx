@@ -15,6 +15,9 @@ const Registration = ()=> {
                 <div className={style.iconimgcont}>
                     <img src="/images/Facebook.png" alt="facebook" />
                 </div>
+                <div className={style.iconimgcont}>
+                    <img src="/images/Line1.png" alt="facebook" />
+                </div>
             </div>
         </div>
         <div className={style.rightcontainer}>

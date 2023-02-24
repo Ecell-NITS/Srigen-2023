@@ -4,4 +4,23 @@
     display: flex;
     background-color: var(--srijan-main-theme);
 
+    .leftcontainer{
+        width: 5%;
+        position: relative;
+        .iconcontainer{
+            width:100%;
+            height: 60vh;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            top: 15%;
+        }
+    }
+    .rightcontainer{
+        width: 95%;
+        background-color: red;
+    }
+
 }
