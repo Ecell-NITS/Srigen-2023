@@ -9,14 +9,14 @@
 }
 
 .contactHeader, .infoGrad{
-font-family: var(--srijan4-font-2),var(--srijan4-font-1), sans-serif;  
+font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;  
 font-size: 48px;
 line-height: 56px;
 font-weight: 700;
 }
 
 .infoGrad{
-    background: linear-gradient(to bottom, rgba(182,33,254,1) 35%, rgba(31,209,249,1) 100%);
+    background: var(--srijan4-gradient-6);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
@@ -38,7 +38,7 @@ font-weight: 700;
     width: 264px;
     margin-right: 33px;
     margin-left: 33px;
-    font-family: var(--srijan4-font-2),var(--srijan4-font-1),sans-serif;
+    font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;
 }
 .credText{
     font-weight: 900;
@@ -48,7 +48,7 @@ font-weight: 700;
 
 .containerFooter{
     margin-top: 104px;
-    background-color: var(--srijan4-dark-blue);
+    background-color: var(--srijan4-dark-grey);
 
 }
 .footerDesc{
@@ -59,13 +59,13 @@ font-weight: 700;
     font-weight: 900;
     line-height: 39px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.64);
+    color: var(--srijan4-light-grey);
 }
 
 .facebookIcon{
     width: 2.91rem;
     height: 2.91rem;
-    color: white;
+    color: var(--srijan4-white);
     margin-right: 66.36px;
     margin-left: 66.36px;
     
@@ -73,7 +73,7 @@ font-weight: 700;
 .instaIcon{
     width: 2.91rem;
     height: 2.91rem;
-    color: white;
+    color: var(--srijan4-white);
     margin-right: 66.36px;
 
 }
@@ -81,7 +81,7 @@ font-weight: 700;
 {
     width: 2.91rem;
     height: 2.91rem;
-    color: white;
+    color: var(--srijan4-white);
     margin-right: 66.36px;
 }
 .iconSection
