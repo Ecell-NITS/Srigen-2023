@@ -1,0 +1,120 @@
+
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8.375rem;
+    text-align: center;
+    
+}
+
+.contactHeader, .infoGrad{
+font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;  
+font-size: 3rem;
+line-height: 3.5rem;
+font-weight: 700;
+}
+
+.infoGrad{
+    background: var(--srijan4-gradient-6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+
+.credInfo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+.credItems{
+    width: 16.5rem;
+    margin-right: 2.0625rem;
+    margin-left: 2.0625rem;
+    font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;
+}
+.credText{
+    font-weight: 900;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.containerFooter{
+    margin-top: 6.5rem;
+    background-color: var(--srijan4-dark-grey);
+
+}
+.footerDesc{
+    max-width: 60.625rem;
+    margin: auto;
+   padding-top: 6.1875rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2.4375rem;
+    text-align: center;
+    color: var(--srijan4-light-grey);
+}
+
+.facebookIcon{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: var(--srijan4-white);
+    margin-right: 4.1475rem;
+    margin-left: 4.1475rem;
+    
+}
+.instaIcon{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: var(--srijan4-white);
+    margin-right: 4.1475rem;
+
+}
+.linkedinIcon
+{
+    width: 2.91rem;
+    height: 2.91rem;
+    color: var(--srijan4-white);
+    margin-right: 4.1475rem;
+}
+.iconSection
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.4375rem;
+    padding-bottom: 9.25rem;
+    
+}
+
+@media screen and (max-width: 1200px)
+{
+    .contactHeader, .infoGrad{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        
+    }
+    .credInfo{
+        flex-direction: column;
+        max-width: 80vh;
+        margin: auto;
+        
+    }
+    .credItems{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .footerDesc{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+
+}
+
