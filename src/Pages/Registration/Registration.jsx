@@ -1,7 +1,32 @@
+import { useState} from "react";
 import style from "./Registration.module.scss";
 import {Form1, Form2} from "../../Components";
 
-const Registration = ()=> {
+const Registration = ({minTeamSize=1,maxTeamSize=4})=> {
+    
+    const [inputMainField,setMainInputField]=useState({name: 'Name', email: 'Email', phone: 'Phone Number', teamName: 'Team Name', gender: 'Gender'})
+    const [inputField,setInputField]=useState([])
+
+    const handleMainFormChange = (event)=> {
+        const data = {...inputMainField};
+        data[event.target.name] = event.target.value;
+        setMainInputField(data);
+    }
+
+    const handleFormChange = (index,event)=> {
+        const data = [...inputField];
+        data[index][event.target.name] = event.target.value;
+        setInputField(data);
+    }
+
+    const addMembers = () => {
+        if(inputField.length===maxTeamSize-1){
+            alert(`Maximum Team Size is ${maxTeamSize}`);
+            return;
+        }
+        const newForm={name: 'Name', email: 'Email', phone: 'Phone-no',  gender: 'Gender'};
+        setInputField([...inputField,newForm]);  
+    }
 
     return (
     <div className={style.registrationcontainer}>
@@ -37,18 +62,19 @@ const Registration = ()=> {
                 <div className={style.formheading}>Registration Form</div>
                 <div className={style.form}>
                     <div className={style.form2}>
-                        <Form1 />
+                        <Form1 fields={inputMainField} handleMainFormChange={handleMainFormChange} />
                     </div>
-                    <div className={style.form2}>
-                        <div>Member 2</div>
-                        <Form2 />
+                    {inputField.map( (item,index) =>{
+                        return (
+                    <div className={style.form2} key={index}>
+                        <div>Member {index+2}</div>
+                        <Form2  fields={item} handleFormChange={handleFormChange} index={index} />
                     </div>
-                    <div className={style.form2}>
-                        <div>Member 3</div>
-                        <Form2 />
-                    </div>
+                        )
+                    } )}
+                    
                 </div>
-                <div className={style.addmember}><img src="/images/addmember.png" /></div>
+                <div className={style.addmember}><img src="/images/addmember.png" onClick={addMembers} /></div>
                 <div className={style.submit}><img src="/images/registerbutton.png" /></div>
             </div>
         </div>

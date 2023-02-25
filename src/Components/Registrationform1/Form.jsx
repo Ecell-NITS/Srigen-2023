@@ -1,23 +1,23 @@
 import style from "./Form.module.scss";
 
-const Form1 =() => {
+const Form1 =({fields, handleMainFormChange}) => {
     return (
         <div className={style.formelementcontainer}>
             <div className={style.inputcontainer}>
-                <input type="text" className={style.input} placeholder="TeamName"  />
+                <input type="text" className={style.input} value={fields.teamName} name="teamName" onChange={(event) => handleMainFormChange(event)}  />
             </div>
             <div className={style.inputcontainer}>
-                <input type="text" className={style.input} placeholder="Name"  />
+                <input type="text" className={style.input} value={fields.name} name="name" onChange={(event) => handleMainFormChange(event)}  />
             </div>
             <div className={style.inputcontainer}>
-                <input type="text" className={style.input} placeholder="Phone Number"  />
+                <input type="text" className={style.input} value={fields.phone} name="phone" onChange={(event) => handleMainFormChange(event)}  />
             </div>
             <div className={style.inputcontainer}>
-                <input type="text" className={style.input} placeholder="Email"  />
+                <input type="text" className={style.input} value={fields.email} name="email" onChange={(event) => handleMainFormChange(event)}  />
             </div>
             <div className={style.inputcontainer}>
-                <select className={style.select}>
-                    <option selected value="Gender" className={style.option}>Gender</option>
+                <select className={style.select} name="gender" onChange={(event) => handleMainFormChange(event)}>
+                    <option defaultValue={fields.gender} className={style.option}>Gender</option>
                     <option className={style.option} value="Male">Male</option>
                     <option className={style.option} value="Female">Female</option>
                 </select>
