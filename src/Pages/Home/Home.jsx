@@ -1,5 +1,4 @@
-import { Button } from "../../Components";
-import Speakers from "../../Components/Homepage/Speakers/Speakers";
+import { Button, Speakers } from "../../Components";
 
 import style from "./Home.module.scss";
 

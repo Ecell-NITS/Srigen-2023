@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "Gilroy-Bold";
-  src: url("/fonts/Gilroy-Bold.ttf");
-  font-weight: normal;
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy/Gilroy-Bold.ttf");
+  font-weight: bold;
   font-style: normal;
 }
 
 :root {
   --srijan4-font-1: "Poppins", sans-serif;
-  --srijan4-font-2: "Gilroy-Bold", sans-serif;
+  --srijan4-font-2: "Gilroy", sans-serif;
 
   --srijan4-dark-blue: #010044;
   --srijan4-dark-pink: #b4015f;

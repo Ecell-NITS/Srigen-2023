@@ -1,15 +1,17 @@
-import React from "react";
+/* eslint-disable import/no-unresolved */
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
+
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import Data from "../../../Data/Speakers.json";
+
+import Data from "../../Data/Speakers.json";
+
 import style from "./Speakers.module.scss";
-// eslint-disable-next-line import/no-unresolved
+
 import "swiper/css";
-// eslint-disable-next-line import/no-unresolved
 import "swiper/css/effect-coverflow";
-// eslint-disable-next-line import/no-unresolved
 import "swiper/css/pagination";
+
 const Speakers = () => {
   return (
     <div id={style.speakershomemain}>
@@ -25,10 +27,6 @@ const Speakers = () => {
           centeredSlides
           slidesPerView="auto"
           loop
-          // autoplay={{
-          //     delay: 2500,
-          //     disableOnInteraction: false,
-          //   }}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -45,22 +43,20 @@ const Speakers = () => {
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
         >
-          {Data.map((item) => {
-            return (
-              <SwiperSlide>
-                <div className={style.indicarocard}>
-                  <div className={style.imgholder}>
-                    <img src={item.img} alt="" />
-                  </div>
-
-                  <div className={style.spkrdesc}>
-                    <h1 className={style.spkrname}>{item.name}</h1>
-                    <h3 className={style.detailsspkr}>{item.desc}</h3>
-                  </div>
+          {Data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className={style.indicarocard}>
+                <div className={style.imgholder}>
+                  <img src={item.img} alt={item.name} />
                 </div>
-              </SwiperSlide>
-            );
-          })}
+
+                <div className={style.spkrdesc}>
+                  <h1 className={style.spkrname}>{item.name}</h1>
+                  <h3 className={style.detailsspkr}>{item.desc}</h3>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
 
           <div className="slider-controler" id={style.controler}>
             <div id={style.btndivholder}>
@@ -78,4 +74,5 @@ const Speakers = () => {
     </div>
   );
 };
+
 export default Speakers;

@@ -3,7 +3,9 @@
   h1 {
     font-size: 3.3vw;
     font-family: var(--srijan4-font-2);
+    font-weight: bold;
     background: var(--srijan4-gradient-7);
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -21,7 +23,6 @@
 }
 
 .indicarocard {
-  // position: relative;
   background-color: var(--srijan4-white) !important;
   display: flex;
   width: 80%;
@@ -37,7 +38,7 @@
   img {
     width: 100%;
     background-position: 100% 50%;
-    background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1677337101/SriGen4.0/WhatsApp_Image_2023-02-25_at_20.22.43-removebg-preview_k8qjcn.png);
+    background: url("/images/speaker-bg.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 50%;
@@ -57,6 +58,7 @@
 .spkrname {
   background: rgba(0, 0, 0, 1);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Gilroy-Bold";
   margin-top: 25%;
@@ -66,6 +68,7 @@
 
 .detailsspkr {
   background: rgba(0, 0, 0, 0.5);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: var(--heading-1-text-weight);
