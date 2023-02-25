@@ -44,6 +44,7 @@
       }
       .descriptioncontainer {
         width: 19rem;
+        overflow-wrap: break-word;
         .descheading {
           font-weight: var(--heading-3-text-weight);
           font-size: 1.5em;
