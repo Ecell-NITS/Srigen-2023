@@ -57,16 +57,6 @@
   font-weight: 500;
   margin: 2% 0;
 }
-@keyframes spin {
-  to {
-    transform: rotate(0.5turn);
-  }
-}
-@keyframes spin2 {
-  to {
-    transform: rotate(0turn);
-  }
-}
 .abt_anim {
   position: sticky;
   top: 25%;
@@ -76,6 +66,7 @@
 }
 .abt_animRotate {
   transform: rotate(180deg);
+  transition: 0.5s ease;
 }
 .circle {
   width: 25rem;
@@ -88,16 +79,6 @@
   position: absolute;
   background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
 }
-.logo_circle_s {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  top: 45%;
-  right: -4%;
-}
 .logo_circle_l {
   display: flex;
   align-items: center;
@@ -109,13 +90,26 @@
   left: -11%;
   transition: all 0.5s ease;
 }
-.logo_circle_sScale {
-  transform: scale(2.7);
-  right: 0%;
+.logo_circle_s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  top: 45%;
+  right: -4%;
+  transition: 0.5s ease;
 }
 .logo_circle_lSmall {
   transform: scale(0.35);
+  transition: 0.5s ease;
   left: -13%;
+}
+.logo_circle_sScale {
+  transform: scale(2.7);
+  transition: 0.5s ease;
+  right: 0%;
 }
 .about_logo1 {
   position: relative;
@@ -127,9 +121,11 @@
 }
 .about_logo1Flip {
   transform: rotate(180deg);
+  transition: 0.5s ease;
 }
 .about_logo2Flip {
   transform: rotate(180deg);
+  transition: 0.5s ease;
 }
 .hidden {
   visibility: hidden;
