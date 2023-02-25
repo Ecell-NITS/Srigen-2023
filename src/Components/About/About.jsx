@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { InView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,6 +9,8 @@ const About = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const [isIntersecting, setIntersecting] = useState(false);
   return (
     <section className={style.about}>
       <div className={style.abt_out}>
@@ -31,7 +33,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <InView threshold={0.5} onChange={(inView) => console.log("Inview:", inView)}>
+          <InView threshold={0.5} onChange={(inView) => setIntersecting(inView)}>
             <div className={style.abt_nits} data-aos="fade-up">
               <div className={style.abt_head}>
                 <h1>
@@ -53,14 +55,33 @@ const About = () => {
             </div>
           </InView>
         </div>
-        <div className={style.abt_anim}>
-          {/* {myElementIsVisible ? "Yes" : "No"} */}
-          <div className={style.logo_circle_l}>
-            <img src={logo1} alt="" className={style.about_logo1} />
+        <div className={`${style.abt_anim} ${!isIntersecting || style.abt_animRotate} `}>
+          <div
+            className={`${style.logo_circle_l} ${
+              !isIntersecting || style.logo_circle_lSmall
+            } `}
+          >
+            <img
+              src={logo1}
+              alt=""
+              className={`${style.about_logo1} ${
+                !isIntersecting || style.about_logo1Hidden
+              } ${!isIntersecting || style.hidden}`}
+            />
           </div>
-          <div className={style.circle}></div>
-          <div className={style.logo_circle_s}>
-            <img src={logo2} alt="" className={`${style.about_logo2} ${style.hidden}`} />
+          <div className={`${style.circle}`}></div>
+          <div
+            className={`${style.logo_circle_s} ${
+              !isIntersecting || style.logo_circle_sScale
+            }`}
+          >
+            <img
+              src={logo2}
+              alt=""
+              className={`${style.about_logo2} ${!isIntersecting && style.hidden} ${
+                !isIntersecting || style.about_logo2Flip
+              } `}
+            />
           </div>
         </div>
       </div>

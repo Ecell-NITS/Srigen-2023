@@ -1,19 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("/fonts/gilroy/Gilroy-Bold.ttf");
+}
 
 :root {
-
+  --srijan4-font-2: "Gilroy-Bold", sans-serif;
   --srijan4-font-1: "Poppins", sans-serif;
 
   --srijan4-dark-blue: #010044;
-  --srijan4-dark-pink: #B4015F;
-  --srijan4-med-pink: #EA0064;
-  --srijan4-light-pink: #FF5F9F;
+  --srijan4-dark-pink: #b4015f;
+  --srijan4-med-pink: #ea0064;
+  --srijan4-light-pink: #ff5f9f;
+  --srijan4-dark-grey: #15131a;
+  --srijan4-light-grey: #ffffffa3;
+  --srijan4-white: #fff;
 
-  --srijan4-gradient-1: linear-gradient(180.56deg, #0704B9 -22.26%, #B4015F 159.83%);
-  --srijan4-gradient-2: linear-gradient(161.91deg, #010044 0%, #030156 28.12%, #02014C 66.54%, #B4015F 114.02%);
-  --srijan4-gradient-3: linear-gradient(161.91deg, #010044 0%, #02014C 66.54%);
-  --srijan4-gradient-4: linear-gradient(161.91deg, #02010D 0%, #040344 66.54%);
-  --srijan4-gradient-5: linear-gradient(175.09deg, #010044 -8.29%, #030156 24.29%, #02014C 68.8%, #B4015F 123.8%);
+  --srijan4-gradient-1: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
+  --srijan4-gradient-2: linear-gradient(
+    161.91deg,
+    #010044 0%,
+    #030156 28.12%,
+    #02014c 66.54%,
+    #b4015f 114.02%
+  );
+  --srijan4-gradient-3: linear-gradient(161.91deg, #010044 0%, #02014c 66.54%);
+  --srijan4-gradient-4: linear-gradient(161.91deg, #02010d 0%, #040344 66.54%);
+  --srijan4-gradient-5: linear-gradient(
+    175.09deg,
+    #010044 -8.29%,
+    #030156 24.29%,
+    #02014c 68.8%,
+    #b4015f 123.8%
+  );
+  --srijan4-gradient-6: linear-gradient(
+    180deg,
+    rgba(182, 33, 254, 1) 35%,
+    rgba(31, 209, 249, 1) 100%
+  );
 
   --heading-1-text-weight: 600;
   --heading-2-text-weight: 500;
