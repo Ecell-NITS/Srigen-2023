@@ -74,7 +74,7 @@ const Registration = () => {
             <img src="/images/iplimg.png" alt="cover pic" />
           </div>
           <div className={style.descriptioncontainer}>
-            <div className={style.descheading}>IPL AUCTION</div>
+            <div className={style.descheading}>{params.event}</div>
             <div className={style.description}>{eventDetails}</div>
           </div>
         </div>

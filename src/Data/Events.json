@@ -1,13 +1,13 @@
 [
   {
-    "name": "IPLAUCTION",
+    "name": "IPL-AUCTION",
     "description": "Lorem12samndmnsambdasvdnbwq dbv qwhgvsjhwvsbvsgvahadvsadvbasvdbsadhhghfuuytyugytfgdfbgvashdvnsav",
     "eventType": "Team",
     "minTeamSize": "1",
     "maxTeamSize": "2"
   },
   {
-    "name": "TechNerds",
+    "name": "Tech-Nerds",
     "description": "AAAAAAALorem12samndmnsambdasvMJHVJVJvjhBJHVjvhjdnbwq dbv qwhgvsjhwvsbvsgvahadvsadvbasvdbsadbgvashdvnsav",
     "eventType": "Team",
     "minTeamSize": "1",
