@@ -3,15 +3,15 @@
 .containerContact {
     display: flex;
     flex-direction: column;
-    padding-top: 134px;
+    padding-top: 8.375rem;
     text-align: center;
     
 }
 
 .contactHeader, .infoGrad{
 font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;  
-font-size: 48px;
-line-height: 56px;
+font-size: 3rem;
+line-height: 3.5rem;
 font-weight: 700;
 }
 
@@ -29,15 +29,15 @@ font-weight: 700;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 72px;
-    font-size: 24px;
-    line-height: 28px;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     text-align: center;
 }
 .credItems{
-    width: 264px;
-    margin-right: 33px;
-    margin-left: 33px;
+    width: 16.5rem;
+    margin-right: 2.0625rem;
+    margin-left: 2.0625rem;
     font-family: var(--srijan4-font-2),var(--srijan4-font-1),Verdana, Geneva, Tahoma, sans-serif;
 }
 .credText{
@@ -47,17 +47,17 @@ font-weight: 700;
 }
 
 .containerFooter{
-    margin-top: 104px;
+    margin-top: 6.5rem;
     background-color: var(--srijan4-dark-grey);
 
 }
 .footerDesc{
-    max-width: 970px;
+    max-width: 60.625rem;
     margin: auto;
-   padding-top: 99px;
-    font-size: 24px;
+   padding-top: 6.1875rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 39px;
+    line-height: 2.4375rem;
     text-align: center;
     color: var(--srijan4-light-grey);
 }
@@ -66,15 +66,15 @@ font-weight: 700;
     width: 2.91rem;
     height: 2.91rem;
     color: var(--srijan4-white);
-    margin-right: 66.36px;
-    margin-left: 66.36px;
+    margin-right: 4.1475rem;
+    margin-left: 4.1475rem;
     
 }
 .instaIcon{
     width: 2.91rem;
     height: 2.91rem;
     color: var(--srijan4-white);
-    margin-right: 66.36px;
+    margin-right: 4.1475rem;
 
 }
 .linkedinIcon
@@ -82,21 +82,21 @@ font-weight: 700;
     width: 2.91rem;
     height: 2.91rem;
     color: var(--srijan4-white);
-    margin-right: 66.36px;
+    margin-right: 4.1475rem;
 }
 .iconSection
 {
     display: flex;
     justify-content: center;
-    margin-top: 87px;
-    padding-bottom: 148px;
+    margin-top: 5.4375rem;
+    padding-bottom: 9.25rem;
     
 }
 
 @media screen and (max-width: 1200px)
 {
     .contactHeader, .infoGrad{
-        font-size: 48px;
+        font-size: 3rem;
         margin-bottom: 3rem;
         
     }
