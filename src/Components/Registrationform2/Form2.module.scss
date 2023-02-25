@@ -32,7 +32,7 @@
       width: 30%;
       height: 2.7em;
       padding: 0.7em 0;
-      background-color: transparent;
+      background-color: var(--srijan-main-theme);
       color: var(--srijan-white-1);
       outline: none;
       border: none;
@@ -40,11 +40,6 @@
       border-image: var(--srijan4-gradient-7);
       border-image-slice: 1;
       font-family: var(--srijan4-font-4);
-    }
-
-    .option {
-      background-color: transparent !important;
-      color: var(--srijan4-dark-blue);
     }
   }
   .formendline {
