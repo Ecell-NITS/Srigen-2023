@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Medium.ttf");
+    font-weight: medium;
+    font-style: normal;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.abt_out{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 5% 7%;
+    margin-left: 10%;
+}
+.abt_txt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.abt_event, .abt_nits{
+    margin: 5% 0;
+
+}
+.abt_head{
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 56px;
+}
+.abt_span{
+    background: linear-gradient(180deg, #B621FE 0%, #1FD1F9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.abt_content{
+    font-family: Gilroy;
+    font-weight: medium;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 35.83px;
+    color: rgba(21, 19, 26, 0.72);
+    width: 80%;
+    font-weight: 500;
+    margin: 2% 0;
+}
+@keyframes spin {
+    to{
+        transform: rotate(0.5turn);
+    }
+}
+@keyframes spin2 {
+    to{
+        transform: rotate(0turn);
+    }
+}
+.abt_anim.flipped{
+    position: sticky;
+    top: 25%;
+    right: 10%;
+    height: fit-content;
+    transform: rotate(0.5turn);
+}
+.abt_anim{
+    position: sticky;
+    top: 25%;
+    right: 10%;
+    height: fit-content;
+}
+.abt_anim.animate_clockwise{
+    position: sticky;
+    top: 25%;
+    right: 10%;
+    height: fit-content;
+    animation: spin 1.5s 1;
+}
+.abt_nim.animate_anticlockwise{
+    position: sticky;
+    top: 25%;
+    right: 10%;
+    height: fit-content;
+    animation: spin2 1.5s 1;
+}
+.abt-anim.absolute{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: fit-content;
+    animation: spin 1.5s 1;
+}
+.circle{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    border: 1px solid rgba(21, 19, 26, 0.64);
+}
+.logo_circle_l, .logo_circle_s{
+    position: absolute;
+    background: linear-gradient(180deg, #B621FE 0%, #1FD1F9 100%);
+}
+.logo_circle_l.flipped{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: 47%;
+    left: -3.5%;
+    transform: rotate(-0.5turn);
+}
+.logo_circle_l.transition{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: 47%;
+    left: -3.5%;
+    transform: rotate(-0.5turn);
+}
+.logo_circle_l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    top: 37%;
+    left: -11%;
+    transition: all 0.5s ease;
+}
+.abt_logo1#hidden{
+    display: none;
+}
+.abt_logo1{
+    position: relative;
+    width: 50%;
+}
+.logo_circle_s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    top: 45%;
+    right: -4%;
+}
+.logo_circle_s.flipped{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    top: 37%;
+    right: -11%;
+    transition: all 0.5s ease;
+    transform: rotate(0.5turn);
+}
+.logo_circle_s.transition{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: 45%;
+    right: -4%;
+}
+
+.about_logo2.hidden{
+    display: none;
+}
+.about_logo2{
+    position: relative;
+    width: 50%;
+}
+.abt_event.invisible, .abt_nits.invisible{
+    visibility: hidden;
+    transition: all 2s ease;
+}
+
+@media (max-width:768px) {
+    .abt_out{
+        display: flex;
+        position: relative;
+        top: -12rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .abt_txt
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        left: 0%;
+        scroll-snap-type: y mandatory;
+    }
+    .abt_event, .abt_nits{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
+        scroll-snap-align: start;
+    }
+    .abt_event.invisible, .abt_nits.invisible{
+        visibility: hidden;
+        transition: all 2s ease;
+    }
+    .abt_head{
+        font-size: 1.3rem;
+    }
+    .abt_content{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .abt_anim{
+        position: relative;
+        left: 3px;
+        margin-bottom: 10%;
+        transition: 0s;
+        animation: 0s;
+    }
+    .abt_anim.absolute{
+        position: relative;
+        left: 0;
+        margin-bottom: 10%;
+        transition: 0s;
+        animation: 0s;
+    }
+    .abt_anim.sticky{
+        position: sticky;
+        left: 3px;
+        top: -14%;
+        transition: 0s;
+        animation: 0s;
+    }
+    .circle{
+        width: 20rem;
+        height: 20rem;
+    }
+    .logo_circle-l{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        top: 80%;
+        left: 30%;
+    }
+    .logo_circle_l.transition{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        top: 94%;
+        left: 43%;
+    }
+    .logo_circle-s{
+        display: none;
+    }
+    .about_logo1.hidden,.about_logo2.hidden{
+        display: none;
+    }
+}
