@@ -3,8 +3,7 @@
   h1 {
     font-size: 3.3vw;
     font-family: var(--srijan4-font-2);
-    background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%),
-      linear-gradient(0deg, #15131a, #15131a);
+    background: var(--srijan4-gradient-7);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -23,7 +22,7 @@
 
 .indicarocard {
   // position: relative;
-  background-color: white !important;
+  background-color: var(--srijan4-white) !important;
   display: flex;
   width: 80%;
   margin: 0 auto;
