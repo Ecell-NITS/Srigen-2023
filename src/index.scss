@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @font-face {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy";
   src: url("/fonts/gilroy/Gilroy-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 :root {
-  --srijan4-font-2: "Gilroy-Bold", sans-serif;
   --srijan4-font-1: "Poppins", sans-serif;
+  --srijan4-font-2: "Gilroy", sans-serif;
   --srijan4-font-3: "Montserrat", sans-serif;
 
   --srijan4-dark-blue: #010044;
@@ -51,7 +52,9 @@
     rgba(182, 33, 254, 1) 35%,
     rgba(31, 209, 249, 1) 100%
   );
-  --srijan4-gradient-7: linear-gradient(#b4015f, #0704b9);
+  --srijan4-gradient-7: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%),
+    linear-gradient(0deg, #15131a, #15131a);
+  --srijan4-gradient-8: linear-gradient(#b4015f, #0704b9);
 
   --heading-1-text-weight: 600;
   --heading-2-text-weight: 500;
@@ -66,4 +69,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--srijan4-font-1);
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 0.4;
+  transition: 1s ease-in-out;
 }

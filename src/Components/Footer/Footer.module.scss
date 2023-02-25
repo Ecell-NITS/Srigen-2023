@@ -7,8 +7,8 @@
 
 .contactHeader,
 .infoGrad {
-  font-family: var(--srijan4-font-2), var(--srijan4-font-1), Verdana, Geneva, Tahoma,
-    sans-serif;
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 700;
@@ -16,6 +16,7 @@
 
 .infoGrad {
   background: var(--srijan4-gradient-6);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -33,8 +34,8 @@
   width: 16.5rem;
   margin-right: 2.0625rem;
   margin-left: 2.0625rem;
-  font-family: var(--srijan4-font-2), var(--srijan4-font-1), Verdana, Geneva, Tahoma,
-    sans-serif;
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
 }
 .credText {
   font-weight: 900;
