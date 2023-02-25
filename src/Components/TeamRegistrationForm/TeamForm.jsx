@@ -1,15 +1,26 @@
-import style from "./Form2.module.scss";
+import style from "./TeamForm.module.scss";
 
-const Form2 = ({ fields, handleFormChange, index }) => {
+const TeamForm = ({ fields, handleMainFormChange }) => {
   return (
     <div className={style.formelementcontainer}>
       <div className={style.inputcontainer}>
         <input
           type="text"
           className={style.input}
+          value={fields.teamName}
+          name="teamName"
+          placeholder="Team Name"
+          onChange={(event) => handleMainFormChange(event)}
+        />
+      </div>
+      <div className={style.inputcontainer}>
+        <input
+          type="text"
+          className={style.input}
           value={fields.name}
           name="name"
-          onChange={(event) => handleFormChange(index, event)}
+          placeholder="Name"
+          onChange={(event) => handleMainFormChange(event)}
         />
       </div>
       <div className={style.inputcontainer}>
@@ -18,7 +29,8 @@ const Form2 = ({ fields, handleFormChange, index }) => {
           className={style.input}
           value={fields.phone}
           name="phone"
-          onChange={(event) => handleFormChange(index, event)}
+          placeholder="Phone Number"
+          onChange={(event) => handleMainFormChange(event)}
         />
       </div>
       <div className={style.inputcontainer}>
@@ -27,16 +39,18 @@ const Form2 = ({ fields, handleFormChange, index }) => {
           className={style.input}
           value={fields.email}
           name="email"
-          onChange={(event) => handleFormChange(index, event)}
+          placeholder="Email"
+          onChange={(event) => handleMainFormChange(event)}
         />
       </div>
       <div className={style.inputcontainer}>
         <select
           className={style.select}
+          defaultValue="Gender"
           name="gender"
-          onChange={(event) => handleFormChange(index, event)}
+          onChange={(event) => handleMainFormChange(event)}
         >
-          <option defaultValue={fields.gender} className={style.option}>
+          <option selected disabled className={style.option}>
             Gender
           </option>
           <option className={style.option} value="Male">
@@ -52,4 +66,4 @@ const Form2 = ({ fields, handleFormChange, index }) => {
   );
 };
 
-export default Form2;
+export default TeamForm;

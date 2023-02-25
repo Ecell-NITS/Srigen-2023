@@ -1,14 +1,16 @@
 import { useState } from "react";
+import { FiFacebook, FiLinkedin } from "react-icons/fi";
+import { AiOutlineInstagram } from "react-icons/ai";
 import style from "./Registration.module.scss";
-import { Form1, Form2 } from "../../Components";
+import { TeamForm, IndividualForm } from "../../Components";
 
 const Registration = ({ maxTeamSize = 4 }) => {
   const [inputMainField, setMainInputField] = useState({
-    name: "Name",
-    email: "Email",
-    phone: "Phone Number",
-    teamName: "Team Name",
-    gender: "Gender",
+    name: "",
+    email: "",
+    phone: "",
+    teamName: "",
+    gender: "",
   });
   const [inputField, setInputField] = useState([]);
 
@@ -29,7 +31,7 @@ const Registration = ({ maxTeamSize = 4 }) => {
       alert(`Maximum Team Size is ${maxTeamSize}`);
       return;
     }
-    const newForm = { name: "Name", email: "Email", phone: "Phone-no", gender: "Gender" };
+    const newForm = { name: "", email: "", phone: "", gender: "" };
     setInputField([...inputField, newForm]);
   };
 
@@ -38,13 +40,13 @@ const Registration = ({ maxTeamSize = 4 }) => {
       <div className={style.leftcontainer}>
         <div className={style.iconcontainer}>
           <div className={style.iconimgcont}>
-            <img src="/images/linkedin.png" alt="linkedin" className={style.social} />
+            <FiLinkedin className={style.icon} />
           </div>
           <div className={style.iconimgcont}>
-            <img src="/images/Facebook.png" alt="facebook" className={style.social} />
+            <FiFacebook className={style.icon} />
           </div>
           <div className={style.iconimgcont}>
-            <img src="/images/Instagram.png" alt="instagram" className={style.social} />
+            <AiOutlineInstagram className={style.icon} />
           </div>
           <div className={style.iconimgcont}>
             <img src="/images/Line1.png" alt="line" />
@@ -68,7 +70,7 @@ const Registration = ({ maxTeamSize = 4 }) => {
           <div className={style.formheading}>Registration Form</div>
           <div className={style.form}>
             <div className={style.form2}>
-              <Form1
+              <TeamForm
                 fields={inputMainField}
                 handleMainFormChange={handleMainFormChange}
               />
@@ -77,7 +79,7 @@ const Registration = ({ maxTeamSize = 4 }) => {
               return (
                 <div className={style.form2} key={item.email}>
                   <div>Member {index + 2}</div>
-                  <Form2
+                  <IndividualForm
                     fields={item}
                     handleFormChange={handleFormChange}
                     index={index}

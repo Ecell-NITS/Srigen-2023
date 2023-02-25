@@ -17,6 +17,12 @@
       align-items: center;
       justify-content: space-between;
       top: 3em;
+      .iconimgcont {
+        .icon {
+          font-size: 2.5em;
+          color: var(--srijan-white-1);
+        }
+      }
     }
   }
   .rightcontainer {
