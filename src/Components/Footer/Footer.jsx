@@ -23,9 +23,9 @@ const Footer = () =>{
         <div className={styles.containerFooter}>
             <p className= {styles.footerDesc}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, purus tincidunt tellus eros. Feugiat velit id sed sit id velit, adipiscing pulvinar orci. Et, bibendum nibh pellentesque id sagittis adipiscing lorem. Elit egestas bibendum morbi vitae, nullam nunc sagittis eget.</p>
            <div className= {styles.iconSection} >
-            <FiFacebook  className= {styles.facebookIcon}/>
-            <AiOutlineInstagram className= {styles.instaIcon} />
-            <FiLinkedin className= {styles.linkedinIcon} />
+            <a href="#" target={"_blank"} rel="noopener noreferrer"><FiFacebook  className= {styles.facebookIcon}/></a>
+            <a href="#" target={"_blank"} rel="noopener noreferrer"><AiOutlineInstagram className= {styles.instaIcon} /></a>
+            <a href="#" target={"_blank"} rel="noopener noreferrer"><FiLinkedin className= {styles.linkedinIcon} /></a>
             </div>
     
         </div> 
