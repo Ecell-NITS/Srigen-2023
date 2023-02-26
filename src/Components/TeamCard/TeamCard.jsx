@@ -1,30 +1,25 @@
 import React from "react";
-import { Icon } from "@iconify/react";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import style from "./TeamCard.module.scss";
 
-const TeamCard = () => {
+const TeamCard = (props) => {
+  const { name, designation, image, fblink, linkedIn } = props;
   return (
     <div className={style.cardContainer}>
       <div className={style.cardImage}>
-        <img src="/images/tom.png" alt="Member" />
+        <img src={image} alt="Member" />
       </div>
       <div className={style.cardBody}>
         <div className={style.mediaLinks}>
-          <a
-            aria-label="Social Media"
-            href="https://www.facebook.com/ronny.kumar.7186896"
-          >
-            <Icon className={style.Links} icon="ri:facebook-circle-fill" />
+          <a aria-label="Social Media" target="_blank" rel="noreferrer" href={fblink}>
+            <FaFacebook className={style.linkIcons} />
           </a>
-          <a
-            aria-label="Social Media"
-            href="https://www.linkedin.com/in/bipangshu-saha-2aab9b228/"
-          >
-            <Icon className={style.Links} icon="mdi:linkedin" />
+          <a aria-label="Social Media" target="_blank" rel="noreferrer" href={linkedIn}>
+            <FaLinkedin className={style.linkIcons} />
           </a>
         </div>
-        <div className={style.memberName}>Bipangshu Saha</div>
-        <div className={style.memberDesignation}>Developer</div>
+        <div className={style.memberName}>{name}</div>
+        <div className={style.memberDesignation}>{designation}</div>
       </div>
     </div>
   );

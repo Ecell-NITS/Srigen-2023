@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home } from "./Pages";
+import { Home, Registration } from "./Pages";
 
-import { Navbar } from "./Components";
+import { Navbar, Footer } from "./Components";
 
 const App = () => {
   return (
@@ -10,7 +10,9 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/registration/:event" element={<Registration />} />
       </Routes>
+      <Footer />
     </>
   );
 };
