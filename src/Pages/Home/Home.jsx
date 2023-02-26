@@ -1,4 +1,5 @@
 import { Button, Speakers } from "../../Components";
+import Sponsors from "../../Components/Sponsors/Sponsors";
 
 import style from "./Home.module.scss";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <h1>Home Page for Srijan 2023</h1>
       <Button type="button" />
       <Speakers />
+      <Sponsors />
     </main>
   );
 };
