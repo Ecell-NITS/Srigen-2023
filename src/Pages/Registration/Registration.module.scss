@@ -79,21 +79,44 @@
         font-weight: var(--heading-1-text-weight);
         font-size: 1.1em;
       }
-      .addmember {
-        margin: 1em 0;
-        button {
-          background: transparent;
-          color: var(--srijan-white-1);
-          width: 13em;
-          height: 2.5em;
-          border: 1px solid var(--srijan-white-1);
-          border-radius: 1.2em;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          img {
-            margin-right: 0.5em;
+      .addDelete {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        .addmember {
+          margin: 1em 1em 0.5em 0;
+          button {
+            background: transparent;
+            color: var(--srijan-white-1);
+            width: 13em;
+            height: 2.5em;
+            border: 1px solid var(--srijan-white-1);
+            border-radius: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              margin-right: 0.5em;
+            }
+          }
+        }
+        .deletemember {
+          margin: 1em 0 0.5em 0;
+          button {
+            background: transparent;
+            color: var(--srijan-white-1);
+            width: 13em;
+            height: 2.5em;
+            border: 1px solid var(--srijan-white-1);
+            border-radius: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .deleteicon {
+              margin-right: 0.5em;
+            }
           }
         }
       }

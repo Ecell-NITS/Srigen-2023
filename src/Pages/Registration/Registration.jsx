@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineInstagram, AiOutlineDelete } from "react-icons/ai";
 
 import style from "./Registration.module.scss";
 
@@ -43,6 +43,15 @@ const Registration = () => {
     }
     const newForm = { name: "", email: "", phone: "", gender: "" };
     setInputField([...inputField, newForm]);
+  };
+
+  const removeMember = () => {
+    if (inputField.length === 0) {
+      return;
+    }
+    const data = [...inputField];
+    data.splice(inputField.length - 1, 1);
+    setInputField(data);
   };
 
   const fetchEventDetails = async () => {
@@ -112,14 +121,24 @@ const Registration = () => {
               );
             })}
           </div>
-          {inputField.length !== maxTeamSize - 1 && (
-            <div className={style.addmember}>
-              <button onClick={addMembers}>
-                <img src="/images/plussign.png" alt="plus" />
-                Add member
-              </button>
-            </div>
-          )}
+          <div className={style.addDelete}>
+            {inputField.length !== maxTeamSize - 1 && (
+              <div className={style.addmember}>
+                <button onClick={addMembers}>
+                  <img src="/images/plussign.png" alt="plus" />
+                  Add member
+                </button>
+              </div>
+            )}
+            {inputField.length > 0 && (
+              <div className={style.deletemember}>
+                <button onClick={removeMember}>
+                  <AiOutlineDelete className={style.deleteicon} />
+                  Delete member
+                </button>
+              </div>
+            )}
+          </div>
           <div className={style.submit}>
             <button>Submit</button>
           </div>
