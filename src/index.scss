@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "Gilroy";
   src: url("/fonts/gilroy/Gilroy-Bold.ttf");
@@ -10,8 +10,19 @@
 :root {
   --srijan4-font-1: "Poppins", sans-serif;
   --srijan4-font-2: "Gilroy", sans-serif;
+  --srijan4-font-3: "Montserrat", sans-serif;
 
   --srijan4-dark-blue: #010044;
+
+  --srijan-main-theme: #15131a;
+  --srijan4-dark-pink: #b4015f;
+  --srijan4-med-pink: #ea0064;
+  --srijan4-light-pink: #ff5f9f;
+
+  --srijan-white-1: #ffffff;
+
+  --srijan-gray-1: rgba(255, 255, 255, 0.5);
+
   --srijan4-dark-pink: #b4015f;
   --srijan4-med-pink: #ea0064;
   --srijan4-light-pink: #ff5f9f;
@@ -43,9 +54,12 @@
   );
   --srijan4-gradient-7: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%),
     linear-gradient(0deg, #15131a, #15131a);
+  --srijan4-gradient-8: linear-gradient(#b4015f, #0704b9);
 
   --heading-1-text-weight: 600;
   --heading-2-text-weight: 500;
+  --heading-3-text-weight: 700;
+
   --paragraph-1-text-weight: 400;
   --paragraph-2-text-weight: 300;
 }
