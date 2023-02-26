@@ -13,6 +13,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-react: ^7.31.10
   eslint-plugin-react-hooks: ^4.6.0
+  json-loader: ^0.5.7
   lint-staged: ^13.0.3
   prettier: ^2.7.1
   react: ^18.2.0
@@ -26,6 +27,7 @@ specifiers:
 
 dependencies:
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
+  json-loader: 0.5.7
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.7.1_react@18.2.0
@@ -1843,6 +1845,10 @@ packages:
     resolution: {integrity: sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: false
+
+  /json-loader/0.5.7:
+    resolution: {integrity: sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w==}
     dev: false
 
   /json-schema-traverse/0.4.1:
