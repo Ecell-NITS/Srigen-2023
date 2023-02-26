@@ -96,8 +96,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            img {
+            transition: all 0.5s;
+            .addicon {
               margin-right: 0.5em;
+              font-size: 1.3em;
+            }
+          }
+          button:hover {
+            background-color: var(--srijan-white-1);
+            color: var(--srijan-main-theme);
+            font-weight: var(--heading-1-text-weight);
+            .addicon {
+              color: var(--srijan-main-theme);
             }
           }
         }
@@ -105,17 +115,28 @@
           margin: 1em 0 0.5em 0;
           button {
             background: transparent;
-            color: var(--srijan-white-1);
+            color: var(--srijan4-dark-pink);
             width: 13em;
             height: 2.5em;
-            border: 1px solid var(--srijan-white-1);
+            border: 1px solid var(--srijan4-dark-pink);
             border-radius: 1.2em;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.5s;
             .deleteicon {
               margin-right: 0.5em;
+              color: var(--srijan4-dark-pink);
+              font-size: 1.3em;
+            }
+          }
+          button:hover {
+            background-color: var(--srijan4-dark-pink);
+            color: var(--srijan-main-theme);
+            font-weight: var(--heading-1-text-weight);
+            .deleteicon {
+              color: var(--srijan-main-theme);
             }
           }
         }

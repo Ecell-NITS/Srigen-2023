@@ -1,18 +1,20 @@
 import style from "./TeamForm.module.scss";
 
-const TeamForm = ({ fields, handleMainFormChange }) => {
+const TeamForm = ({ fields, handleMainFormChange, maxTeamSize }) => {
   return (
     <div className={style.formelementcontainer}>
-      <div className={style.inputcontainer}>
-        <input
-          type="text"
-          className={style.input}
-          value={fields.teamName}
-          name="teamName"
-          placeholder="Team Name"
-          onChange={(event) => handleMainFormChange(event)}
-        />
-      </div>
+      {maxTeamSize !== 1 && (
+        <div className={style.inputcontainer}>
+          <input
+            type="text"
+            className={style.input}
+            value={fields.teamName}
+            name="teamName"
+            placeholder="Team Name"
+            onChange={(event) => handleMainFormChange(event)}
+          />
+        </div>
+      )}
       <div className={style.inputcontainer}>
         <input
           type="text"
