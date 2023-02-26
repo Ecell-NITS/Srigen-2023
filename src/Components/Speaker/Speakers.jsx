@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved */
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -25,6 +25,10 @@ const Speakers = () => {
           grabCursor
           spaceBetween={20}
           centeredSlides
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           slidesPerView="auto"
           loop
           coverflowEffect={{
@@ -40,7 +44,7 @@ const Speakers = () => {
             prevEl: ".swiper-button-prev",
             clickable: true,
           }}
-          modules={[EffectCoverflow, Pagination, Navigation]}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="swiper_container"
         >
           {Data.map((item) => (

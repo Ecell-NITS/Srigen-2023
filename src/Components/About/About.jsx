@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// eslint-disable-next-line import/no-unresolved
 import { InView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
