@@ -3,8 +3,6 @@ import { InView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import style from "./About.module.scss";
-import logo1 from "../../../public/images/about1.png";
-import logo2 from "../../../public/images/about2.png";
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -33,7 +31,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <InView threshold={0.5} onChange={(inView) => setIntersecting(inView)}>
+          <InView threshold={0.3} onChange={(inView) => setIntersecting(inView)}>
             <div className={style.abt_nits} data-aos="fade-up">
               <div className={style.abt_head}>
                 <h1>
@@ -62,7 +60,7 @@ const About = () => {
             } `}
           >
             <img
-              src={logo1}
+              src="/images/about1.png"
               alt=""
               className={`${style.about_logo1} ${
                 !isIntersecting || style.about_logo1Hidden
@@ -76,7 +74,7 @@ const About = () => {
             }`}
           >
             <img
-              src={logo2}
+              src="/images/about2.png"
               alt=""
               className={`${style.about_logo2} ${!isIntersecting && style.hidden} ${
                 !isIntersecting || style.about_logo2Flip
