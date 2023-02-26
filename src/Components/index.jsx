@@ -4,5 +4,6 @@ import Footer from "./Footer/Footer";
 import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
+import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 
-export { Button, Navbar, Footer, Speakers, TeamForm, IndividualForm };
+export { Button, Navbar, Footer, Speakers, TeamForm, IndividualForm, GalleryCarousel };

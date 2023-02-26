@@ -2,8 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import { Home, Registration } from "./Pages";
 
-import { Navbar, Footer } from "./Components";
-import GalleryCarousel from "./Components/GalleryCarousel/GalleryCarousel";
+import { Navbar, Footer, GalleryCarousel } from "./Components";
 
 const App = () => {
   return (
