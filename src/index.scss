@@ -29,6 +29,9 @@
   --srijan4-dark-grey: #15131a;
   --srijan4-light-grey: #ffffffa3;
   --srijan4-white: #fff;
+  --srijan4-shadow-1: rgba(6, 0, 0, 0.66);
+  --srijan4-shadow-2: rgba(50, 50, 93, 0.25);
+  --srijan4-shadow-3: rgba(0, 0, 0, 0.3);
 
   --srijan4-gradient-1: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
   --srijan4-gradient-2: linear-gradient(
@@ -55,6 +58,11 @@
   --srijan4-gradient-7: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%),
     linear-gradient(0deg, #15131a, #15131a);
   --srijan4-gradient-8: linear-gradient(#b4015f, #0704b9);
+  --srijan4-gradient-9: linear-gradient(
+    180deg,
+    #cd6880 28.13%,
+    rgba(9, 145, 222, 0.38) 100%
+  );
 
   --heading-1-text-weight: 600;
   --heading-2-text-weight: 500;
