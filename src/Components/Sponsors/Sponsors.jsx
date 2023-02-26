@@ -15,7 +15,7 @@ const Sponsors = () => {
       </div>
       <div className={styles.currSponsors}>
         <p className={styles.currSponsorsheader}>Current Sponsors</p>
-        <div className={styles.brandItem}>
+        <div className={styles.brandItem1}>
           <p className={styles.brandText}>powered by</p>
           <img alt="text" className={styles.brandLogo1} src="/logos/devfolio.png" />
         </div>

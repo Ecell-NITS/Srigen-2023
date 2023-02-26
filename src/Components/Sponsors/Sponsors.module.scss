@@ -101,3 +101,56 @@
   place-items: center;
   gap: 5.875rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .sponsorsHeader {
+    gap: 0;
+  }
+  .mainHeader {
+    font-size: 1.25rem;
+    padding-top: 6.375rem;
+    line-height: 1.4375rem;
+    margin-bottom: 1rem;
+  }
+  .headerSubtext {
+    font-size: 0.5rem;
+    margin-bottom: 1.5625rem;
+  }
+  .currSponsors {
+    max-width: 89vw;
+  }
+  .currSponsorsheader {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 1rem;
+  }
+  .brandText {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+  }
+
+  .brandItem1 {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .brandGrid,
+  .brandGrid2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .brandGrid2 {
+    gap: 3rem;
+  }
+  img {
+    max-width: 30vw;
+  }
+  .prevSponsors {
+    max-width: 89vw;
+  }
+  .prevSponsorsheader {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}
