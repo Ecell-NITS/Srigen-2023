@@ -37,6 +37,7 @@ const Registration = () => {
 
   const addMembers = () => {
     if (inputField.length === maxTeamSize - 1) {
+      // eslint-disable-next-line no-alert
       alert(`Maximum Team Size is ${maxTeamSize}`);
       return;
     }
@@ -111,12 +112,14 @@ const Registration = () => {
               );
             })}
           </div>
-          <div className={style.addmember}>
-            <button onClick={addMembers}>
-              <img src="/images/plussign.png" alt="plus" />
-              Add member
-            </button>
-          </div>
+          {inputField.length !== maxTeamSize - 1 && (
+            <div className={style.addmember}>
+              <button onClick={addMembers}>
+                <img src="/images/plussign.png" alt="plus" />
+                Add member
+              </button>
+            </div>
+          )}
           <div className={style.submit}>
             <button>Submit</button>
           </div>
