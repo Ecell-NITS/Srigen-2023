@@ -3,6 +3,6 @@ import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
-import IndividualForm from "./IndividualRegistrationForm/IndividulalForm";
+import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
 
 export { Button, Navbar, Footer, Speakers, TeamForm, IndividualForm };

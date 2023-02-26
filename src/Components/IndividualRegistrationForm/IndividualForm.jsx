@@ -40,7 +40,7 @@ const IndividualForm = ({ fields, handleFormChange, index }) => {
           defaultValue="Gender"
           onChange={(event) => handleFormChange(index, event)}
         >
-          <option disabled selected className={style.option}>
+          <option disabled className={style.option} value="Gender">
             Gender
           </option>
           <option className={style.option} value="Male">

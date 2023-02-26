@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
+
 import style from "./Registration.module.scss";
+
 import { TeamForm, IndividualForm } from "../../Components";
 
 const Registration = () => {
   const params = useParams();
+  const navigate = useNavigate();
 
   const [inputMainField, setMainInputField] = useState({
     name: "",
@@ -41,15 +45,22 @@ const Registration = () => {
   };
 
   const fetchEventDetails = async () => {
-    const data = await fetch("/src/Data/Events.json");
+    const data = await fetch("/db/events.json");
     const rData = await data.json();
     const eventObj = rData.find((item) => item.name === params.event);
+
+    if (!eventObj) {
+      navigate("/");
+    }
+
     setEventDetails(eventObj.description);
     setMaxTeamSize(eventObj.maxTeamSize);
   };
+
   useEffect(() => {
     fetchEventDetails();
-  }, []);
+  });
+
   return (
     <div className={style.registrationcontainer}>
       <div className={style.leftcontainer}>

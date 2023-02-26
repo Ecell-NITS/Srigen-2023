@@ -50,7 +50,7 @@ const TeamForm = ({ fields, handleMainFormChange }) => {
           name="gender"
           onChange={(event) => handleMainFormChange(event)}
         >
-          <option selected disabled className={style.option}>
+          <option disabled className={style.option} value="Gender">
             Gender
           </option>
           <option className={style.option} value="Male">
