@@ -14,7 +14,7 @@ const Sponsors = () => {
         <div className={style.slidetrack}>
           {Data.map((item) => {
             return (
-              <div className={style.slide}>
+              <div className={style.slide} key={item.id}>
                 <a href={item.anchor} rel="noreferrer" target="_#blank">
                   {" "}
                   <img src={item.img} alt="" />
@@ -24,7 +24,7 @@ const Sponsors = () => {
           })}
           {Data.map((item) => {
             return (
-              <div className={style.slide}>
+              <div className={style.slide} key={item.id}>
                 <a href={item.anchor} rel="noreferrer" target="_#blank">
                   {" "}
                   <img src={item.img} alt="" />

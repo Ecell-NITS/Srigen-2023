@@ -1,6 +1,4 @@
-import { Button, Speakers } from "../../Components";
-import Sponsors from "../../Components/Sponsors/Sponsors";
-
+import { Button, Speakers, Sponsors } from "../../Components";
 import style from "./Home.module.scss";
 
 const Home = () => {
