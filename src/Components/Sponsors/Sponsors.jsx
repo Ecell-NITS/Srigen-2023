@@ -199,6 +199,64 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.prevSponsorsmobile}>
+        <p className={styles.prevSponsorsheader}>Previous Sponsors</p>
+        <div className={styles.brandItem1}>
+          <p className={styles.brandText}>powered by</p>
+          <img alt="text" className={styles.brandLogo1} src="/logos/devfolio.png" />
+        </div>
+        <div className={styles.brandGrid}>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+          </div>
+          <div className={styles.brandItem}>
+            <p className={styles.brandText}>powered by</p>
+            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

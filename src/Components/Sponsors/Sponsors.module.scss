@@ -1,5 +1,5 @@
 .sponsorsMain {
-  background-color: var(--srijan4-dark-blue);
+  background: var(--srijan4-gradient-3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,10 @@
   line-height: 149.3%;
 }
 
-.currSponsors {
+.currSponsors,
+.prevSponsorsmobile {
+  background-color: var(--srijan4-dark-blue);
+  width: 80.9vw;
   max-width: 80.9vw;
   margin: auto;
   display: flex;
@@ -40,6 +43,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 3.125rem;
+  border-radius: 1.25rem;
+}
+.prevSponsorsmobile {
+  display: none;
 }
 
 .currSponsorsheader {
@@ -74,14 +81,16 @@
 }
 
 .prevSponsors {
+  background-color: var(--srijan4-dark-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 80.9vw;
+  max-width: 80vw;
   margin: auto;
   margin-bottom: 3.3125rem;
-  padding-bottom: 3.0625rem;
+  padding-bottom: 2rem;
+  border-radius: 1.25rem;
 }
 
 .prevSponsorsheader {
@@ -99,7 +108,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
-  gap: 5.875rem;
+  gap: 2.9375rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -117,6 +126,7 @@
     margin-bottom: 1.5625rem;
   }
   .currSponsors {
+    width: 89vw;
     max-width: 89vw;
   }
   .currSponsorsheader {
@@ -139,6 +149,8 @@
   .brandGrid,
   .brandGrid2 {
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-bottom: 2rem;
   }
   .brandGrid2 {
     gap: 3rem;
@@ -146,11 +158,19 @@
   img {
     max-width: 30vw;
   }
-  .prevSponsors {
+  .prevSponsorsmobile {
+    display: grid;
+    width: 89vw;
     max-width: 89vw;
+    margin-bottom: 2.25rem;
   }
   .prevSponsorsheader {
     font-size: 1.25rem;
     line-height: 1.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .prevSponsors {
+    display: none;
   }
 }
