@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import { Home, Registration } from "./Pages";
 
-import { Navbar, Footer, Sponsors } from "./Components";
+import { Navbar, Footer, Sponsorspage } from "./Components";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/registration/:event" element={<Registration />} />
       </Routes>
-      <Sponsors />
+      <Sponsorspage />
       <Footer />
     </>
   );

@@ -5,6 +5,15 @@ import Footer from "./Footer/Footer";
 import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
-import Sponsors from "./Sponsors/Sponsors";
+import Sponsorspage from "./Sponsorspage/Sponsorspage";
 
-export { Button, Navbar, TeamCard, Footer, Speakers, TeamForm, IndividualForm, Sponsors };
+export {
+  Button,
+  Navbar,
+  TeamCard,
+  Footer,
+  Speakers,
+  TeamForm,
+  IndividualForm,
+  Sponsorspage,
+};
