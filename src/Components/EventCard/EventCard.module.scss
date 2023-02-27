@@ -49,19 +49,22 @@ h1 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
 .col {
-  width: calc(25% - 2rem);
+  padding: 2%;
+  aspect-ratio: 107/124;
   margin: 1rem;
   cursor: pointer;
 }
 
 .container {
   -webkit-transform-style: preserve-3d;
+  height: 100%;
   transform-style: preserve-3d;
   -webkit-perspective: 1000px;
   perspective: 1000px;
@@ -83,7 +86,7 @@ h1 {
   backface-visibility: hidden;
   text-align: center;
   min-height: 280px;
-  height: auto;
+  height: 100%;
   border-radius: 30px;
   color: #fff;
   font-size: 0.7rem;

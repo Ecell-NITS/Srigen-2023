@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./EventCard.module.scss";
 import Data from "../../Data/EventCardData.json";
-const EventCard = () => {
+const EventCard = (props) => {
   const EventDetailsArray = Data.cardDataArray;
 
   return (
@@ -11,6 +11,7 @@ const EventCard = () => {
           <div
             key={item.id}
             className={styles.col}
+            style={{ width: props.width }}
             onTouchStart={(event) => event.currentTarget.classList.toggle("hover")}
           >
             <div className={styles.container}>
