@@ -1,4 +1,5 @@
 import { Button, Speakers, Sponsors, About, GalleryCarousel } from "../../Components";
+import EventCard from "../../Components/EventCard/EventCard";
 
 import style from "./Home.module.scss";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <About />
       <Speakers />
       <GalleryCarousel />
+      <EventCard />
       <Sponsors />
     </main>
   );
