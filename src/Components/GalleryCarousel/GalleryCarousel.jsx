@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 // eslint-disable-next-line import/no-unresolved
 import "swiper/scss";
+
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styles from "./GalleryCarousel.module.scss";
 import Data from "../../Data/GalleryImagesLinks.json";
@@ -37,7 +38,7 @@ const GalleryCarousel = () => {
             slidesPerView: 1.5,
           },
           740: {
-            slidesPerView: 2.8,
+            slidesPerView: 3,
           },
         }}
 
