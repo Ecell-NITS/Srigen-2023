@@ -9,6 +9,7 @@ const EventCard = () => {
       <div className={styles.cols}>
         {EventDetailsArray.map((item) => (
           <div
+            key={item.id}
             className={styles.col}
             onTouchStart={(event) => event.currentTarget.classList.toggle("hover")}
           >
