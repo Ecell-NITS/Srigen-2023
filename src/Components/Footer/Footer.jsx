@@ -22,8 +22,11 @@ const Footer = () => {
           <p className={styles.credItems}>
             Email<span className={styles.credText}>xxxx@xxx.com</span>
           </p>
-          <p className={styles.credItems}>
+          <p className={styles.credItemsphone}>
             Phone Number<span className={styles.credText}>+91-xxxxxxxxxx</span>
+          </p>
+          <p className={styles.credItemsmobile}>
+            Phone No.<span className={styles.credText}>+91-xxxxxxxxxx</span>
           </p>
         </div>
       </div>
