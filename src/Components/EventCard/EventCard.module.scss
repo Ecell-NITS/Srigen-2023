@@ -1,9 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  font-size: 10px;
+  justify-content: space-between;
+
+  button {
+    padding: 0 25px;
+    cursor: pointer;
+    color: white;
+    font: var(--srijan4-font-1);
+    margin: 3px;
+    background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
+    border: none;
+    border-radius: 20px;
+  }
+}
+
+.backHead {
+  font-size: 1rem;
+  margin: 0.2rem;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 h1 {
@@ -49,7 +76,7 @@ h1 {
 .back {
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
+  border-radius: 30px;
   background-position: center;
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -62,16 +89,16 @@ h1 {
   text-align: center;
   min-height: 280px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 30px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .back {
   background: #cedce7;
-  background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-  background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-  background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+  background: -webkit-linear-gradient(45deg, #02014c 0%, #010044 100%);
+  background: -o-linear-gradient(45deg, #02014c 0%, #010044 100%);
+  background: linear-gradient(45deg, #02014c 0%, #010044 100%);
 }
 
 .front:after {
@@ -83,12 +110,13 @@ h1 {
   height: 100%;
   content: "";
   display: block;
-  opacity: 0.6;
+  opacity: 0.4;
   background-color: #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 10px;
+  border-radius: 30px;
 }
+
 .container:hover .front,
 .container:hover .back {
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -151,14 +179,15 @@ h1 {
 }
 
 .front .inner p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 2rem;
   position: relative;
 }
 
 .front .inner p:after {
   content: "";
-  width: 4rem;
+  width: 70%;
   height: 2px;
   position: absolute;
   background: #c6d4df;

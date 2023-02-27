@@ -8,6 +8,7 @@ import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
 import Sponsors from "./Sponsors/Sponsors";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
+import EventCard from "./EventCard/EventCard";
 
 export {
   Button,
@@ -18,6 +19,7 @@ export {
   TeamForm,
   IndividualForm,
   GalleryCarousel,
+  EventCard,
   About,
   Sponsors,
 };

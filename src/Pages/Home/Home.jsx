@@ -1,5 +1,11 @@
-import { Button, Speakers, Sponsors, About, GalleryCarousel } from "../../Components";
-import EventCard from "../../Components/EventCard/EventCard";
+import {
+  Button,
+  Speakers,
+  Sponsors,
+  About,
+  GalleryCarousel,
+  EventCard,
+} from "../../Components";
 
 import style from "./Home.module.scss";
 
