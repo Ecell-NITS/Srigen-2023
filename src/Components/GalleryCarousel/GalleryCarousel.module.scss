@@ -1,12 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-:root {
-  --controllerColor: rgba(196, 196, 196, 0.64);
-}
-
-.Container {
-  font-family: "Poppins", sans-serif;
-}
-
 .MySwiper {
   display: flex;
   justify-content: center;
@@ -49,7 +40,7 @@
   position: absolute;
   left: 0;
   width: 15vmin;
-  background-color: var(--controllerColor);
+  background-color: var(--gallery-controller);
 }
 
 .swiperButtonNext {
@@ -62,7 +53,7 @@
   position: absolute;
   right: 0%;
   width: 15vmin;
-  background-color: var(--controllerColor);
+  background-color: var(--gallery-controller);
 }
 
 .arrows {

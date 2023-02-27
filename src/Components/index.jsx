@@ -7,6 +7,7 @@ import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
 import Sponsors from "./Sponsors/Sponsors";
+import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 
 export {
   Button,
@@ -17,5 +18,6 @@ export {
   TeamForm,
   IndividualForm,
   GalleryCarousel,
+  About,
+  Sponsors,
 };
-export { Button, Navbar, Footer, Speakers, TeamForm, IndividualForm, About, Sponsors };

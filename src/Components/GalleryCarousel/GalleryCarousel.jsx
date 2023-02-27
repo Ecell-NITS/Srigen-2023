@@ -12,12 +12,12 @@ const GalleryCarousel = () => {
     <div className={styles.Container}>
       <Swiper
         className={styles.MySwiper}
-        slidesPerView={2.8}
+        slidesPerView={2.5}
         effect="coverflow"
         grabCursor={1}
         centeredSlides={1}
         autoplay={{
-          delay: 200000,
+          delay: 3000,
         }}
         loop={1}
         modules={[Navigation, Autoplay]}
@@ -54,9 +54,9 @@ const GalleryCarousel = () => {
         </div>
 
         {LinkArray.map((item) => (
-          <SwiperSlide className={styles.slide}>
+          <SwiperSlide key={item.id} className={styles.slide}>
             <div className={styles.Box}>
-              <img src={item.link} alt={`Gallery no ${item.id}`} />
+              <img key={item.id} src={item.link} alt={`Gallery no ${item.id}`} />
             </div>
           </SwiperSlide>
         ))}

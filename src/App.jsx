@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import { Home, Registration } from "./Pages";
 
 import { Navbar, Footer } from "./Components";
-import GalleryCarousel from "./Components/GalleryCarousel/GalleryCarousel";
 
 const App = () => {
   return (
@@ -13,7 +12,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/registration/:event" element={<Registration />} />
       </Routes>
-      <GalleryCarousel />
+
       <Footer />
     </>
   );

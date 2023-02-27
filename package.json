@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^2.2.0",
-    "json-loader": "^0.5.7",
     "aos": "3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
