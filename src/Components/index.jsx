@@ -7,6 +7,7 @@ import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
 import Sponsors from "./Sponsors/Sponsors";
+import Sidelinks from "./Sidelinks/Sidelinks";
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   IndividualForm,
   About,
   Sponsors,
+  Sidelinks,
 };
