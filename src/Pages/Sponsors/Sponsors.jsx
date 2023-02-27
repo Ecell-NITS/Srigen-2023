@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Sponsorspage.module.scss";
+import styles from "./Sponsors.module.scss";
 
-const Sponsorspage = () => {
+const Sponsors = () => {
   return (
     <div className={styles.sponsorsMain}>
       <div className={styles.sponsorsHeader}>
@@ -261,4 +261,4 @@ const Sponsorspage = () => {
   );
 };
 
-export default Sponsorspage;
+export default Sponsors;
