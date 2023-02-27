@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/registration/:event" element={<Registration />} />
       </Routes>
+
       <Footer />
     </>
   );
