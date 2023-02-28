@@ -1,5 +1,6 @@
 .sponsormain {
   background-color: var(--srijan-main-theme);
+  padding-bottom: 13vw;
 }
 
 .sponsors {
@@ -95,9 +96,13 @@ $animationSpeed: 20s;
 }
 
 @media screen and (max-width: 660px) {
+  .sponsormain {
+    padding-bottom: 20vw;
+  }
+
   .sponsors {
-    padding-top: 14vw;
-    padding-bottom: 14vw;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
   }
 
   .sponsors h1 {

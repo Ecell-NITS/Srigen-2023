@@ -1,0 +1,90 @@
+.notfnd {
+  background: url(./images/404bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7vw;
+  text-align: center;
+}
+
+.nottexts {
+  text-align: center;
+  color: white;
+  h1 {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2vw;
+    margin-top: 1vw;
+    font-weight: 600;
+    font-family: var(--srijan4-font-4);
+  }
+}
+
+.notfndimg {
+  margin-top: 2vw;
+  img {
+    width: 45%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+}
+
+.tohome {
+  margin-top: 4vw;
+  button {
+    border: 3px solid white;
+    padding: 1vw 3vw;
+    margin-bottom: 8vw;
+    color: white;
+    font-weight: 600;
+    font-family: var(--srijan4-font-4);
+    background: var(--srijan4-gradient-11);
+    font-size: 1.6vw;
+    border-radius: 5vw;
+    cursor: pointer;
+  }
+}
+
+.bcklogo {
+  width: 1.8vw;
+  margin-right: 0.75vw;
+}
+
+@media screen and (max-width: 660px) {
+  .notfnd {
+    padding-top: 14vw;
+  }
+
+  .nottexts {
+    h1 {
+      font-size: 4.5vw;
+    }
+    h2 {
+      font-size: 4vw;
+      margin-top: 2vw;
+    }
+  }
+
+  .notfndimg {
+    margin-top: 4vw;
+  }
+
+  .tohome {
+    margin-top: 6vw;
+    button {
+      border: 1px solid white;
+      padding: 2vw 6vw;
+      margin-bottom: 15vw;
+      font-size: 2.2vw;
+      border-radius: 10vw;
+    }
+  }
+
+  .bcklogo {
+    width: 2.8vw;
+    margin-right: 1.2vw;
+    font-weight: 900;
+  }
+}

@@ -8,8 +8,8 @@ const Home = () => {
       <h1>Home Page for Srijan 2023</h1>
       <Button type="button" />
       <About />
-      <Speakers />
       <GalleryCarousel />
+      <Speakers />
       <Sponsors />
     </main>
   );
