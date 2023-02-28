@@ -9,15 +9,16 @@
 
 .nottexts {
   text-align: center;
-  color: white;
   h1 {
     font-size: 3vw;
     font-weight: 700;
+    color: rgba(255, 255, 255, 1);
   }
   h2 {
     font-size: 2vw;
     margin-top: 1vw;
     font-weight: 600;
+    color: rgba(255, 255, 255, 1);
     font-family: var(--srijan4-font-4);
   }
 }

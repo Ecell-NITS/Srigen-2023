@@ -9,6 +9,7 @@ import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
 import Sponsors from "./Sponsors/Sponsors";
 import Sidelinks from "./Sidelinks/Sidelinks";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
+import EventCard from "./EventCard/EventCard";
 import NotFound404 from "../Pages/Error/NotFound404";
 export {
   Button,
@@ -19,6 +20,7 @@ export {
   TeamForm,
   IndividualForm,
   GalleryCarousel,
+  EventCard,
   About,
   Sponsors,
   Sidelinks,

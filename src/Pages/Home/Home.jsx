@@ -1,4 +1,11 @@
-import { Button, Speakers, Sponsors, About, GalleryCarousel } from "../../Components";
+import {
+  Button,
+  Speakers,
+  Sponsors,
+  About,
+  GalleryCarousel,
+  EventCard,
+} from "../../Components";
 
 import style from "./Home.module.scss";
 
@@ -9,6 +16,8 @@ const Home = () => {
       <Button type="button" />
       <About />
       <GalleryCarousel />
+      <EventCard width="535px" />
+      <EventCard width="300px" />
       <Speakers />
       <Sponsors />
     </main>
