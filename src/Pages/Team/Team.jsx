@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Team.module.scss";
-import { chiefPatron, patrons, developers } from "../../Data/TeamData";
+import Data from "../../Data/TeamData.json";
 import { TeamCard } from "../../Components";
 
 const Team = () => {
@@ -19,7 +19,7 @@ const Team = () => {
           <h1>Chief Patron</h1>
         </div>
         <div className={style.Cards}>
-          {chiefPatron.map((event) => {
+          {Data.chiefPatron.map((event) => {
             return (
               <TeamCard
                 name={event.name}
@@ -37,7 +37,7 @@ const Team = () => {
           <h1>Patrons</h1>
         </div>
         <div className={style.Cards}>
-          {patrons.map((event) => {
+          {Data.patrons.map((event) => {
             return (
               <TeamCard
                 name={event.name}
@@ -55,7 +55,7 @@ const Team = () => {
           <h1>Developers</h1>
         </div>
         <div className={style.Cards}>
-          {developers.map((event) => {
+          {Data.developers.map((event) => {
             return (
               <TeamCard
                 name={event.name}

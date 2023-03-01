@@ -41,7 +41,7 @@
 
     .Cards {
       width: 100%;
-      @include flex-dispay(row, space-around, center);
+      @include flex-dispay(row, center, center);
       flex-wrap: wrap;
       margin-bottom: 6rem;
     }
@@ -58,7 +58,7 @@
 
     .Cards {
       width: 100%;
-      @include flex-dispay(row, space-around, center);
+      @include flex-dispay(row, center, center);
       flex-wrap: wrap;
       margin-bottom: 6rem;
     }
@@ -78,7 +78,7 @@
 
     .Cards {
       width: 100%;
-      @include flex-dispay(row, space-around, center);
+      @include flex-dispay(row, center, center);
       flex-wrap: wrap;
       margin-bottom: 6rem;
     }
