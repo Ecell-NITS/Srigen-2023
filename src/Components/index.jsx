@@ -6,5 +6,22 @@ import About from "./About/About";
 import Speakers from "./Speaker/Speakers";
 import TeamForm from "./TeamRegistrationForm/TeamForm";
 import IndividualForm from "./IndividualRegistrationForm/IndividualForm";
+import Sponsors from "./Sponsors/Sponsors";
+import Sidelinks from "./Sidelinks/Sidelinks";
+import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
+import EventCard from "./EventCard/EventCard";
 
-export { Button, Navbar, TeamCard, Footer, Speakers, TeamForm, IndividualForm, About };
+export {
+  Button,
+  Navbar,
+  TeamCard,
+  Footer,
+  Speakers,
+  TeamForm,
+  IndividualForm,
+  GalleryCarousel,
+  EventCard,
+  About,
+  Sponsors,
+  Sidelinks,
+};

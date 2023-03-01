@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-import { FiFacebook, FiLinkedin } from "react-icons/fi";
-import { AiOutlineInstagram, AiOutlineDelete, AiOutlinePlus } from "react-icons/ai";
+import { AiOutlineDelete, AiOutlinePlus } from "react-icons/ai";
 
 import style from "./Registration.module.scss";
 
-import { TeamForm, IndividualForm } from "../../Components";
+import { TeamForm, IndividualForm, Sidelinks } from "../../Components";
 
 const Registration = () => {
   const params = useParams();
@@ -113,20 +112,7 @@ const Registration = () => {
   return (
     <div className={style.registrationcontainer}>
       <div className={style.leftcontainer}>
-        <div className={style.iconcontainer}>
-          <div className={style.iconimgcont}>
-            <FiLinkedin className={style.icon} />
-          </div>
-          <div className={style.iconimgcont}>
-            <FiFacebook className={style.icon} />
-          </div>
-          <div className={style.iconimgcont}>
-            <AiOutlineInstagram className={style.icon} />
-          </div>
-          <div className={style.iconimgcont}>
-            <img src="/images/Line1.png" alt="line" />
-          </div>
-        </div>
+        <Sidelinks />
       </div>
       <div className={style.rightcontainer}>
         <div className={style.coverpicontainer}>

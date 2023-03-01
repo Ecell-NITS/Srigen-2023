@@ -8,6 +8,7 @@
 }
 
 :root {
+  --gallery-controller: rgba(196, 196, 196, 0.64);
   --srijan4-font-1: "Poppins", sans-serif;
   --srijan4-font-2: "Gilroy", sans-serif;
   --srijan4-font-3: "Montserrat", sans-serif;
@@ -22,6 +23,7 @@
   --srijan-white-1: #ffffff;
 
   --srijan-gray-1: rgba(255, 255, 255, 0.5);
+  --srijan-gray-2: rgba(255, 255, 255, 0.72);
 
   --srijan4-dark-pink: #b4015f;
   --srijan4-med-pink: #ea0064;
@@ -63,7 +65,7 @@
     #cd6880 28.13%,
     rgba(9, 145, 222, 0.38) 100%
   );
-
+  --srijan4-gradient-10: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
   --heading-1-text-weight: 600;
   --heading-2-text-weight: 500;
   --heading-3-text-weight: 700;
