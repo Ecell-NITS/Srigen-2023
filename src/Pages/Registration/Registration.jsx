@@ -102,7 +102,7 @@ const Registration = () => {
     const members = [...inputField, filteredMainFieldData];
 
     data.members = members;
-
+    console.log(data);
     return data;
   };
 

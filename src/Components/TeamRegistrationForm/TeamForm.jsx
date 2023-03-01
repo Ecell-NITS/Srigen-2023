@@ -3,7 +3,7 @@ import style from "./TeamForm.module.scss";
 const TeamForm = ({ fields, handleMainFormChange, maxTeamSize }) => {
   return (
     <div className={style.formelementcontainer}>
-      {maxTeamSize !== 1 && (
+      {maxTeamSize !== "1" && (
         <div className={style.inputcontainer}>
           <input
             type="text"
