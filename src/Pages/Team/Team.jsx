@@ -23,6 +23,7 @@ const Team = () => {
           {Data.chiefPatron.map((event) => {
             return (
               <TeamCard
+                key={event.id}
                 name={event.name}
                 designation={event.designation}
                 image={event.image}
@@ -41,6 +42,7 @@ const Team = () => {
           {Data.patrons.map((event) => {
             return (
               <TeamCard
+                key={event.id}
                 name={event.name}
                 designation={event.designation}
                 image={event.image}
@@ -59,6 +61,7 @@ const Team = () => {
           {Data.developers.map((event) => {
             return (
               <TeamCard
+                key={event.id}
                 name={event.name}
                 designation={event.designation}
                 image={event.image}
