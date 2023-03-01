@@ -155,7 +155,8 @@
   .brandGrid2 {
     gap: 3rem;
   }
-  img {
+  .brandItem1 > img,
+  .brandItem > img {
     max-width: 30vw;
   }
   .prevSponsorsmobile {

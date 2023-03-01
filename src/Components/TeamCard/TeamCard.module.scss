@@ -9,9 +9,11 @@
   position: relative;
   width: 12rem;
   height: 16rem;
+
+  margin: 3rem 5rem;
   &:hover {
-    .cardImage > img {
-      transform: scale(0.7) translate(-10%, -5%);
+    .cardImageDiv > img {
+      transform: scale(0.7) translate(-10%, -20%);
       box-shadow: 0rem 0.25rem 6.25rem var(--srijan4-shadow-1);
     }
 
@@ -20,7 +22,7 @@
     }
   }
 
-  .cardImage > img {
+  .cardImageDiv > img {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -29,11 +31,13 @@
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 0.25rem;
+    box-shadow: 0rem 0.25rem 0.25rem var(--srijan4-shadow-3),
+      0rem 0.25rem 6.25rem var(--srijan4-shadow-1);
     transition: all 0.3s ease-in-out;
   }
 
   .cardBody {
-    transform: translateY(25%);
+    transform: translateY(12%);
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -77,6 +81,32 @@
         color: var(--srijan4-white);
         font-size: 2rem;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardContainer {
+    width: 9rem;
+    height: 12rem;
+
+    .cardBody {
+      .memberName {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
+
+      .memberDesignation {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+      }
+
+      .mediaLinks {
+        height: 6rem;
+        .linkIcons {
+          font-size: 1.5rem;
+        }
       }
     }
   }
