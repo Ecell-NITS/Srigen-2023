@@ -6,7 +6,7 @@ const TeamCard = (props) => {
   const { name, designation, image, fblink, linkedIn } = props;
   return (
     <div className={style.cardContainer}>
-      <div className={style.cardImage}>
+      <div className={style.cardImageDiv}>
         <img src={image} alt="Member" />
       </div>
       <div className={style.cardBody}>

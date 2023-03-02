@@ -7,7 +7,7 @@
 }
 .left {
   width: 70%;
-  margin: 1rem;
+  margin: 1.5rem;
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -86,6 +86,12 @@
   p {
     font-size: 0.9rem;
     font-weight: 400;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 1000px) {
