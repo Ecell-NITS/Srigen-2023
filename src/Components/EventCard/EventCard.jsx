@@ -26,11 +26,13 @@ const EventCard = (props) => {
               </div>
               <div className={styles.back}>
                 <div className={styles.inner}>
-                  <h1 className={styles.backHead}>{item.subTitle}</h1>
-                  <p>{item.content}</p>
-                  <div className={styles.buttons}>
-                    <button className={styles.register}>Register</button>
-                    <button className={styles.details}>Details</button>
+                  <div className={styles.backSide}>
+                    <h1 className={styles.backHead}>{item.subTitle}</h1>
+                    <p>{item.content}</p>
+                    <div className={styles.buttons}>
+                      <button className={styles.register}>Register</button>
+                      <button className={styles.details}>Details</button>
+                    </div>
                   </div>
                 </div>
               </div>

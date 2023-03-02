@@ -12,12 +12,44 @@
   button {
     padding: 2% 10%;
     cursor: pointer;
+
     color: white;
     font: var(--srijan4-font-1);
-    margin: 3px;
+    margin: 2%;
     background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
     border: none;
     border-radius: 20px;
+  }
+}
+
+.backSide {
+  height: 100%;
+
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 1fr 10fr 1fr;
+  justify-content: center;
+
+  h1 {
+    font-size: 3vmin;
+    text-align: center;
+  }
+
+  p {
+    font-size: 2vmin;
+
+    padding: 5% 1%;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap;
+  }
+
+  .buttons {
+    font-size: 2vmin;
+    text-align: center;
   }
 }
 
@@ -25,16 +57,8 @@
   font-size: 1rem;
   margin: 0.2rem;
   color: white;
-  border-bottom: 1px solid white;
-}
-
-h1 {
-  font-size: 2.5rem;
   font-family: var(--srijan4-font-1);
-  font-weight: normal;
-  color: #444;
-  text-align: center;
-  margin: 2rem 0;
+  border-bottom: 1px solid white;
 }
 
 .wrapper {
@@ -133,6 +157,7 @@ h1 {
 }
 
 .inner {
+  height: 90%;
   -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
   transform: translateY(-50%) translateZ(60px) scale(0.94);
   top: 50%;
@@ -146,6 +171,9 @@ h1 {
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container .back {
