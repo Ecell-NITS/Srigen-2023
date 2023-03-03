@@ -82,11 +82,22 @@
     position: absolute;
     bottom: 0%;
     right: 0%;
+    width: 20%;
     pointer-events: none;
   }
 }
 
 @media screen and (max-width: 991px) {
+  .nottexts {
+    h1 {
+      font-size: 4.5vw;
+    }
+    h2 {
+      font-size: 4.5vw;
+      margin-top: 4vw;
+    }
+  }
+
   .notfndimg {
     img {
       min-width: 33rem;
@@ -112,6 +123,7 @@
   .notfndimg {
     img {
       min-width: 20rem !important;
+      width: 20rem !important;
     }
   }
 
@@ -132,9 +144,10 @@
     font-weight: 900;
   }
 
-  .imgtopnt {
-    width: 100%;
-    object-fit: contain;
+  .rightimgnt {
+    img {
+      width: 30%;
+    }
   }
 }
 
@@ -142,6 +155,7 @@
   .notfndimg {
     img {
       min-width: 100vw !important;
+      width: 100vw !important;
     }
   }
 }
