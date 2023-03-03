@@ -1,6 +1,6 @@
 .notfnd {
   height: calc(100vh - var(--srijan4-navbar-height));
-  background: linear-gradient(161.91deg, #02010d 0%, #040344 66.54%);
+  background: var(--srijan4-gradient-12);
   position: relative;
   width: 100%;
 }
@@ -65,7 +65,7 @@
     color: white;
     font-weight: 600;
     font-family: var(--srijan4-font-4);
-    background: var(--srijan4-gradient-11);
+    background: var(--srijan4-gradient-13);
     font-size: 1.6vw;
     border-radius: 5vw;
     cursor: pointer;
