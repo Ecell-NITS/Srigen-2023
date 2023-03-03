@@ -8,6 +8,11 @@ const NotFound404 = () => {
   }, []);
   return (
     <div className={style.notfnd}>
+      <img
+        className={style.imgtopnt}
+        src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677676385/SriGen4.0/WhatsApp_Image_2023-03-01_at_18.41.47-removebg-preview_btgyyy.png"
+        alt=""
+      />
       <div className={style.nottexts}>
         <h1>Oops! Something went wrong!!!</h1>
         <h2>We are working on it!</h2>
@@ -43,6 +48,13 @@ const NotFound404 = () => {
             Go Home
           </button>
         </Link>
+      </div>
+
+      <div className={style.rightimgnt}>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1677676802/SriGen4.0/WhatsApp_Image_2023-03-01_at_18.43.23-removebg-preview_jjrru3.png"
+          alt=""
+        />
       </div>
     </div>
   );
