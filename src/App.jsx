@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home, Registration, Sponsors, Team } from "./Pages";
+import { Home, Registration, Sponsors, Team, NotFound404 } from "./Pages";
 
-import { Navbar, Footer, NotFound404 } from "./Components";
+import { Navbar, Footer } from "./Components";
 
 const App = () => {
   return (

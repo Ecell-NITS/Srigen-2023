@@ -10,7 +10,7 @@ import Sponsors from "./Sponsors/Sponsors";
 import Sidelinks from "./Sidelinks/Sidelinks";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 import EventCard from "./EventCard/EventCard";
-import NotFound404 from "../Pages/Error/NotFound404";
+
 export {
   Button,
   Navbar,
@@ -24,5 +24,4 @@ export {
   About,
   Sponsors,
   Sidelinks,
-  NotFound404,
 };
