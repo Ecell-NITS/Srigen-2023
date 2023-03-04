@@ -5,6 +5,7 @@ specifiers:
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
   aos: 3.0.0-beta.6
+  dotenv: ^16.0.3
   eslint: ^8.27.0
   eslint-config-airbnb: ^19.0.4
   eslint-config-prettier: ^8.5.0
@@ -21,6 +22,7 @@ specifiers:
   react-icons: ^4.7.1
   react-intersection-observer: ^9.4.3
   react-router-dom: ^6.4.3
+  react-toastify: ^9.1.1
   sass: ^1.56.1
   simple-git-hooks: ^2.8.1
   swiper: ^9.0.5
@@ -29,11 +31,13 @@ specifiers:
 dependencies:
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
   aos: 3.0.0-beta.6
+  dotenv: 16.0.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.7.1_react@18.2.0
   react-intersection-observer: 9.4.3_react@18.2.0
   react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
+  react-toastify: 9.1.1_biqbaboplfbrettd7655fr4n2y
   swiper: 9.0.5
   vite: 3.2.4_sass@1.56.1
 
@@ -755,6 +759,11 @@ packages:
       string-width: 5.1.2
     dev: true
 
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
+
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -877,6 +886,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -2316,6 +2330,17 @@ packages:
     dependencies:
       '@remix-run/router': 1.0.3
       react: 18.2.0
+    dev: false
+
+  /react-toastify/9.1.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-pkFCla1z3ve045qvjEmn2xOJOy4ZciwRXm1oMPULVkELi5aJdHCN/FHnuqXq8IwGDLB7PPk2/J6uP9D8ejuiRw==}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      clsx: 1.2.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:

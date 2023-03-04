@@ -29,8 +29,8 @@ const TeamForm = ({ fields, handleMainFormChange, maxTeamSize }) => {
         <input
           type="text"
           className={style.input}
-          value={fields.phone}
-          name="phone"
+          value={fields.phoneno}
+          name="phoneno"
           placeholder="Phone Number"
           onChange={(event) => handleMainFormChange(event)}
         />
@@ -55,10 +55,10 @@ const TeamForm = ({ fields, handleMainFormChange, maxTeamSize }) => {
           <option disabled className={style.option} value="Gender">
             Gender
           </option>
-          <option className={style.option} value="Male">
+          <option className={style.option} value="MALE">
             Male
           </option>
-          <option className={style.option} value="Female">
+          <option className={style.option} value="FEMALE">
             Female
           </option>
         </select>
