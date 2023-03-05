@@ -19,7 +19,6 @@ const Home = () => {
       <h1>Home Page for Srijan 2023</h1>
       <Button type="button" />
       <About />
-      <Speakers />
       <GalleryCarousel />
       <NewCard
         size="small"
@@ -37,6 +36,7 @@ const Home = () => {
         title2={dummy[0].title2}
         image={dummy[0].image}
       />
+      <Speakers />
 
       <Sponsors />
     </main>
