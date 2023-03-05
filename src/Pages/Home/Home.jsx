@@ -4,10 +4,14 @@ import {
   Sponsors,
   About,
   GalleryCarousel,
-  EventCard,
+  // EventCard,
+  NewCard,
 } from "../../Components";
 
 import style from "./Home.module.scss";
+
+import Data from "../../Data/EventCardData.json";
+const dummy = Data.cardDataArray;
 
 const Home = () => {
   return (
@@ -17,8 +21,23 @@ const Home = () => {
       <About />
       <Speakers />
       <GalleryCarousel />
-      <EventCard width="535px" />
-      <EventCard width="300px" />
+      <NewCard
+        size="small"
+        id={dummy[0].id}
+        content={dummy[0].content}
+        title1={dummy[0].title1}
+        title2={dummy[0].title2}
+        image={dummy[0].image}
+      />
+      <NewCard
+        size="large"
+        id={dummy[0].id}
+        content={dummy[0].content}
+        title1={dummy[0].title1}
+        title2={dummy[0].title2}
+        image={dummy[0].image}
+      />
+
       <Sponsors />
     </main>
   );
