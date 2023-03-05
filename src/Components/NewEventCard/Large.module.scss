@@ -32,12 +32,12 @@
     .para {
       font-size: 2vmin;
 
-      padding: 5% 10%;
+      padding: 7% 10%;
 
       overflow: hidden;
       display: -webkit-box;
       -webkit-box-orient: vertical;
-      -webkit-line-clamp: 18;
+      -webkit-line-clamp: 17;
 
       @media screen and (max-width: 500px) {
         font-size: 4vmin;
@@ -58,7 +58,7 @@
 
     .buttons {
       width: 100%;
-      font-size: 10px;
+      font-size: 15px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 4%;

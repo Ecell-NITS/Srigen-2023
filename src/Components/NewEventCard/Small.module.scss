@@ -22,6 +22,9 @@
       background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
       border: none;
       border-radius: 20px;
+      @media screen and (max-width: 500px) {
+        font-size: 15px;
+      }
     }
   }
 
