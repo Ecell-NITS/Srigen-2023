@@ -3,9 +3,12 @@ import { useParams, useNavigate } from "react-router-dom";
 
 import { AiOutlineDelete, AiOutlinePlus } from "react-icons/ai";
 
+import { ToastContainer, toast } from "react-toastify";
 import style from "./Registration.module.scss";
 
 import { TeamForm, IndividualForm, Sidelinks } from "../../Components";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const Registration = () => {
   const params = useParams();
@@ -14,7 +17,7 @@ const Registration = () => {
   const [inputMainField, setMainInputField] = useState({
     name: "",
     email: "",
-    phone: "",
+    phoneno: "",
     teamName: "",
     gender: "",
   });
@@ -41,7 +44,7 @@ const Registration = () => {
       alert(`Maximum Team Size is ${maxTeamSize}`);
       return;
     }
-    const newForm = { name: "", email: "", phone: "", gender: "" };
+    const newForm = { name: "", email: "", phoneno: "", gender: "" };
     setInputField([...inputField, newForm]);
     setCurrentFormLength([...currentFormLength, currentFormLength.length + 1]);
   };
@@ -74,26 +77,26 @@ const Registration = () => {
     if (
       !inputMainField.gender ||
       !inputMainField.name ||
-      !inputMainField.phone ||
+      !inputMainField.phoneno ||
       (maxTeamSize !== "1" ? inputMainField.teamName.length === 0 : false)
     ) {
-      return alert("Please Fill All The Details For Every Memebr You Want");
+      return toast.error("Please Fill Up All The Details", { autoClose: 1200 });
     }
 
     for (let i = 0; i < inputField.length; i += 1) {
       if (
         !inputField[i].gender ||
         !inputField[i].name ||
-        !inputField[i].phone ||
+        !inputField[i].phoneno ||
         !inputField[i].email
       ) {
-        return alert("Please Fill All The Details For Every Memebr You Want");
+        return toast.error("Please Fill Up All The Details", { autoClose: 1200 });
       }
     }
 
     const data = { eventName: params.event };
     if (inputMainField.teamName !== "") {
-      data.TeamName = inputMainField.teamName;
+      data.teamName = inputMainField.teamName;
     }
 
     const filteredMainFieldData = { ...inputMainField };
@@ -102,12 +105,26 @@ const Registration = () => {
 
     data.members = members;
 
-    return data;
+    const response = await fetch(import.meta.env.VITE_REGISTER_URL, {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+
+      body: JSON.stringify(data),
+    });
+
+    const parsedResponse = await response.json();
+    if (parsedResponse.status === 200) {
+      return toast.success("Successfully registered", { autoClose: 1200 });
+    }
+
+    return toast.error(parsedResponse.msg, { autoClose: 1200 });
   };
 
   useEffect(() => {
     fetchEventDetails();
-  });
+  }, []);
 
   return (
     <div className={style.registrationcontainer}>
@@ -128,6 +145,7 @@ const Registration = () => {
           <div className={style.formheading}>Registration Form</div>
           <div className={style.form}>
             <div className={style.form2}>
+              <ToastContainer />
               <TeamForm
                 fields={inputMainField}
                 handleMainFormChange={handleMainFormChange}
