@@ -8,7 +8,7 @@
     "reg-link": "https://www.google.com",
     "stage_timeline": [
       {
-        "stage_id": 1,
+        "stageId": 1,
         "stage1_venue": "NEW GALLERY",
         "stage2_venue": "NEW GALLERY",
         "stage1_datetime": "6PM, 4th April",
@@ -32,7 +32,7 @@
       "sublink": "https://www.google.com",
       "stage1": [
         {
-          "stage_id": "stage_1",
+          "stageId": "stage_1",
           "stage_name": "Stage 1 (Online Screening)",
           "stage_rules": [
             "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
@@ -44,7 +44,7 @@
       ],
       "stage2": [
         {
-          "stage_id": "stage_2",
+          "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
           "stage_content": ["", ""],
           "stage_rules": [
@@ -64,7 +64,7 @@
     "reg-link": "https://www.google.com",
     "stage_timeline": [
       {
-        "stage_id": 1,
+        "stageId": 1,
         "stage1_venue": "NEW GALLERY",
         "stage2_venue": "NEW GALLERY",
         "stage1_datetime": "6PM, 4th April",
@@ -88,7 +88,7 @@
       "sublink": "https://www.google.com",
       "stage1": [
         {
-          "stage_id": "stage_1",
+          "stageId": "stage_1",
           "stage_name": "Stage 1 (Online Screening)",
           "stage_rules": [
             "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
@@ -100,7 +100,7 @@
       ],
       "stage2": [
         {
-          "stage_id": "stage_2",
+          "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
           "stage_content": ["", ""],
           "stage_rules": [
@@ -120,7 +120,7 @@
     "reg-link": "https://www.google.com",
     "stage_timeline": [
       {
-        "stage_id": 1,
+        "stageId": 1,
         "stage1_venue": "NEW GALLERY",
         "stage2_venue": "NEW GALLERY",
         "stage1_datetime": "6PM, 4th April",
@@ -144,7 +144,7 @@
       "sublink": "https://www.google.com",
       "stage1": [
         {
-          "stage_id": "stage_1",
+          "stageId": "stage_1",
           "stage_name": "Stage 1 (Online Screening)",
           "stage_rules": [
             "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
@@ -156,7 +156,7 @@
       ],
       "stage2": [
         {
-          "stage_id": "stage_2",
+          "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
           "stage_content": ["", ""],
           "stage_rules": [
@@ -176,7 +176,7 @@
     "reg-link": "https://www.google.com",
     "stage_timeline": [
       {
-        "stage_id": 1,
+        "stageId": 1,
         "stage1_venue": "NEW GALLERY",
         "stage2_venue": "NEW GALLERY",
         "stage1_datetime": "6PM, 4th April",
@@ -200,7 +200,7 @@
       "sublink": "https://www.google.com",
       "stage1": [
         {
-          "stage_id": "stage_1",
+          "stageId": "stage_1",
           "stage_name": "Stage 1 (Online Screening)",
           "stage_rules": [
             "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
@@ -212,7 +212,7 @@
       ],
       "stage2": [
         {
-          "stage_id": "stage_2",
+          "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
           "stage_content": ["", ""],
           "stage_rules": [

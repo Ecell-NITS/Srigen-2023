@@ -40,27 +40,27 @@ const Event = ({ data }) => {
           <div className={styles.overview}>
             <h2 className={styles.head1}>OVERVIEW</h2>
             <br />
-            <p>
+            <div>
               {data.content.overview.map((val) => {
                 return (
-                  <>
+                  <div key={data.id}>
                     <p>{val}</p>
                     <br />
-                  </>
+                  </div>
                 );
               })}
-            </p>
+            </div>
             <br />
-            <p>
+            <div>
               {data.content.outcome.map((val) => {
                 return (
-                  <>
+                  <div key={data.id}>
                     <p>{val}</p>
                     <br />
-                  </>
+                  </div>
                 );
               })}
-            </p>
+            </div>
             <br />
           </div>
           <div className={styles.stage1}>
@@ -69,16 +69,16 @@ const Event = ({ data }) => {
                 <div className={styles.overview} key={item.stage_id}>
                   <h2 className={styles.head1}>{item.stage_name}</h2>
                   <br />
-                  <p>
+                  <div>
                     {item.stage_rules.map((val) => {
                       return (
-                        <>
+                        <div key={data.id}>
                           <p>{val}</p>
                           <br />
-                        </>
+                        </div>
                       );
                     })}
-                  </p>
+                  </div>
                   <br />
                   <a href={item.decklink} target="_blank">
                     Click here.
@@ -93,16 +93,16 @@ const Event = ({ data }) => {
                 <div className={styles.overview} key={item.stage_id}>
                   <h2 className={styles.head1}>{item.stage_name}</h2>
                   <br />
-                  <p>
+                  <div>
                     {item.stage_rules.map((val) => {
                       return (
-                        <>
+                        <div key={data.id}>
                           <p>{val}</p>
                           <br />
-                        </>
+                        </div>
                       );
                     })}
-                  </p>
+                  </div>
                 </div>
               );
             })}
@@ -110,16 +110,16 @@ const Event = ({ data }) => {
           <div className={styles.overview}>
             <h2 className={styles.head1}>GUIDELINES</h2>
             <br />
-            <p>
+            <div>
               {data.content.guidelines.map((val) => {
                 return (
-                  <>
+                  <div key={data.id}>
                     <p>{val}</p>
                     <br />
-                  </>
+                  </div>
                 );
               })}
-            </p>
+            </div>
             <br />
             <a href={data.content.sublink} target="_blank">
               Click here.

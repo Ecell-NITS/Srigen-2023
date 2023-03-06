@@ -29,6 +29,9 @@
     color: white;
     font-weight: 500;
   }
+  a:hover {
+    color: var(--srijan4-dark-pink);
+  }
   border: none;
 }
 .right {
@@ -92,6 +95,9 @@
     color: white;
     font-weight: 500;
     font-size: 1.2rem;
+  }
+  a:hover {
+    color: var(--srijan4-dark-pink);
   }
 }
 @media only screen and (max-width: 1000px) {
