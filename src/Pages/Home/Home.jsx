@@ -4,8 +4,7 @@ import {
   Sponsors,
   About,
   GalleryCarousel,
-  // EventCard,
-  NewCard,
+  EventCard,
 } from "../../Components";
 
 import style from "./Home.module.scss";
@@ -20,7 +19,7 @@ const Home = () => {
       <Button type="button" />
       <About />
       <GalleryCarousel />
-      <NewCard
+      <EventCard
         size="small"
         id={dummy[0].id}
         content={dummy[0].content}
@@ -28,7 +27,7 @@ const Home = () => {
         title2={dummy[0].title2}
         image={dummy[0].image}
       />
-      <NewCard
+      <EventCard
         size="large"
         id={dummy[0].id}
         content={dummy[0].content}
