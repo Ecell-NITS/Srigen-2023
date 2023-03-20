@@ -1,7 +1,10 @@
 [
   {
     "id": 1,
-    "title": "1",
+    "title": "IPL Auction",
+    "subTitle": "Lorem ipsum",
+    "image": "https://wallpapercave.com/wp/wp4789782.jpg",
+    "card-content": "Teams will have the option to retain and release their choice of players ahead of IPL auction 2023.  .",
     "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
     "event-title": "IPL Auction",
     "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -46,7 +49,10 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": ["", ""],
+          "stage_content": [
+            "",
+            ""
+          ],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -57,7 +63,10 @@
   },
   {
     "id": 2,
-    "title": "1",
+    "title": "Tech Nerds",
+    "subTitle": "Lorem ipsum",
+    "image": "https://img.freepik.com/free-photo/colleagues-reading-using-laptop-during-study-session_23-2149285397.jpg?w=740&t=st=1677492146~exp=1677492746~hmac=d16efa4df126d4c5afb1125cc7dcf5aea2e81bf3b966d118c10a4ea4af85ee42",
+    "card-content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone.",
     "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
     "event-title": "Tech Nerds",
     "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -102,7 +111,10 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": ["", ""],
+          "stage_content": [
+            "",
+            ""
+          ],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -113,7 +125,10 @@
   },
   {
     "id": 3,
-    "title": "1",
+    "title": "Outwit the Board Room",
+    "subTitle": "Lorem ipsum",
+    "image": "https://img.freepik.com/premium-photo/office-business-boardroom-meeting-room-conference-table-modern-style-3d-rendering_43151-405.jpg?w=1480",
+    "card-content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go.",
     "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
     "event-title": "Outwit the Borad Room",
     "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -158,7 +173,10 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": ["", ""],
+          "stage_content": [
+            "",
+            ""
+          ],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -169,7 +187,10 @@
   },
   {
     "id": 4,
-    "title": "1",
+    "title1": "StartUp Expo",
+    "subTitle": "Lorem ipsum",
+    "image": "https://img.freepik.com/free-photo/young-attractive-business-colleagues-thoughtfully-working-new-project-with-laptop-papers-modern-office_574295-5141.jpg?w=1480&t=st=1677492084~exp=1677492684~hmac=b34d6995be0dffb4c22e5af28e5f79e49e7141167ab39ff6edf6effd91d68185",
+    "card-content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere.",
     "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
     "event-title": "Start-Up Expo",
     "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -214,7 +235,10 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": ["", ""],
+          "stage_content": [
+            "",
+            ""
+          ],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
