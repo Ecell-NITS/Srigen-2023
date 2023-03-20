@@ -17,56 +17,108 @@ const Sponsors = () => {
         <p className={styles.currSponsorsheader}>Current Sponsors</p>
         <div className={styles.brandItem1}>
           <p className={styles.brandText}>powered by</p>
-          <img alt="text" className={styles.brandLogo1} src="/logos/devfolio.png" />
+          <img
+            alt="text"
+            className={`${styles.brandLogo1} ${styles.brandLogo}`}
+            src="/logos/devfolio.png"
+          />
         </div>
         <div className={styles.brandGrid}>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
         </div>
       </div>
@@ -76,124 +128,140 @@ const Sponsors = () => {
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini1}
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
               src="/logos/asus-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini2}
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
               src="/logos/devfolio-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
-            <img alt="text" className={styles.brandLogomini3} src="/logos/mlh-mini.svg" />
+            <img
+              alt="text"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="/logos/mlh-mini.svg"
+            />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini4}
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
               src="/logos/polygon-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini5}
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
               src="/logos/wolf-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini1}
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
               src="/logos/asus-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini2}
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
               src="/logos/devfolio-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
-            <img alt="text" className={styles.brandLogomini3} src="/logos/mlh-mini.svg" />
+            <img
+              alt="text"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="/logos/mlh-mini.svg"
+            />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini4}
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
               src="/logos/polygon-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini5}
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
               src="/logos/wolf-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini1}
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
               src="/logos/asus-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini2}
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
               src="/logos/devfolio-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
-            <img alt="text" className={styles.brandLogomini3} src="/logos/mlh-mini.svg" />
+            <img
+              alt="text"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="/logos/mlh-mini.svg"
+            />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini4}
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
               src="/logos/polygon-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini5}
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
               src="/logos/wolf-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini1}
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
               src="/logos/asus-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini2}
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
               src="/logos/devfolio-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
-            <img alt="text" className={styles.brandLogomini3} src="/logos/mlh-mini.svg" />
+            <img
+              alt="text"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="/logos/mlh-mini.svg"
+            />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini4}
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
               src="/logos/polygon-mini.svg"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
-              className={styles.brandLogomini5}
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
               src="/logos/wolf-mini.svg"
             />
           </div>
@@ -204,56 +272,108 @@ const Sponsors = () => {
         <p className={styles.prevSponsorsheader}>Previous Sponsors</p>
         <div className={styles.brandItem1}>
           <p className={styles.brandText}>powered by</p>
-          <img alt="text" className={styles.brandLogo1} src="/logos/devfolio.png" />
+          <img
+            alt="text"
+            className={`${styles.brandLogo1} ${styles.brandLogo}`}
+            src="/logos/devfolio.png"
+          />
         </div>
         <div className={styles.brandGrid}>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo2} src="/logos/polygon.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo2} ${styles.brandLogo}`}
+              src="/logos/polygon.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo3} src="/logos/mlh.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo3} ${styles.brandLogo}`}
+              src="/logos/mlh.png"
+            />
           </div>
           <div className={styles.brandItem}>
             <p className={styles.brandText}>powered by</p>
-            <img alt="text" className={styles.brandLogo4} src="/logos/wolf.png" />
+            <img
+              alt="text"
+              className={`${styles.brandLogo4} ${styles.brandLogo}`}
+              src="/logos/wolf.png"
+            />
           </div>
         </div>
       </div>

@@ -49,10 +49,7 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": [
-            "",
-            ""
-          ],
+          "stage_content": ["", ""],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -111,10 +108,7 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": [
-            "",
-            ""
-          ],
+          "stage_content": ["", ""],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -173,10 +167,7 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": [
-            "",
-            ""
-          ],
+          "stage_content": ["", ""],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
@@ -235,10 +226,7 @@
         {
           "stageId": "stage_2",
           "stage_name": "Stage 2 (Pitching)",
-          "stage_content": [
-            "",
-            ""
-          ],
+          "stage_content": ["", ""],
           "stage_rules": [
             "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
             "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
