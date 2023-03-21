@@ -1,15 +1,14 @@
 .col {
   display: inline-block;
   margin: 0;
-  width: 500px;
+  width: 28rem;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 1.5rem;
   aspect-ratio: 107/124;
   font-size: 5rem;
   cursor: pointer;
-
   .backHead {
-    font-size: 4vmin;
+    font-size: 1.5rem;
     text-align: center;
     padding: 4% 0;
     margin: 0.2rem;
@@ -31,35 +30,42 @@
     justify-content: center;
 
     .para {
-      font-size: 2vmin;
-
+      font-size: 0.8rem;
       padding: 7% 10%;
-
       overflow: hidden;
       display: -webkit-box;
       -webkit-box-orient: vertical;
-      -webkit-line-clamp: 17;
+      -webkit-line-clamp: 14;
+
+      .example::-webkit-scrollbar {
+        display: none;
+      }
 
       @media screen and (max-width: 500px) {
-        font-size: 4vmin;
-        padding: 6% 10%;
+        font-size: 1.1rem;
+        padding: 3.5% 10%;
+        text-align: justify;
+        overflow: hidden;
+        display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 11;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 10;
         white-space: pre-wrap;
+        height: 100%;
       }
 
       @media screen and (max-width: 800px) and (min-width: 500px) {
-        font-size: 4vmin;
+        font-size: 1rem;
         padding: 8% 10%;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 12;
+        -webkit-line-clamp: 13;
         white-space: pre-wrap;
       }
     }
 
     .buttons {
       width: 100%;
-      font-size: 15px;
+      font-size: 1rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 4%;
@@ -72,7 +78,7 @@
         margin: 2%;
         background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
         border: none;
-        border-radius: 20px;
+        border-radius: 1rem;
       }
     }
   }
@@ -94,7 +100,7 @@
 .back {
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+
   background-position: center;
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -106,7 +112,7 @@
   backface-visibility: hidden;
   text-align: center;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 2rem;
   aspect-ratio: 107/124;
   color: #fff;
 }
@@ -133,7 +139,7 @@
   background-color: #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 30px;
+  border-radius: 2rem;
 }
 
 .container:hover .front,

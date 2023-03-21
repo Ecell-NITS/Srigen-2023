@@ -19,50 +19,18 @@ const Home = () => {
       <Button type="button" />
       <About />
       <GalleryCarousel />
-      <EventCard
-        size="small"
-        id={dummy[0].id}
-        content={dummy[0].content}
-        title1={dummy[0].title1}
-        title2={dummy[0].title2}
-        image={dummy[0].image}
-      />
 
-      <EventCard
-        size="small"
-        id={dummy[1].id}
-        content={dummy[1].content}
-        title1={dummy[1].title1}
-        title2={dummy[1].title2}
-        image={dummy[1].image}
-      />
-
-      <EventCard
-        size="small"
-        id={dummy[2].id}
-        content={dummy[2].content}
-        title1={dummy[2].title1}
-        title2={dummy[2].title2}
-        image={dummy[2].image}
-      />
-
-      <EventCard
-        size="small"
-        id={dummy[3].id}
-        content={dummy[3].content}
-        title1={dummy[3].title1}
-        title2={dummy[3].title2}
-        image={dummy[3].image}
-      />
-
-      <EventCard
-        size="small"
-        id={dummy[0].id}
-        content={dummy[0].content}
-        title1={dummy[0].title1}
-        title2={dummy[0].title2}
-        image={dummy[0].image}
-      />
+      {dummy.map((data) => (
+        <EventCard
+          key={data.id}
+          size="small"
+          id={data.id}
+          content={data.content}
+          title1={data.title1}
+          title2={data.title2}
+          image={data.image}
+        />
+      ))}
 
       <Speakers />
 
