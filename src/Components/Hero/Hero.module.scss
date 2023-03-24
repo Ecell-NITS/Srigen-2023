@@ -1,0 +1,153 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  .bg,
+  .cliff,
+  .bridge,
+  .rocks {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .rocks {
+    animation: animaterock 1.5s ease forwards;
+
+    @keyframes animaterock {
+      0% {
+        transform: translateY(-1em);
+      }
+      100% {
+        transform: translateY(-10%);
+      }
+    }
+  }
+
+  .srigentext {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35%;
+    object-fit: cover;
+    animation: animatetext 1.5s ease forwards;
+
+    @keyframes animatetext {
+      0% {
+        transform: translateX(-50%) translateY(-1em);
+      }
+      100% {
+        transform: translateX(-50%) translateY(-200%);
+      }
+    }
+  }
+  .rocket {
+    position: absolute;
+    height: 40%;
+    right: 20%;
+    top: 50%;
+    animation: animaterocket 1.5s ease forwards;
+
+    @keyframes animaterocket {
+      0% {
+        transform: translateY(-1em);
+      }
+      100% {
+        transform: translateY(-80%);
+      }
+    }
+  }
+  .astronaut {
+    width: 15em;
+    height: 20em;
+    position: absolute;
+    bottom: -9em;
+    left: 10%;
+    animation: animate 1.5s ease forwards;
+
+    @keyframes animate {
+      0% {
+        transform: translateY(-1em);
+      }
+      100% {
+        transform: translateY(-9em);
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    .srigentext {
+      width: 50%;
+    }
+    .rocket {
+      right: 10%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    .rocket {
+      right: 5%;
+      top: 51%;
+      height: 22%;
+    }
+    .astronaut {
+      width: 22em;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    .srigentext {
+      @keyframes animatetext {
+        0% {
+          transform: translateX(-50%) translateY(-1em);
+        }
+        100% {
+          transform: translateX(-50%) translateY(-400%);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    .rocket {
+      right: 2%;
+    }
+    .astronaut {
+      width: 17em;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 80vh;
+    .srigentext {
+      @keyframes animatetext {
+        0% {
+          transform: translateX(-50%) translateY(-1em);
+        }
+        100% {
+          transform: translateX(-50%) translateY(-500%);
+        }
+      }
+    }
+    .astronaut {
+      width: 12em;
+      height: 45%;
+      left: 7%;
+      bottom: -9em;
+    }
+  }
+}
