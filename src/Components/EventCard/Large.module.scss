@@ -14,7 +14,7 @@
     margin: 0.2rem;
     color: white;
     font-family: var(--srijan4-font-1);
-    border-bottom: 1px solid white;
+    border-bottom: 0.063rem solid white;
 
     @media screen and (max-width: 500px) {
       font-size: 1.5rem;
@@ -61,6 +61,14 @@
         -webkit-line-clamp: 13;
         white-space: pre-wrap;
       }
+
+      @media screen and (max-width: 400px) {
+        font-size: 1rem;
+        padding: 8% 10%;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 9;
+        white-space: pre-wrap;
+      }
     }
 
     .buttons {
@@ -70,7 +78,9 @@
       grid-template-columns: 1fr 1fr;
       padding: 4%;
 
-      button {
+      .btn {
+        text-align: center;
+        text-decoration: none;
         padding: 2% 10%;
         cursor: pointer;
         color: white;
@@ -92,14 +102,14 @@
   -webkit-transform-style: preserve-3d;
   height: 100%;
   transform-style: preserve-3d;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
+  -webkit-perspective: 62.5rem;
+  perspective: 62.5rem;
 }
 
 .front,
 .back {
   background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.25);
 
   background-position: center;
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -160,8 +170,8 @@
 }
 
 .inner {
-  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
-  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  -webkit-transform: translateY(-50%) translateZ(3.75rem) scale(0.94);
+  transform: translateY(-50%) translateZ(3.75rem) scale(0.94);
   top: 50%;
   position: absolute;
   left: 0;
@@ -216,7 +226,7 @@
 .front .inner p:after {
   content: "";
   width: 70%;
-  height: 2px;
+  height: 0.125rem;
   position: absolute;
   background: #c6d4df;
   display: block;

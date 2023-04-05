@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Lstyles from "./Large.module.scss";
 import Sstyles from "./Small.module.scss";
 const EventCard = (props) => {
@@ -36,8 +37,12 @@ const EventCard = (props) => {
               <h1 className={styles.backHead}>{props.title1}</h1>
               <p className={styles.para}>{props.content}</p>
               <div className={styles.buttons}>
-                <button className={styles.register}>Register</button>
-                <button className={styles.details}>Details</button>
+                <Link to="/" className={styles.btn}>
+                  Register
+                </Link>
+                <Link to="/" className={styles.btn}>
+                  Details
+                </Link>
               </div>
             </div>
           </div>

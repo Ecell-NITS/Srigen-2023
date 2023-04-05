@@ -23,7 +23,7 @@ const Home = () => {
       {dummy.map((data) => (
         <EventCard
           key={data.id}
-          size="small"
+          size="large"
           id={data.id}
           content={data.content}
           title1={data.title1}
