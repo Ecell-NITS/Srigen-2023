@@ -7,7 +7,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Data from "../../Data/Speakers.json";
 
 import style from "./Speakers.module.scss";
-
+import "./Speakers.scss";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -19,7 +19,7 @@ const Speakers = () => {
         <h1>Speakers</h1>
       </div>
 
-      <div className={style.strtcpkrsmain}>
+      <div className={`${style.strtcpkrsmain} speaker`}>
         <Swiper
           effect="coverflow"
           grabCursor
