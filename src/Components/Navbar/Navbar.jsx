@@ -12,6 +12,7 @@ const Navbar = () => {
       toggleMenu();
     }
   };
+
   return (
     <nav className={style.navbar}>
       <img className={style.logo} src="/logos/srijan-logo.svg" alt="srijan-logo"></img>
