@@ -15,7 +15,6 @@
   .teamHeader {
     @include flex-dispay(row, space-between, center);
     font-size: 1.5rem;
-    margin-bottom: 3rem;
 
     .Our {
       color: var(--srijan4-white);
@@ -43,7 +42,7 @@
       width: 100%;
       @include flex-dispay(row, center, center);
       flex-wrap: wrap;
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
     }
   }
 

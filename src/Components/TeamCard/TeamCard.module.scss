@@ -9,7 +9,7 @@
   position: relative;
   width: 12rem;
   height: 16rem;
-  margin: 3rem 7rem;
+  margin: 3rem 5rem;
 
   &:hover {
     .cardImageDiv > img {
@@ -109,5 +109,11 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardContainer {
+    margin: 1.5rem 3rem;
   }
 }
