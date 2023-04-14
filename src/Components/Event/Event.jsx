@@ -129,7 +129,7 @@ const Event = ({ data }) => {
       </div>
       <div className={styles.right}>
         <h3>Other Events</h3>
-        <EventCard width="300px" />
+        <EventCard />
       </div>
     </section>
   );
