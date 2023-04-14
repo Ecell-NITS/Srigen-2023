@@ -10,6 +10,7 @@ import Sponsors from "./Sponsors/Sponsors";
 import Sidelinks from "./Sidelinks/Sidelinks";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 import EventCard from "./EventCard/EventCard";
+import Hero from "./Hero/Hero";
 import Event from "./Event/Event";
 
 export {
@@ -25,5 +26,6 @@ export {
   About,
   Sponsors,
   Sidelinks,
+  Hero,
   Event,
 };
