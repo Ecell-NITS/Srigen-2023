@@ -1,6 +1,6 @@
 .col {
   display: inline-block;
-  width: 15rem;
+  width: 16rem;
   box-sizing: border-box;
   padding: 1rem;
   aspect-ratio: 107/124;
@@ -27,23 +27,19 @@
       border: none;
       border-radius: 1rem;
       @media screen and (max-width: 500px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
 
   .backHead {
-    font-size: 2vmin;
+    font-size: 1rem;
     text-align: center;
     padding: 4% 0;
     margin: 0.2rem;
     color: white;
     font-family: var(--srijan4-font-1);
     border-bottom: 0.063rem solid white;
-
-    @media screen and (max-width: 500px) {
-      font-size: 1.5rem;
-    }
   }
 
   .backSide {
@@ -56,37 +52,18 @@
     justify-content: center;
 
     .para {
-      font-size: 1.7vmin;
-      padding: 5.5% 10%;
-      text-align: justify;
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
+      font-size: 0.7rem;
+      height: 8.7rem;
+      line-height: 1.03rem;
+      padding: 0.5rem 1rem 0 1rem;
+      -webkit-line-clamp: 10;
       text-overflow: ellipsis;
-      -webkit-line-clamp: 7;
-      white-space: pre-wrap;
-      height: 100%;
-
-      @media screen and (max-width: 500px) {
-        font-size: 1rem;
-        padding: 6% 10%;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
-        white-space: pre-wrap;
-      }
-
-      @media screen and (max-width: 400px) {
-        font-size: 1.05rem;
-        padding: 8% 10%;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 8;
-        white-space: pre-wrap;
-      }
+      overflow: hidden;
+      display: -webkit-box !important;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 13;
+      white-space: normal;
     }
-  }
-
-  @media screen and (max-width: 500px) {
-    width: 100%;
   }
 }
 
