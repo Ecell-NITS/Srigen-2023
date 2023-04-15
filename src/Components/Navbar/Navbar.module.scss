@@ -1,12 +1,17 @@
 .navbar {
   height: 6rem;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10000;
 }
 .logo {
   width: 10%;
   margin-left: 3rem;
   z-index: 1000;
+  position: fixed;
+  top: 1.5rem;
 }
 .hamburger {
   position: fixed;
@@ -47,7 +52,7 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 7.5vh;
   padding: 2rem;
 }
 .item {
@@ -69,7 +74,7 @@
   transform: translateX(30px);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .menu {
     width: 100vw;
     right: -100vw;
@@ -88,7 +93,7 @@
     top: -0.5rem;
   }
   .mainMenu {
-    font-size: 2.5rem;
+    font-size: 6vh;
   }
 }
 
