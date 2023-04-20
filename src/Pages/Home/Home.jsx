@@ -4,14 +4,11 @@ import {
   Sponsors,
   About,
   GalleryCarousel,
-  EventCard,
   Hero,
+  EventTab,
 } from "../../Components";
 
 import style from "./Home.module.scss";
-
-import Data from "../../Data/EventCardData.json";
-const dummy = Data.cardDataArray;
 
 const Home = () => {
   return (
@@ -21,19 +18,7 @@ const Home = () => {
       <Hero />
       <About />
       <GalleryCarousel />
-
-      {dummy.map((data) => (
-        <EventCard
-          key={data.id}
-          size="large"
-          id={data.id}
-          content={data.content}
-          title1={data.title1}
-          title2={data.title2}
-          image={data.image}
-        />
-      ))}
-
+      <EventTab />
       <Speakers />
 
       <Sponsors />
