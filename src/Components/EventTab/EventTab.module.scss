@@ -10,6 +10,7 @@
     justify-content: center;
     color: white;
     font-size: 2rem;
+    width: 100%;
     gap: 7vw;
 
     h1 {
@@ -40,8 +41,9 @@
   }
 
   .days {
+    width: 100%;
     display: flex;
-    padding: 5rem 0;
+    padding: 5rem 3vw;
     color: white;
     align-items: end;
     justify-content: center;
@@ -50,6 +52,7 @@
       font-size: 2.2rem;
       font-weight: 550;
       font-family: var(--srijan4-font-1);
+      margin: 0 0.12rem;
 
       &:hover {
         cursor: pointer;
@@ -59,12 +62,18 @@
         -webkit-background-clip: text;
       }
     }
-    .active {
-      border-bottom: 0.063rem solid white;
-      margin: 1%;
 
-      &:hover {
-        border-bottom: 0.063rem solid rgb(86, 3, 187);
+    .active {
+      text-align: center;
+      position: relative;
+      padding: 0 0.5%;
+
+      .highlight {
+        position: absolute;
+        width: 100%;
+        bottom: -1rem;
+        left: 0;
+        border: 0.063rem solid rgb(255, 255, 255);
       }
     }
 
@@ -77,7 +86,6 @@
   .cards {
     margin: 1% 10%;
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     place-items: center;
   }
