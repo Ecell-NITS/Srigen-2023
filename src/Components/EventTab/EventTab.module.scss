@@ -26,16 +26,21 @@
       font-family: var(--srijan4-font-2);
     }
 
-    div {
+    .logo {
+      width: 8rem;
+      position: relative;
       aspect-ratio: 1/1;
-      padding: 2%;
-      border: 0.062rem solid var(--srijan4-gradient-1);
-      border-radius: 50%;
 
-      img {
-        height: 100%;
+      .logoBorder {
         width: 100%;
-        object-fit: contain;
+        position: absolute;
+      }
+      .logoImage {
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
     }
   }

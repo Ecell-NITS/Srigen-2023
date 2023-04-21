@@ -12,8 +12,9 @@ const EventTab = () => {
         <h1>
           <span>Event</span> List
         </h1>
-        <div>
-          <img className={styles.logo} src="/logos/Vector.png" alt="logo " />
+        <div className={styles.logo}>
+          <img className={styles.logoBorder} src="/logos/Ellipse.png" alt="" />
+          <img className={styles.logoImage} src="/logos/Vector.png" alt="logo " />
         </div>
       </div>
 
