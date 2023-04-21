@@ -11,6 +11,7 @@ import Sidelinks from "./Sidelinks/Sidelinks";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 import EventCard from "./EventCard/EventCard";
 import Hero from "./Hero/Hero";
+import Event from "./Event/Event";
 
 export {
   Button,
@@ -26,4 +27,5 @@ export {
   Sponsors,
   Sidelinks,
   Hero,
+  Event,
 };

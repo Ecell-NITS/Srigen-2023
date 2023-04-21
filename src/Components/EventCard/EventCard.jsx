@@ -40,7 +40,7 @@ const EventCard = (props) => {
                 <Link to="/" className={styles.btn}>
                   Register
                 </Link>
-                <Link to="/" className={styles.btn}>
+                <Link to={`/event/${props.id}`} className={styles.btn}>
                   Details
                 </Link>
               </div>
