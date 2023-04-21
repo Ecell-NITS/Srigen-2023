@@ -7,7 +7,7 @@ const EventPage = () => {
   const ind = parseInt(eventID.id, 10);
 
   if (ind > 0 && ind <= EventData.length) {
-    return <Event data={EventData[ind - 1]} />;
+    return <Event data={EventData[ind - 1]} selected={ind - 1} />;
   }
   return <div>Error Page</div>;
 };
