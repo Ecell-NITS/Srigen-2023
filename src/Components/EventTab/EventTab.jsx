@@ -7,19 +7,35 @@ import EventCarousal from "../EventCarousal/EventCarousal";
 const EventTab = () => {
   const { day1, day2, day3 } = DayData;
   const [dayId, setDay] = useState(day1);
+  const [barOne, setbarOne] = useState(styles.long);
+  const [barTwo, setbarTwo] = useState(styles.short);
+  const [barThree, setbarThree] = useState(styles.short);
+  const [activeBar, setActiveBar] = useState(styles.activeOne);
 
   const TabChange = (e) => {
     const [id] = e.currentTarget.id;
 
     if (id === "1") {
       setDay(day1);
+      setbarOne(styles.long);
+      setbarTwo(styles.short);
+      setbarThree(styles.short);
+      setActiveBar(styles.activeOne);
     }
 
     if (id === "2") {
       setDay(day2);
+      setbarOne(styles.short);
+      setbarTwo(styles.long);
+      setbarThree(styles.short);
+      setActiveBar(styles.activeTwo);
     }
     if (id === "3") {
       setDay(day3);
+      setbarOne(styles.short);
+      setbarTwo(styles.short);
+      setbarThree(styles.long);
+      setActiveBar(styles.activeThree);
     }
   };
 
@@ -39,17 +55,20 @@ const EventTab = () => {
       <div className={styles.eventTabs}>
         {/* ......................DAYS........................ */}
         <div className={styles.days}>
-          <button id="1" onClick={TabChange} className={styles.active}>
+          <button id="1" onClick={TabChange} className={styles.nonActve}>
             Day1
           </button>
-          <hr />
+          <hr className={barOne} />
           <button id="2" onClick={TabChange}>
             Day2
           </button>
+          <hr className={barTwo} />
           <button id="3" onClick={TabChange}>
             Day3
           </button>
+          <hr className={barThree} />
         </div>
+        <hr className={activeBar} />
 
         {/* .......................CARDS........................ */}
         <div className={styles.cards}>
@@ -66,6 +85,8 @@ const EventTab = () => {
           ))}
         </div>
       </div>
+
+      {/* phone view */}
 
       <div className={styles.eventCarousal}>
         <EventCarousal />

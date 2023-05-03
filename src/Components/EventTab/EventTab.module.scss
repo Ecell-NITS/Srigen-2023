@@ -49,16 +49,18 @@
   .days {
     width: 100%;
     display: flex;
-    padding: 5rem 3vw;
+    padding: 5rem 3rem;
     color: white;
     align-items: end;
     justify-content: center;
+    position: relative;
 
     button {
       font-size: 2.2rem;
       background: none;
       color: white;
       border: none;
+      transition: ease 2s;
       font-weight: 550;
       font-family: var(--srijan4-font-1);
       margin: 0 0.12rem;
@@ -72,16 +74,40 @@
       }
     }
 
-    .active {
-      text-align: center;
-      position: relative;
-      padding: 0 0.5%;
-    }
-
-    hr {
-      height: 1px;
+    .long {
+      height: 0.063rem;
       width: 60vw;
+      transition: all 1s;
+      animation: ease 1s;
     }
+    .short {
+      height: 1px;
+      width: 1vw;
+      transition: all 1s;
+      animation: ease 1s;
+    }
+  }
+
+  .activeOne {
+    height: 1px;
+    width: 5vw;
+    transition: all 1s;
+    animation: ease 1s;
+    transform: translate(8vw, -4.5vw);
+  }
+  .activeTwo {
+    height: 1px;
+    width: 5vw;
+    transition: all 1s;
+    animation: ease 1s;
+    transform: translate(16.5vw, -4.5vw);
+  }
+  .activeThree {
+    height: 1px;
+    width: 5vw;
+    transition: all 1s;
+    animation: ease 1s;
+    transform: translate(24.5vw, -4.5vw);
   }
 
   .cards {
@@ -94,7 +120,7 @@
   .eventTabs {
     display: block;
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       display: none;
     }
   }
@@ -102,7 +128,7 @@
   .eventCarousal {
     display: none;
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       display: block;
     }
   }
