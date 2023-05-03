@@ -95,7 +95,7 @@
       animation: ease 1s;
     }
     .short {
-      height: 1px;
+      height: 0.63rem;
       width: 1vw;
       transition: all 1s;
       animation: ease 1s;
@@ -103,21 +103,21 @@
   }
 
   .activeOne {
-    height: 1px;
+    height: 0.63rem;
     width: 5vw;
     transition: all 0.5s;
     animation: ease 0.5s;
     transform: translate(8vw, -1vw);
   }
   .activeTwo {
-    height: 1px;
+    height: 0.63rem;
     width: 5vw;
     transition: all 0.5s;
     animation: ease 0.5s;
     transform: translate(16.5vw, -1vw);
   }
   .activeThree {
-    height: 1px;
+    height: 0.63rem;
     width: 5vw;
     transition: all 0.5s;
     animation: ease 0.5s;
