@@ -1,35 +1,49 @@
 .container {
-  margin: 0;
+  margin: 0 0;
+  padding: 3rem 0;
+  margin-bottom: -1rem;
   display: block;
   background-color: #15131a;
   height: fit-content;
 
   .head {
-    padding: 5rem 0;
+    padding: 1rem 0;
+    font-family: var(--srijan4-font-2);
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 2rem;
+    font-size: 150%;
     width: 100%;
     gap: 7vw;
 
+    @media screen and (max-width: 650px) {
+      display: flex;
+      flex-direction: column;
+      font-size: 110%;
+    }
+
     h1 {
       height: fit-content;
+      font-weight: 600;
     }
 
     span {
-      font-weight: 100;
+      font-weight: 600;
       background: var(--srijan4-gradient-10);
       background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
-      font-family: var(--srijan4-font-2);
     }
 
     .logo {
       width: 8rem;
       position: relative;
       aspect-ratio: 1/1;
+
+      @media screen and (max-width: 650px) {
+        margin: 0 0 4rem 0;
+      }
 
       .logoBorder {
         width: 100%;
@@ -49,7 +63,7 @@
   .days {
     width: 100%;
     display: flex;
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
     color: white;
     align-items: end;
     justify-content: center;
@@ -91,23 +105,23 @@
   .activeOne {
     height: 1px;
     width: 5vw;
-    transition: all 1s;
-    animation: ease 1s;
-    transform: translate(8vw, -4.5vw);
+    transition: all 0.5s;
+    animation: ease 0.5s;
+    transform: translate(8vw, -1vw);
   }
   .activeTwo {
     height: 1px;
     width: 5vw;
-    transition: all 1s;
-    animation: ease 1s;
-    transform: translate(16.5vw, -4.5vw);
+    transition: all 0.5s;
+    animation: ease 0.5s;
+    transform: translate(16.5vw, -1vw);
   }
   .activeThree {
     height: 1px;
     width: 5vw;
-    transition: all 1s;
-    animation: ease 1s;
-    transform: translate(24.5vw, -4.5vw);
+    transition: all 0.5s;
+    animation: ease 0.5s;
+    transform: translate(24.5vw, -1vw);
   }
 
   .cards {
@@ -120,7 +134,7 @@
   .eventTabs {
     display: block;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 650px) {
       display: none;
     }
   }
@@ -128,7 +142,7 @@
   .eventCarousal {
     display: none;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 650px) {
       display: block;
     }
   }
