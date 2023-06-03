@@ -23,12 +23,12 @@
       font-size: 110%;
     }
 
-    h1 {
+    .heading {
       height: fit-content;
       font-weight: 600;
     }
 
-    span {
+    .headingGradient {
       font-weight: 600;
       background: var(--srijan4-gradient-10);
       background-clip: text;
@@ -69,7 +69,7 @@
     justify-content: center;
     position: relative;
 
-    button {
+    .dayBtn {
       font-size: 2.2rem;
       background: none;
       color: white;
@@ -103,39 +103,42 @@
   }
 
   .activeOne {
-    height: 0.063rem;
-    width: 5vw;
+    height: 0.263rem;
+    background-color: white;
+    width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
     transform: translate(8vw, -1vw);
   }
 
   .activeTwo {
-    height: 0.063rem;
-    width: 5vw;
+    height: 0.263rem;
+    background-color: white;
+    width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
-    transform: translate(16.5vw, -1vw);
+    transform: translate(16vw, -1vw);
   }
   .activeThree {
-    height: 0.063rem;
-    width: 5vw;
+    height: 0.263rem;
+    background-color: white;
+    width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
     transform: translate(24.5vw, -1vw);
   }
 
   .cards {
-    margin: 1% 10%;
+    margin: 1% 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
     place-items: center;
   }
 
   .eventTabs {
     display: block;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 700px) {
       display: none;
     }
   }
@@ -143,8 +146,51 @@
   .eventCarousal {
     display: none;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 700px) {
       display: block;
+    }
+  }
+
+  // media queries for diffrent screen sizes fro the active bar
+  @media screen and (max-width: 1000px) {
+    .activeOne {
+      transform: translate(5.5vw, -1vw);
+    }
+
+    .activeTwo {
+      transform: translate(16.5vw, -1vw);
+    }
+
+    .activeThree {
+      transform: translate(26vw, -1vw);
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .activeOne {
+      transform: translate(6.5vw, -1vw);
+    }
+
+    .activeTwo {
+      transform: translate(16.5vw, -1vw);
+    }
+
+    .activeThree {
+      transform: translate(28vw, -1vw);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .activeOne {
+      transform: translate(6.5vw, -1vw);
+    }
+
+    .activeTwo {
+      transform: translate(18.5vw, -1vw);
+    }
+
+    .activeThree {
+      transform: translate(32vw, -1vw);
     }
   }
 }

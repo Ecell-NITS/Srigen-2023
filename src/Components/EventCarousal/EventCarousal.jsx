@@ -3,8 +3,10 @@ import { Autoplay, Navigation } from "swiper";
 // import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import EventCard from "../EventCard/EventCard";
 import styles from "./EventCarousal.module.scss";
-import Data from "../../Data/EventCardData.json";
+import Data from "../../Data/EventDaysInfo.json";
 const EventCarousal = () => {
+  const carousalData = Data.DayCarousal;
+
   return (
     <div className={styles.main}>
       <Swiper
@@ -43,7 +45,7 @@ const EventCarousal = () => {
         </div> */}
 
         <div>
-          {Data.map((item) => (
+          {carousalData.map((item) => (
             <SwiperSlide key={item.id}>
               <div className={styles.Box}>
                 <EventCard

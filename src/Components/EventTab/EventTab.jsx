@@ -43,8 +43,8 @@ const EventTab = () => {
     <div className={styles.container}>
       {/* .......................HEADING......................... */}
       <div className={styles.head}>
-        <h1>
-          <span>Event</span> List
+        <h1 className={styles.heading}>
+          <span className={styles.headingGradient}>Event</span> List
         </h1>
         <div className={styles.logo}>
           <img className={styles.logoBorder} src="/logos/Ellipse.png" alt="" />
@@ -55,15 +55,15 @@ const EventTab = () => {
       <div className={styles.eventTabs}>
         {/* ......................DAYS........................ */}
         <div className={styles.days}>
-          <button id="1" onClick={TabChange} className={styles.nonActve}>
+          <button id="1" onClick={TabChange} className={styles.dayBtn}>
             Day1
           </button>
           <hr className={barOne} />
-          <button id="2" onClick={TabChange}>
+          <button id="2" onClick={TabChange} className={styles.dayBtn}>
             Day2
           </button>
           <hr className={barTwo} />
-          <button id="3" onClick={TabChange}>
+          <button id="3" onClick={TabChange} className={styles.dayBtn}>
             Day3
           </button>
           <hr className={barThree} />
@@ -86,7 +86,7 @@ const EventTab = () => {
         </div>
       </div>
 
-      {/* phone view */}
+      {/* .....................   phone view ................... */}
 
       <div className={styles.eventCarousal}>
         <EventCarousal />
