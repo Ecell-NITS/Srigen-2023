@@ -7,34 +7,44 @@ import EventCarousal from "../EventCarousal/EventCarousal";
 const EventTab = () => {
   const { day1, day2, day3 } = DayData;
   const [dayId, setDay] = useState(day1);
-  const [barOne, setbarOne] = useState(styles.long);
-  const [barTwo, setbarTwo] = useState(styles.short);
-  const [barThree, setbarThree] = useState(styles.short);
   const [activeBar, setActiveBar] = useState(styles.activeOne);
+  const [bar, setBar] = useState({
+    one: styles.long,
+    two: styles.short,
+    three: styles.short,
+  });
 
   const TabChange = (e) => {
     const [id] = e.currentTarget.id;
 
     if (id === "1") {
       setDay(day1);
-      setbarOne(styles.long);
-      setbarTwo(styles.short);
-      setbarThree(styles.short);
+
+      setBar({
+        one: styles.long,
+        two: styles.short,
+        three: styles.short,
+      });
       setActiveBar(styles.activeOne);
     }
 
     if (id === "2") {
       setDay(day2);
-      setbarOne(styles.short);
-      setbarTwo(styles.long);
-      setbarThree(styles.short);
+      setBar({
+        one: styles.short,
+        two: styles.long,
+        three: styles.short,
+      });
       setActiveBar(styles.activeTwo);
     }
     if (id === "3") {
       setDay(day3);
-      setbarOne(styles.short);
-      setbarTwo(styles.short);
-      setbarThree(styles.long);
+
+      setBar({
+        one: styles.short,
+        two: styles.short,
+        three: styles.long,
+      });
       setActiveBar(styles.activeThree);
     }
   };
@@ -58,15 +68,15 @@ const EventTab = () => {
           <button id="1" onClick={TabChange} className={styles.dayBtn}>
             Day1
           </button>
-          <hr className={barOne} />
+          <hr className={bar.one} />
           <button id="2" onClick={TabChange} className={styles.dayBtn}>
             Day2
           </button>
-          <hr className={barTwo} />
+          <hr className={bar.two} />
           <button id="3" onClick={TabChange} className={styles.dayBtn}>
             Day3
           </button>
-          <hr className={barThree} />
+          <hr className={bar.three} />
         </div>
         <hr className={activeBar} />
 

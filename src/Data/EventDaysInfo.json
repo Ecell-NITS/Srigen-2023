@@ -92,7 +92,6 @@
     }
   ],
 
-
   "DayCarousal": [
     {
       "id": 0,
@@ -179,6 +178,5 @@
       "image": "https://plus.unsplash.com/premium_photo-1666900440561-94dcb6865554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
       "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
     }
-
   ]
 }
