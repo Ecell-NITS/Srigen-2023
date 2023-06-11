@@ -21,14 +21,12 @@ const EventCard = ({ content, title1, id, size, image }) => {
     <div
       key={id}
       className={styles.col}
-      // ={{ width: props.width }}
       onTouchStart={(event) => event.currentTarget.classList.toggle("hover")}
     >
       <div className={styles.container}>
         <div className={styles.front} style={{ backgroundImage: `url(${image})` }}>
           <div className={styles.inner}>
             <p>{title1}</p>
-            {/* <span>{props.subTitle}</span> */}
           </div>
         </div>
         <div className={styles.back}>

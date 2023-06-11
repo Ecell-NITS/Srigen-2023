@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
-// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import EventCard from "../EventCard/EventCard";
 import styles from "./EventCarousal.module.scss";
 import Data from "../../Data/EventDaysInfo.json";
@@ -34,16 +33,6 @@ const EventCarousal = () => {
         }}
         // swiper end
       >
-        {/* <div className={styles.controller}>
-          <div id="left" className={styles.prev}>
-            <IoIosArrowBack />
-          </div>
-          <div id="right" className={styles.next}>
-            {" "}
-            <IoIosArrowForward />
-          </div>
-        </div> */}
-
         <div>
           {carousalData.map((item) => (
             <SwiperSlide key={item.id}>
