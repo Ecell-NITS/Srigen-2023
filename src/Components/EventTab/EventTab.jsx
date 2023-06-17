@@ -77,8 +77,8 @@ const EventTab = () => {
             Day3
           </button>
           <hr className={bar.three} />
+          <hr className={activeBar} />
         </div>
-        <hr className={activeBar} />
 
         {/* .......................CARDS........................ */}
         <div className={styles.cards}>

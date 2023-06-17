@@ -62,12 +62,11 @@
 
   .days {
     display: flex;
-    margin: 0 5rem;
-    padding: 0 3rem;
+    row-gap: 0;
+    margin: 0 8.2rem;
     color: white;
     align-items: end;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: start;
     position: relative;
 
     .dayBtn {
@@ -78,7 +77,7 @@
       transition: ease 2s;
       font-weight: 550;
       font-family: var(--srijan4-font-1);
-      margin: 0 0.12rem;
+      min-width: 6rem;
 
       &:hover {
         cursor: pointer;
@@ -97,7 +96,8 @@
     }
     .short {
       height: 0.063rem;
-      width: 1vw;
+      min-width: 1rem;
+      max-width: 1rem;
       transition: all 1s;
       animation: ease 1s;
     }
@@ -105,36 +105,35 @@
 
   .activeOne {
     height: 0.263rem;
+    position: absolute;
     background-color: white;
     width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
-    transform: translate(8.3rem, 1vw);
+    transform: translate(0.5rem, 1rem);
   }
 
   .activeTwo {
     height: 0.263rem;
     background-color: white;
+    position: absolute;
     width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
-    transform: translate(14.5rem, 1vw);
+    transform: translate(0.5rem+6rem+1rem, 1rem);
   }
   .activeThree {
     height: 0.263rem;
     background-color: white;
+    position: absolute;
     width: 5rem;
     transition: all 0.5s;
     animation: ease 0.5s;
-    transform: translate(21.2rem, 1vw);
-
-    @media screen and (max-width: 1050px) {
-      transform: translate(20.6rem, 1vw);
-    }
+    transform: translate(0.5rem+ (6rem+1rem) * 2, 1rem);
   }
 
   .cards {
-    margin: 2% 5%;
+    margin: 5% 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
     place-items: center;
