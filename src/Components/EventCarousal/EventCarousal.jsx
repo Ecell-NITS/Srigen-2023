@@ -18,7 +18,7 @@ const EventCarousal = () => {
         modules={[Navigation, Autoplay, EffectCoverflow]}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         coverflowEffect={{
           rotate: 0,
