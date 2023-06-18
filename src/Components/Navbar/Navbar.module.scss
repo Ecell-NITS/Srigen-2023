@@ -1,51 +1,44 @@
 .navbar {
-  height: 6rem;
-  width: 100vw;
+  height: 0;
   display: flex;
   justify-content: space-between;
-  position: fixed;
   z-index: 10000;
 }
 .logo {
-  width: 10%;
-  margin-left: 3rem;
-  z-index: 1000;
-  position: fixed;
-  top: 1.5rem;
+  width: 10rem;
+  height: 5rem;
+  margin-left: 7rem;
+  z-index: 9000;
+  margin-top: 1rem;
 }
 .hamburger {
-  position: fixed;
-  right: 1rem;
-  z-index: 5000;
+  z-index: 100000;
   margin-top: 1.5rem;
   margin-right: 3rem;
 }
 
 .menu {
   position: fixed;
-  right: -50vw;
+  right: -50%;
   height: 100vh;
-  width: 50vw;
-  z-index: 1000;
+  width: 50%;
+  z-index: 10000;
   background: var(--srijan4-gradient-4);
   transition: all 0.4s;
 }
 .activate {
   position: fixed;
-  right: -50vw;
+  right: -50%;
   height: 100vh;
-  width: 50vw;
-  z-index: 1000;
+  width: 50%;
+  z-index: 10000;
   background: var(--srijan4-gradient-4);
   transform: translateX(-100%);
   transition: all 0.5s;
 }
-// .animate{
-//   animation-name: slideInRight;
-//   animation-duration: 0.5s;
 
-// }
 .mainMenu {
+  width: 100%;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -71,52 +64,70 @@
 .item:hover {
   transform: translateX(30px);
 }
+.ham {
+  display: block;
+  cursor: pointer;
+  margin-right: 5rem;
+  margin-top: 1.5rem;
+}
+.bar {
+  display: block;
+  width: 2.75rem;
+  height: 3px;
+  background-color: white;
+  margin: 0.75rem 0;
+}
 
 @media screen and (max-width: 1000px) {
+  .navbar {
+    position: relative;
+  }
+
   .menu {
-    width: 100vw;
+    width: 100%;
     right: -100vw;
+    height: 100svh;
     display: flex;
     justify-content: space-around;
   }
   .activate {
-    width: 100vw;
+    width: 100%;
+    height: 101svh;
     transform: translateX(-50.1%);
     display: flex;
     justify-content: space-around;
   }
+  .bar {
+    width: max(2rem, 5vw);
+    height: max(2.5px, 0.4vw);
+  }
+  .ham {
+    margin-top: -0.25rem;
+    margin-right: -1rem;
+  }
   .hamburger {
-    position: fixed;
+    position: relative;
     right: -0.5rem;
     top: -0.5rem;
   }
+  .logo {
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.875rem;
+  }
   .mainMenu {
-    font-size: 6vh;
+    font-size: 5.625vh;
+    gap: 2rem;
   }
 }
 
-// @keyframes slideInRight {
-// 	from {
-// 		transform: translateX(100%);
-// 	}
-// 	to {
-// 		transform: translateX(0);
-// 	}
-// }
-// @keyframes slideInLeft {
-// 	from {
-// 		transform: translateX(0);
-// 	}
-// 	to {
-// 		transform: translateX(100%);
-// 	}
-// }
-// @keyframes slideContentLeft{
-//   from{
-//     transform: translateX(0);
-//   }
-//   to{
-//     transform: translateX(-60%);
-//   }
-
-// }
+@media (min-width: 720px) and (max-width: 1000px) {
+  .ham {
+    margin-top: 0.5rem;
+  }
+  .logo {
+    margin-top: 1.25rem;
+  }
+}

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Pivot as Hamburger } from "hamburger-react";
 import style from "./Navbar.module.scss";
 
 const Navbar = () => {
@@ -23,7 +22,10 @@ const Navbar = () => {
         onClick={toggleMenu}
         onKeyDown={handleKeyDown}
       >
-        <Hamburger color="teal" />
+        <div className={style.ham}>
+          <span className={style.bar}></span>
+          <span className={style.bar}></span>
+        </div>
       </div>
       <div className={burger ? `${style.activate}` : `${style.menu}`}>
         <ul className={style.mainMenu}>
