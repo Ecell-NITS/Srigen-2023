@@ -67,6 +67,7 @@
     color: white;
     align-items: end;
     justify-content: start;
+    transition: all 1s;
     position: relative;
 
     .dayBtn {
@@ -91,45 +92,45 @@
     .long {
       height: 0.063rem;
       width: 60vw;
-      transition: all 1s;
       animation: ease 1s;
+      transition: all 1s ease;
     }
     .short {
       height: 0.063rem;
+      width: 1rem;
       min-width: 1rem;
-      max-width: 1rem;
-      transition: all 1s;
       animation: ease 1s;
+      transition: all 1s ease;
     }
-  }
 
-  .activeOne {
-    height: 0.263rem;
-    position: absolute;
-    background-color: white;
-    width: 5rem;
-    transition: all 0.5s;
-    animation: ease 0.5s;
-    transform: translate(0.5rem, 1rem);
-  }
+    .activeOne {
+      height: 0.263rem;
+      position: absolute;
+      background-color: white;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem, 1rem);
+    }
 
-  .activeTwo {
-    height: 0.263rem;
-    background-color: white;
-    position: absolute;
-    width: 5rem;
-    transition: all 0.5s;
-    animation: ease 0.5s;
-    transform: translate(0.5rem+6rem+1rem, 1rem);
-  }
-  .activeThree {
-    height: 0.263rem;
-    background-color: white;
-    position: absolute;
-    width: 5rem;
-    transition: all 0.5s;
-    animation: ease 0.5s;
-    transform: translate(0.5rem+ (6rem+1rem) * 2, 1rem);
+    .activeTwo {
+      height: 0.263rem;
+      background-color: white;
+      position: absolute;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem+6rem+1rem, 1rem);
+    }
+    .activeThree {
+      height: 0.263rem;
+      background-color: white;
+      position: absolute;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem+ (6rem+1rem) * 2, 1rem);
+    }
   }
 
   .cards {
