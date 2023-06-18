@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay, Navigation, EffectCoverflow } from "swiper";
 import EventCard from "../EventCard/EventCard";
 import styles from "./EventCarousal.module.scss";
 import Data from "../../Data/EventDaysInfo.json";
@@ -12,12 +12,13 @@ const EventCarousal = () => {
         className={styles.MySwiper}
         slidesPerView={1}
         effect="coverflow"
-        grabCursor={1}
+        grabCursor
         centeredSlides={1}
-        loop={1}
-        modules={[Navigation, Autoplay]}
+        loop
+        modules={[Navigation, Autoplay, EffectCoverflow]}
         autoplay={{
-          delay: 3000,
+          delay: 2500,
+          disableOnInteraction: false,
         }}
         coverflowEffect={{
           rotate: 0,
