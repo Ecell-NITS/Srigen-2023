@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import style from "./Navbar.module.scss";
 
 const Navbar = () => {
@@ -11,6 +11,20 @@ const Navbar = () => {
       toggleMenu();
     }
   };
+  const menuRef = useRef();
+  const hamRef = useRef();
+
+  useEffect(() => {
+    const handler = (e) => {
+      if (!menuRef.current.contains(e.target) && !hamRef.current.contains(e.target)) {
+        setBurger(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
 
   return (
     <nav className={style.navbar}>
@@ -22,12 +36,12 @@ const Navbar = () => {
         onClick={toggleMenu}
         onKeyDown={handleKeyDown}
       >
-        <div className={burger ? `${style.hamActive}` : `${style.ham}`}>
+        <div className={burger ? `${style.hamActive}` : `${style.ham}`} ref={hamRef}>
           <span className={style.bar}></span>
           <span className={style.bar}></span>
         </div>
       </div>
-      <div className={burger ? `${style.activate}` : `${style.menu}`}>
+      <div className={burger ? `${style.activate}` : `${style.menu}`} ref={menuRef}>
         <ul className={style.mainMenu}>
           <li className={`${style.active} ${style.item}`}>
             <a className={style.links} href="#!">
