@@ -22,7 +22,7 @@ const Navbar = () => {
         onClick={toggleMenu}
         onKeyDown={handleKeyDown}
       >
-        <div className={style.ham}>
+        <div className={burger ? `${style.hamActive}` : `${style.ham}`}>
           <span className={style.bar}></span>
           <span className={style.bar}></span>
         </div>
