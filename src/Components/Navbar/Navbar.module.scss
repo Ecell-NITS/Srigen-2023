@@ -92,6 +92,27 @@
   height: 3px;
   background-color: white;
   margin: 0.75rem 0;
+  transition: all 0.3s;
+}
+.barActive:nth-child(1) {
+  display: block;
+  width: 2.75rem;
+  height: 3px;
+  background-color: white;
+  margin: 0.75rem 0;
+  transform: rotate(45deg) scale(0.75);
+  transition: all 0.3s;
+}
+
+.barActive:nth-child(2) {
+  display: block;
+  width: 2.75rem;
+  height: 3px;
+  background-color: white;
+  margin: 0.75rem 0;
+  transform: translateY(-0.96rem) rotate(-45deg) scale(0.75);
+
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1000px) {
@@ -118,6 +139,13 @@
     width: max(2rem, 5vw);
     height: max(2.5px, 0.4vw);
   }
+  .barActive:nth-child(1) {
+    transform: translateY(0.96rem) rotate(45deg) scale(0.75);
+  }
+  .barActive:nth-child(2) {
+    transform: rotate(-45deg) scale(0.75);
+  }
+
   .ham {
     right: -1.5rem;
     top: -0.5rem;

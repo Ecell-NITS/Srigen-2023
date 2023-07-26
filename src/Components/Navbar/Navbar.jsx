@@ -37,8 +37,8 @@ const Navbar = () => {
         onKeyDown={handleKeyDown}
       >
         <div className={burger ? `${style.hamActive}` : `${style.ham}`} ref={hamRef}>
-          <span className={style.bar}></span>
-          <span className={style.bar}></span>
+          <span className={burger ? `${style.barActive}` : `${style.bar}`}></span>
+          <span className={burger ? `${style.barActive}` : `${style.bar}`}></span>
         </div>
       </div>
       <div className={burger ? `${style.activate}` : `${style.menu}`} ref={menuRef}>
