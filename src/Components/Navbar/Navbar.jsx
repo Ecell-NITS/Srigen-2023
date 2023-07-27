@@ -1,8 +1,10 @@
 import { useState, useEffect, useRef } from "react";
+import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.scss";
 
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
+
   const toggleMenu = () => {
     setBurger(!burger);
   };
@@ -11,6 +13,7 @@ const Navbar = () => {
       toggleMenu();
     }
   };
+
   const menuRef = useRef();
   const hamRef = useRef();
 
@@ -24,6 +27,16 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handler);
     };
+  });
+
+  useEffect(() => {
+    if (burger === true) {
+      document.body.style.height = "100dvh";
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.height = "";
+      document.body.style.overflow = "";
+    }
   });
 
   return (
@@ -44,39 +57,60 @@ const Navbar = () => {
       <div className={burger ? `${style.activate}` : `${style.menu}`} ref={menuRef}>
         <ul className={style.mainMenu}>
           <li className={`${style.active} ${style.item}`}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Home
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Gallery
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Events
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Workshops
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Speakers
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Team
-            </a>
+            </NavLink>
           </li>
           <li className={style.item}>
-            <a className={style.links} href="#!">
+            <NavLink
+              className={({ isActive }) => (isActive ? style.linkActive : style.links)}
+              to="#!"
+            >
               Contact
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

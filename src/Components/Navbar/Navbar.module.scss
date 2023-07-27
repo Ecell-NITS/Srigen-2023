@@ -51,16 +51,27 @@
 }
 .item {
   transition: transform 0.3s ease;
+  z-index: 2;
+}
+.links {
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
+  text-decoration: none;
   background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
-.links {
+.linkActive {
   font-family: var(--srijan4-font-2);
   font-weight: bold;
   text-decoration: none;
+  background: linear-gradient(90deg, #0066ff, #00d0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .item:hover {
   transform: translateX(30px);
@@ -93,26 +104,32 @@
   background-color: white;
   margin: 0.75rem 0;
   transition: all 0.3s;
+  border-radius: 5px;
 }
 .barActive:nth-child(1) {
   display: block;
   width: 2.75rem;
-  height: 3px;
+  height: 5px;
   background-color: white;
   margin: 0.75rem 0;
-  transform: rotate(45deg) scale(0.75);
+  transform: translateY(1.075rem) rotate(45deg);
   transition: all 0.3s;
+
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
 }
 
 .barActive:nth-child(2) {
   display: block;
   width: 2.75rem;
-  height: 3px;
+  height: 5px;
   background-color: white;
   margin: 0.75rem 0;
-  transform: translateY(-0.96rem) rotate(-45deg) scale(0.75);
-
+  transform: rotate(-45deg);
   transition: all 0.3s;
+
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
 }
 
 @media screen and (max-width: 1000px) {
@@ -140,7 +157,7 @@
     height: max(2.5px, 0.4vw);
   }
   .barActive:nth-child(1) {
-    transform: translateY(0.96rem) rotate(45deg) scale(0.75);
+    transform: translateY(1.075rem) rotate(45deg) scale(0.75);
   }
   .barActive:nth-child(2) {
     transform: rotate(-45deg) scale(0.75);
