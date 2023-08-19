@@ -7,7 +7,7 @@
 .logo {
   width: 10rem;
   height: 5rem;
-  margin-left: 7rem;
+  margin-left: 6vw;
   z-index: 9000;
   margin-top: 1rem;
 }
@@ -74,7 +74,7 @@
   text-fill-color: transparent;
 }
 .item:hover {
-  transform: translateX(30px);
+  transform: translateX(1.875rem);
 }
 // .ham {
 //   display: block;
@@ -86,49 +86,49 @@
   display: block;
   cursor: pointer;
   position: absolute;
-  right: 7rem;
+  right: 6vw;
   top: 2.9375rem;
 }
 .hamActive {
   display: block;
   cursor: pointer;
   position: fixed;
-  right: 7rem;
+  right: 6vw;
   top: 2.9375rem;
 }
 
 .bar {
   display: block;
   width: 2.75rem;
-  height: 3px;
+  height: 0.1875rem;
   background-color: white;
   margin: 0.75rem 0;
   transition: all 0.3s;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 .barActive:nth-child(1) {
   display: block;
   width: 2.75rem;
-  height: 5px;
+  height: 0.3125rem;
   background-color: white;
   margin: 0.75rem 0;
   transform: translateY(1.075rem) rotate(45deg);
   transition: all 0.3s;
 
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
 }
 
 .barActive:nth-child(2) {
   display: block;
   width: 2.75rem;
-  height: 5px;
+  height: 0.3125rem;
   background-color: white;
   margin: 0.75rem 0;
   transform: rotate(-45deg);
   transition: all 0.3s;
 
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
 }
 

@@ -11,12 +11,12 @@ dependencies:
   aos:
     specifier: 3.0.0-beta.6
     version: 3.0.0-beta.6
+  guidance-grid:
+    specifier: 'link:'
+    version: 'link:'
   hamburger-react:
     specifier: ^2.5.0
     version: 2.5.0(react@18.2.0)
-  pnpm:
-    specifier: ^8.6.3
-    version: 8.6.3
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2263,12 +2263,6 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
     dev: true
-
-  /pnpm@8.6.3:
-    resolution: {integrity: sha512-0Y4neugHIJEEa8y8oJMfd9wwgHkc1hIq6JC/UEEl2K92s3+zPaKH26n7u22m67E+MU6fpKRkx+/+PYWZzr5yQw==}
-    engines: {node: '>=16.14'}
-    hasBin: true
-    dev: false
 
   /postcss@8.4.19:
     resolution: {integrity: sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==}

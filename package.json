@@ -16,8 +16,8 @@
   "dependencies": {
     "@vitejs/plugin-react": "^2.2.0",
     "aos": "3.0.0-beta.6",
+    "guidance-grid": "link:",
     "hamburger-react": "^2.5.0",
-    "pnpm": "^8.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
