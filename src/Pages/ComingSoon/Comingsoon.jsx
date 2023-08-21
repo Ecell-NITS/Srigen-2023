@@ -10,7 +10,10 @@ const Comingsoon = () => {
     <div className={styles.tophead}>
       <div className={styles.main_content_comingsoon}>
         <div className={styles.topimg}>
-          <img src="./images/srijan2-removebg-preview.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692631690/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-21_at_20.57.24-removebg-preview_zy1clk.png"
+            alt=""
+          />
         </div>
 
         <div className={styles.moveleft}>
@@ -41,8 +44,8 @@ const Comingsoon = () => {
               <g>
                 <defs>
                   <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#b621fe" stopOpacity="0.225" />
-                    <stop offset="100%" stopColor="#1fd1f9" stopOpacity="0.225" />
+                    <stop offset="0%" stopColor="#b621fe" stopOpacity="0.7" />
+                    <stop offset="100%" stopColor="#1fd1f9" stopOpacity="0.7" />
                   </linearGradient>
                 </defs>
                 <path
@@ -333,6 +336,13 @@ const Comingsoon = () => {
       <About backgroundColor={backgroundColor} />
 
       <Sponsors bgColor={bgColor} />
+
+      <div className={styles.srijanlogo_bottom}>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692631690/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-21_at_20.57.24-removebg-preview_zy1clk.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
