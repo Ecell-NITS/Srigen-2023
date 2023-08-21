@@ -4,20 +4,28 @@ import { InView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import style from "./About.module.scss";
-const About = () => {
+const About = ({ backgroundColor }) => {
   useEffect(() => {
     AOS.init();
   }, []);
 
   const [isIntersecting, setIntersecting] = useState(false);
+
+  const sectionBg = {
+    background: backgroundColor.startsWith("linear-gradient")
+      ? backgroundColor
+      : backgroundColor,
+  };
+
   return (
-    <section className={style.about}>
+    <section className={style.about} style={sectionBg}>
       <div className={style.abt_out}>
         <div className={style.abt_txt}>
           <div className={style.abt_event} data-aos="fade-up">
             <div className={style.abt_head}>
               <h1>
-                About <span className={style.abt_span}>The Event</span>
+                <span className={style.aboutti}>About</span>{" "}
+                <span className={style.abt_span}>The Event</span>
               </h1>
             </div>
             <div className={style.abt_content}>
@@ -36,7 +44,8 @@ const About = () => {
             <div className={style.abt_nits} data-aos="fade-up">
               <div className={style.abt_head}>
                 <h1>
-                  About <span className={style.abt_span}>NIT Silchar</span>
+                  <span className={style.aboutti}>About</span>{" "}
+                  <span className={style.abt_span}>NIT Silchar</span>
                 </h1>
               </div>
               <div className={style.abt_content}>

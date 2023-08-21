@@ -1,5 +1,5 @@
 import {
-  Button,
+  // Button,
   Speakers,
   Sponsors,
   About,
@@ -14,12 +14,14 @@ import Data from "../../Data/EventCardData.json";
 const dummy = Data.cardDataArray;
 
 const Home = () => {
+  const backgroundColor = "var(--srijan4-gradient-4)";
+
   return (
     <main className={style.home}>
-      <h1>Home Page for Srijan 2023</h1>
-      <Button type="button" />
+      {/* <h1>Home Page for Srijan 2023</h1>
+      <Button type="button" /> */}
       <Hero />
-      <About />
+      <About backgroundColor={backgroundColor} />
       <GalleryCarousel />
 
       {dummy.map((data) => (

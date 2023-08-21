@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./Sponsors.module.scss";
 
-const Sponsors = () => {
+const Sponsors = ({ bgColor }) => {
+  const sectionBg = {
+    background: bgColor.startsWith("linear-gradient") ? bgColor : bgColor,
+  };
+
   return (
-    <div className={styles.sponsorsMain}>
+    <div className={styles.sponsorsMain} style={sectionBg}>
       <div className={styles.sponsorsHeader}>
         <p className={styles.mainHeader}>Our Sponsors</p>
         <p className={styles.headerSubtext}>
