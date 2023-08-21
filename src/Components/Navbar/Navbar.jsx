@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.scss";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
+  const [menuActive, setMenuActive] = useState(false);
 
   const toggleMenu = () => {
-    setMenu(!menu);
+    setMenuActive(!menuActive);
   };
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
@@ -20,7 +20,7 @@ const Navbar = () => {
   useEffect(() => {
     const handler = (e) => {
       if (!menuRef.current.contains(e.target) && !hamRef.current.contains(e.target)) {
-        setMenu(false);
+        setMenuActive(false);
       }
     };
     document.addEventListener("mousedown", handler);
@@ -30,14 +30,14 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (menu === true) {
+    if (menuActive === true) {
       document.body.style.height = "100dvh";
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.height = "";
       document.body.style.overflow = "";
     }
-  }, [menu]);
+  }, [menuActive]);
 
   return (
     <nav className={style.navbar}>
@@ -49,12 +49,12 @@ const Navbar = () => {
         onClick={toggleMenu}
         onKeyDown={handleKeyDown}
       >
-        <div className={menu ? `${style.hamActive}` : `${style.ham}`} ref={hamRef}>
-          <span className={menu ? `${style.barActive}` : `${style.bar}`}></span>
-          <span className={menu ? `${style.barActive}` : `${style.bar}`}></span>
+        <div className={menuActive ? `${style.hamActive}` : `${style.ham}`} ref={hamRef}>
+          <span className={menuActive ? `${style.barActive}` : `${style.bar}`}></span>
+          <span className={menuActive ? `${style.barActive}` : `${style.bar}`}></span>
         </div>
       </div>
-      <div className={menu ? `${style.activate}` : `${style.menu}`} ref={menuRef}>
+      <div className={menuActive ? `${style.activate}` : `${style.menu}`} ref={menuRef}>
         <ul className={style.mainMenu}>
           <li className={`${style.active} ${style.item}`}>
             <NavLink

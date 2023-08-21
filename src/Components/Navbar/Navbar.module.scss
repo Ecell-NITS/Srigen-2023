@@ -154,7 +154,7 @@
 
   .bar {
     width: max(2rem, 5vw);
-    height: max(2.5px, 0.4vw);
+    height: max(0.15625rem, 0.4vw);
   }
   .barActive:nth-child(1) {
     transform: translateY(1.075rem) rotate(45deg) scale(0.75);
