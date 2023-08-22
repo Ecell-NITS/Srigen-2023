@@ -30,13 +30,17 @@ const About = ({ backgroundColor }) => {
             </div>
             <div className={style.abt_content}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, augue
-                mattis condimentum gravida ultrices nunc sagittis, faucibus lacus. Ornare
-                urna nibh pellentesque odio senectus habitasse eu enim sit. Urna enim
-                egestas diam nulla sit. About NIT Silchar Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nisi, augue mattis condimentum gravida
-                ultrices nunc sagittis, faucibus lacus. Ornare urna nibh pellentesque odio
-                senectus habitasse eu enim sit. Urna enim egestas diam nulla sit.
+                Get ready to embark on a journey of innovation and entrepreneurship like
+                never before, as NIT Silchar&lsquo;s Entrepreneurship Cell proudly
+                presents ‘SriGen’! This event serves as a common platform for
+                collaboration and community-building among corporate experts and ambitious
+                young entrepreneurs hailing from NIT Silchar and esteemed institutions
+                nationwide. A number of events such as Startup Expo, Assam Startup
+                ,webinars and speaker sessions are held under SriGen with the primary goal
+                of giving shape to creative ideas proposed by brilliant minds. It
+                encourages innovative thinking, networking, and turning ideas into
+                real-world ventures, preparing students for the business world&lsquo;s
+                challenges and opportunities.
               </p>
             </div>
           </div>
@@ -50,14 +54,17 @@ const About = ({ backgroundColor }) => {
               </div>
               <div className={style.abt_content}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, augue
-                  mattis condimentum gravida ultrices nunc sagittis, faucibus lacus.
-                  Ornare urna nibh pellentesque odio senectus habitasse eu enim sit. Urna
-                  enim egestas diam nulla sit. About NIT Silchar Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Nisi, augue mattis condimentum
-                  gravida ultrices nunc sagittis, faucibus lacus. Ornare urna nibh
-                  pellentesque odio senectus habitasse eu enim sit. Urna enim egestas diam
-                  nulla sit.
+                  National Institute of Technology (NIT) Silchar is one of the premier
+                  engineering institutes in India. Established in 1967 as a Regional
+                  Engineering College (REC), it was upgraded to the status of an NIT in
+                  2002. The Institute is known for its rigorous academic standards and
+                  quality faculty. It encourages students and faculty to engage in
+                  research projects, publish papers, and contribute to technological
+                  advancements.It has been actively promoting entrepreneurship and
+                  innovation among its students and faculty. The institute recognizes the
+                  importance of fostering an entrepreneurial mindset and supporting
+                  startups that can contribute to economic growth and technological
+                  innovation.
                 </p>
               </div>
             </div>

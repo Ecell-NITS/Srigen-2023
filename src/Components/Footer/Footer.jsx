@@ -39,13 +39,13 @@ const Footer = () => {
           <p className={styles.credItemsphone}>
             Phone Number
             <span className={styles.credText}>
-              <a href="tel:9795888891">+91-9795888891</a>
+              <a href="tel:7080321990">+91-7080321990</a>
             </span>
           </p>
           <p className={styles.credItemsmobile}>
             Phone No.
             <span className={styles.credText}>
-              <a href="tel:9795888891">+91-9795888891</a>
+              <a href="tel:7080321990">+91-7080321990</a>
             </span>
           </p>
         </div>

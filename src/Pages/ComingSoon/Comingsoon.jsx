@@ -16,7 +16,7 @@ const Comingsoon = () => {
             alt=""
           /> */}
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692687776/SriGen4.0/coming%20soon/6_zsuanq_hyhdh6.webp"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692721416/SriGen4.0/coming%20soon/6-removebg-preview_bnogvg.webp"
             alt=""
           />
         </div>
