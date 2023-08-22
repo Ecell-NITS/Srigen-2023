@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Comingsoon.module.scss";
 import About from "../../Components/About/About";
-import Sponsors from "../Sponsors/Sponsors";
+// import Sponsors from "../Sponsors/Sponsors";
+import PreviousSponsors from "../Sponsors/PreviousSponsors";
 
 const Comingsoon = () => {
   const backgroundColor = "transparent";
-  const bgColor = "transparent";
+  // const bgColor = "transparent";
   return (
     <div className={styles.tophead}>
       <div className={styles.main_content_comingsoon}>
@@ -339,7 +340,24 @@ const Comingsoon = () => {
       </div>
       <About backgroundColor={backgroundColor} />
 
-      <Sponsors bgColor={bgColor} />
+      {/* <Sponsors bgColor={bgColor} /> */}
+      <PreviousSponsors />
+
+      <div className={styles.tshirtsection}>
+        <h1>
+          <span id={styles.tshirt_iso}>SriGen</span> <span>T-shirt</span>
+        </h1>
+        <div className={styles.image_tshirt_holder}>
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692716266/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-22_at_20.25.57-removebg-preview_wkchcf.webp"
+            alt="T-Shirt"
+          />
+        </div>
+
+        <div className={styles.btn_buy_shrigen_tshirt}>
+          <button>Order Now</button>
+        </div>
+      </div>
 
       <div className={styles.srijanlogo_bottom}>
         <img

@@ -39,23 +39,27 @@ const Footer = () => {
           <p className={styles.credItemsphone}>
             Phone Number
             <span className={styles.credText}>
-              <a href="tel:+91-xxxxxxxxxx">+91-xxxxxxxxxx</a>
+              <a href="tel:9795888891">+91-9795888891</a>
             </span>
           </p>
           <p className={styles.credItemsmobile}>
             Phone No.
             <span className={styles.credText}>
-              <a href="tel:+91-xxxxxxxxxx">+91-xxxxxxxxxx</a>
+              <a href="tel:9795888891">+91-9795888891</a>
             </span>
           </p>
         </div>
       </div>
       <div className={styles.containerFooter}>
         <p className={styles.footerDesc}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, purus tincidunt
-          tellus eros. Feugiat velit id sed sit id velit, adipiscing pulvinar orci. Et,
-          bibendum nibh pellentesque id sagittis adipiscing lorem. Elit egestas bibendum
-          morbi vitae, nullam nunc sagittis eget.
+          Stay Informed and Inspired!
+          <br />
+          <br />
+          Connect with us on social media to dive into the realm of innovation,
+          creativity, and endless possibilities! Connect with us for the latest
+          information and useful content regarding innovation and entrepreneurship, as
+          well as to learn more about the fantastic events that E-CELL NITS hosts. Join a
+          community that shares your passion for business and innovation.
         </p>
         <div className={styles.iconSection}>
           <a

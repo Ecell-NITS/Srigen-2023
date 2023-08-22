@@ -42,12 +42,12 @@
 
 .srigen {
   position: absolute;
-  top: 53.6%;
+  top: 53%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
   z-index: 2;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(7px);
   h1 {
     user-select: none;
     font-family: var(--Gilroy);
@@ -64,7 +64,7 @@
 .mirrortxt {
   user-select: none;
   position: absolute;
-  top: 53.6%;
+  top: 53%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -77,12 +77,17 @@
     bottom: 50%;
     left: 0;
     width: 100%;
-    height: 50%;
-    background: var(--srijan4-gradient-4);
-    backdrop-filter: blur(5px);
+    height: 30%;
+    // background: var(--srijan4-gradient-4);
+    // background: red;
+    // background: linear-gradient(161.91deg, #02010d90 0%, #04034467 66.54%);
+    backdrop-filter: blur(15px);
     border: none;
     outline: none;
-    z-index: -1;
+
+    box-shadow: inset 0px 0px 0px 100px #1f18348c;
+
+    border-radius: 15px;
   }
   h1 {
     font-size: 7.85vw;
@@ -191,7 +196,7 @@ $animationmobilespeed: 32s;
           font-family: var(--srijan5-font-5);
           font-weight: 200;
           // margin: 0 1.5vw;
-          margin-left: 1.65vw !important;
+          margin-left: 3.55vw !important;
         }
       }
     }
@@ -205,10 +210,57 @@ $animationmobilespeed: 32s;
 
 .srijanlogo_bottom {
   text-align: center;
+  margin-top: 8vw;
   padding: 2vw 0 5vw 0;
   img {
     width: 15%;
     object-fit: contain;
+  }
+}
+
+.tshirtsection {
+  text-align: center;
+  margin-top: 5vw;
+  h1 {
+    padding-bottom: 5vw;
+    span {
+      font-size: 3.45vw;
+      font-family: var(--srijan4-font-2);
+      color: white;
+    }
+  }
+
+  #tshirt_iso {
+    background: var(--srijan4-gradient-8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .image_tshirt_holder {
+    img {
+      width: 40%;
+      object-fit: contain;
+    }
+    padding-bottom: 5vw;
+  }
+
+  .btn_buy_shrigen_tshirt {
+    button {
+      display: block;
+      color: white;
+      background: var(--srijan4-gradient-13);
+      border: none;
+      outline: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0.5vw 2vw;
+      font-size: 1.5vw;
+      border-radius: 15px;
+      cursor: pointer;
+      font-family: var(--srijan4-font-1);
+      font-weight: 700;
+    }
   }
 }
 
@@ -353,7 +405,7 @@ $animationmobilespeed: 32s;
 
           h1 {
             font-size: 2vw;
-            margin-left: 5vw !important;
+            margin-left: 6.6vw !important;
           }
         }
       }
@@ -374,21 +426,79 @@ $animationmobilespeed: 32s;
   .srijanlogo_bottom {
     text-align: center;
     padding: 4vw 0 14vw 0;
+    margin-top: 15vw;
     img {
-      width: 30%;
+      width: 35%;
       object-fit: contain;
+    }
+  }
+
+  .tshirtsection {
+    margin-top: 15vw;
+    h1 {
+      padding-bottom: 10vw;
+      span {
+        font-size: 7.8vw;
+      }
+    }
+
+    .image_tshirt_holder {
+      img {
+        width: 80%;
+        object-fit: contain;
+      }
+      padding-bottom: 10vw;
+    }
+
+    .btn_buy_shrigen_tshirt {
+      button {
+        padding: 1.5vw 6vw;
+        font-size: 3vw;
+        border-radius: 15px;
+        font-weight: 500;
+      }
     }
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 540px) {
   .comingtranslate {
     .slidercomingmain {
       .slidetrackcoming {
         .individualcomingdiv {
           svg {
-            width: 15px;
-            height: 15px;
+            width: 3.5vw;
+            height: 3.5vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .comingtranslate {
+    .slidercomingmain {
+      .slidetrackcoming {
+        .individualcomingdiv {
+          svg {
+            width: 3.5vw;
+            height: 3.5vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .comingtranslate {
+    .slidercomingmain {
+      .slidetrackcoming {
+        .individualcomingdiv {
+          svg {
+            width: 3.4vw;
+            height: 3.4vw;
           }
         }
       }
