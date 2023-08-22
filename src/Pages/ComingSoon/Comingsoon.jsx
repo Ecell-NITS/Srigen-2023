@@ -7,6 +7,8 @@ import PreviousSponsors from "../Sponsors/PreviousSponsors";
 const Comingsoon = () => {
   const backgroundColor = "transparent";
   // const bgColor = "transparent";
+  const spanColor = "var(--srijan4-gradient-8)";
+
   return (
     <div className={styles.tophead}>
       <div className={styles.main_content_comingsoon}>
@@ -341,7 +343,7 @@ const Comingsoon = () => {
       <About backgroundColor={backgroundColor} />
 
       {/* <Sponsors bgColor={bgColor} /> */}
-      <PreviousSponsors />
+      <PreviousSponsors spanColor={spanColor} />
 
       <div className={styles.tshirtsection}>
         <h1>

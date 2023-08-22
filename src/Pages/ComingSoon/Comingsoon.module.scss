@@ -55,6 +55,7 @@
     font-weight: 600;
     // background-color: var(--srijan4-gradient-15);
     background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
+    // background: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,7 +71,7 @@
   transition: all 0.3s ease-in-out;
   z-index: 20 !important;
   opacity: 0.35;
-  margin-top: 7vw;
+  margin-top: 6.7vw;
   ::before {
     content: "";
     position: absolute;
@@ -78,16 +79,12 @@
     left: 0;
     width: 100%;
     height: 30%;
-    // background: var(--srijan4-gradient-4);
-    // background: red;
-    // background: linear-gradient(161.91deg, #02010d90 0%, #04034467 66.54%);
-    backdrop-filter: blur(15px);
     border: none;
     outline: none;
-
     box-shadow: inset 0px 0px 0px 100px #1f18348c;
-    opacity: 0.5;
-    border-radius: 15px;
+    background: var(--srijan4-gradient-4);
+    // background-color: red !important;
+    opacity: 0.6;
   }
   h1 {
     font-size: 7.85vw;
@@ -135,6 +132,18 @@
   svg {
     width: 75vw;
     height: 75vw;
+  }
+  svg:before {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    border: none;
+    outline: none;
+    box-shadow: inset 0px 0px 0px 100px #1f18348c;
+    // box-shadow: inset 0px 0px 0px 100px red;
   }
 }
 
@@ -306,7 +315,7 @@ $animationmobilespeed: 32s;
   .diamond {
     position: absolute;
     top: 60%;
-    left: 35%;
+    left: 38%;
     transform: translate(-50%, -50%);
     z-index: 2;
     transition: all 0.3s ease-in-out;
@@ -339,9 +348,20 @@ $animationmobilespeed: 32s;
     top: 54.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
-    margin-top: 8.5vw;
+    margin-top: 7.5vw;
     z-index: 2;
-
+    ::before {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      left: 0;
+      width: 100%;
+      height: 30%;
+      border: none;
+      outline: none;
+      box-shadow: inset 0px 0px 0px 100px #1f18348c;
+      opacity: 0.5;
+    }
     h1 {
       font-size: 8vw;
       font-weight: 600;
@@ -353,14 +373,14 @@ $animationmobilespeed: 32s;
   .moveleft:hover .srigen {
     position: absolute;
     top: 54.5% !important;
-    left: 35% !important;
+    left: 38% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
     top: 54.5% !important;
-    left: 35% !important;
+    left: 38% !important;
     transform: translate(-50%, -50%);
   }
 
@@ -372,7 +392,7 @@ $animationmobilespeed: 32s;
     width: auto;
     height: auto;
     img {
-      min-width: 110%;
+      min-width: 120%;
       object-fit: cover;
     }
   }

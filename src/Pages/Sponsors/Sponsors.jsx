@@ -7,6 +7,8 @@ const Sponsors = ({ bgColor }) => {
     background: bgColor.startsWith("linear-gradient") ? bgColor : bgColor,
   };
 
+  const spanColor = "white";
+
   return (
     <div className={styles.sponsorsMain} style={sectionBg}>
       <div className={styles.sponsorsHeader}>
@@ -128,7 +130,7 @@ const Sponsors = ({ bgColor }) => {
         </div>
       </div>
 
-      <PreviousSponsors />
+      <PreviousSponsors spanColor={spanColor} />
     </div>
   );
 };
