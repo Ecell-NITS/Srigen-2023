@@ -10,8 +10,12 @@ const Comingsoon = () => {
     <div className={styles.tophead}>
       <div className={styles.main_content_comingsoon}>
         <div className={styles.topimg}>
+          {/* <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692642838/SriGen4.0/coming%20soon/sriGen2023_logo-removebg-preview_vxwueo.webp"
+            alt=""
+          /> */}
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692631690/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-21_at_20.57.24-removebg-preview_zy1clk.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692687776/SriGen4.0/coming%20soon/6_zsuanq_hyhdh6.webp"
             alt=""
           />
         </div>
@@ -339,8 +343,8 @@ const Comingsoon = () => {
 
       <div className={styles.srijanlogo_bottom}>
         <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692631690/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-21_at_20.57.24-removebg-preview_zy1clk.png"
-          alt=""
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692687691/SriGen4.0/coming%20soon/sriGen2023_logo_unbdvl_ofpg1l.webp"
+          alt="SriGen logo"
         />
       </div>
     </div>

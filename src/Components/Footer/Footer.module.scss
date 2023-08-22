@@ -43,6 +43,10 @@
   font-weight: 900;
   display: block;
   margin-top: 0.5rem;
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 .credItemsmobile {
   display: none;
