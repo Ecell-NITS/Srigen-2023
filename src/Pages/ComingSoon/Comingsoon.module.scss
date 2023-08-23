@@ -219,10 +219,29 @@ $animationmobilespeed: 32s;
 
 .srijanlogo_bottom {
   text-align: center;
-  margin-top: 8vw;
+  margin-top: 4vw;
   padding: 2vw 0 5vw 0;
+  .logo_parent {
+    border-radius: 10px;
+    background: linear-gradient(
+      138deg,
+      rgba(255, 255, 255, 0.56) 0%,
+      rgba(255, 255, 255, 0.29) 100%
+    );
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    height: 20vw;
+    width: 22.5vw;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   img {
-    width: 15%;
+    width: 60%;
+    pointer-events: none;
     object-fit: contain;
   }
 }
@@ -446,9 +465,13 @@ $animationmobilespeed: 32s;
   .srijanlogo_bottom {
     text-align: center;
     padding: 4vw 0 14vw 0;
-    margin-top: 15vw;
+    margin-top: 9vw;
+    .logo_parent {
+      height: 40vw;
+      width: 42.5vw;
+    }
     img {
-      width: 35%;
+      width: 60%;
       object-fit: contain;
     }
   }
