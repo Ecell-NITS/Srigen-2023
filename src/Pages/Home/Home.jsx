@@ -11,7 +11,8 @@ import {
 import style from "./Home.module.scss";
 
 const Home = () => {
-  const backgroundColor = "var(--srijan4-gradient-4)";
+  // const backgroundColor = "var(--srijan4-gradient-4)";
+  const backgroundColor = "transparent";
 
   return (
     <main className={style.home}>

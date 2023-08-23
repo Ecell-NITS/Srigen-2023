@@ -18,7 +18,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                National Institute of Technology Silchar Cachar, Assam
+                National Institute of Technology Silchar, Cachar, Assam
               </a>
             </span>
           </p>

@@ -1,8 +1,22 @@
+.Container {
+  padding-top: 3vw;
+  .title {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: var(--srijan4-font-1);
+    background: var(--srijan4-gradient-1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 .MySwiper {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 2% 2% 5% 2%;
   height: 85vh;
 }
 
@@ -64,10 +78,12 @@
 
 .nxtarrow {
   font-size: 4.2vw;
+  cursor: pointer;
 }
 
 .bckarrow {
   font-size: 4.2vw;
+  cursor: pointer;
 }
 
 .swiper-slide-next {
@@ -75,8 +91,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .Container {
+    padding-top: 6vw;
+    .title {
+      font-size: 8vw;
+    }
+  }
+
   .MySwiper {
     height: 50vh;
+    padding: 5% 5% 10% 5%;
   }
 
   .swiperButtonNext {
