@@ -18,7 +18,7 @@
 .Box {
   height: 100%;
   filter: grayscale(100%);
-  transition: all 1s;
+  transition: all 0.25s;
 
   &:hover {
     filter: none;
