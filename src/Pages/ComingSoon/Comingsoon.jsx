@@ -362,10 +362,12 @@ const Comingsoon = () => {
       </div>
 
       <div className={styles.srijanlogo_bottom}>
-        <img
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692687691/SriGen4.0/coming%20soon/sriGen2023_logo_unbdvl_ofpg1l.webp"
-          alt="SriGen logo"
-        />
+        <div className={styles.logo_parent}>
+          <img
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692819661/SriGen4.0/WhatsApp_Image_2023-08-24_at_01.08.14-removebg-preview_hxy0s0.png"
+            alt="SriGen logo"
+          />
+        </div>
       </div>
     </div>
   );
