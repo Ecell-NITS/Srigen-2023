@@ -1,5 +1,5 @@
 .sponsorsMain {
-  // background: var(--srijan4-gradient-3);
+  background: var(--srijan4-gradient-3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@
 
 .currSponsors,
 .prevSponsorsmobile {
-  // background-color: var(--srijan4-dark-blue);
+  background-color: var(--srijan4-dark-blue);
   width: 80.9vw;
   max-width: 80.9vw;
   margin: auto;
@@ -81,7 +81,7 @@
 }
 
 .prevSponsors {
-  // background-color: var(--srijan4-dark-blue);
+  background-color: var(--srijan4-dark-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,11 +102,6 @@
   font-weight: 600;
   font-size: 2.8125rem;
   line-height: 4.25rem;
-  .previous_custom {
-    background-clip: text !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-  }
 }
 
 .brandGrid2 {
@@ -114,6 +109,16 @@
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
   gap: 2.9375rem;
+}
+.brandLogo {
+  object-fit: cover;
+  width: 100%;
+}
+.lastcol {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  max-width: min(30rem, 25vw);
 }
 
 @media screen and (max-width: 1200px) {

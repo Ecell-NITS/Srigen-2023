@@ -19,140 +19,121 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="/logos/edt.webp"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="/logos/blackmarble.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="/logos/cubelelo.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="/logos/gfg.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="/logos/truescholar.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="/logos/assamstartup.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="/logos/finlatics.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="/logos/pnb.avif"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="/logos/kwikpic.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="/logos/sstart.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="/logos/engineerhub.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="/logos/stockgro.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="/logos/youngep.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="/logos/anterprer.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="/logos/ivycamp.png"
             />
           </div>
+        </div>
+        <div className={styles.lastcol}>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="/logos/jantagroup.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="/logos/learning.png"
             />
           </div>
         </div>
@@ -179,7 +160,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              src="/logos/edt.webp"
             />
           </div>
           <div className={styles.brandItem}>
@@ -187,7 +168,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              src="/logos/blackmarble.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -195,7 +176,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              src="/logos/gfg.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -203,7 +184,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              src="/logos/truescholar.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -211,7 +192,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              src="/logos/pnb.avif"
             />
           </div>
           <div className={styles.brandItem}>
@@ -219,7 +200,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              src="/logos/finlatics.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -227,7 +208,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              src="/logos/assamstartup.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -235,7 +216,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              src="/logos/kwikpic.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -243,7 +224,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              src="/logos/engineerhub.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -251,7 +232,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              src="/logos/cubelelo.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -259,7 +240,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              src="/logos/sstart.png"
             />
           </div>
           <div className={styles.brandItem}>
@@ -267,7 +248,7 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              src="/logos/stockgro.png"
             />
           </div>
         </div>
