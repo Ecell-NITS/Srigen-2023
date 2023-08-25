@@ -1,0 +1,21 @@
+.Box {
+  display: flex;
+  justify-content: center;
+}
+
+.controller {
+  color: white;
+  position: relative;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  .next,
+  .prev {
+    font-size: 2rem;
+    padding: 0 3vw;
+    position: relative;
+    top: -10rem;
+    z-index: 100;
+  }
+}

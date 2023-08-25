@@ -1,8 +1,13 @@
+.about {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .abt_out {
   display: flex;
   position: relative;
   justify-content: space-between;
-  margin: 5% 2.5%;
+  margin: 0% 2.5%;
 }
 .abt_txt {
   position: relative;
@@ -20,11 +25,18 @@
   font-size: 1.5rem;
   line-height: 50px;
 }
+
+.aboutti {
+  color: #fff;
+}
+
 .abt_span {
-  background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
+  // background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
+  background: linear-gradient(180deg, #0704b9 0%, #b4015f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  // color: #fff !important;
 }
 .abt_content {
   font-family: var(--srijan4-font-2);
@@ -35,6 +47,7 @@
   color: var(--srijan4-dark-grey);
   width: 100%;
   margin: 1.5% 0;
+  color: rgba(255, 255, 255, 0.72);
 }
 .abt_anim {
   display: flex;
@@ -55,7 +68,8 @@
   width: 25rem;
   height: 25rem;
   border-radius: 50%;
-  border: 1px solid var(--srijan4-dark-grey);
+  // border: 1px solid var(--srijan4-dark-grey);
+  border: 1px solid rgba(255, 255, 255, 0.64);
 }
 .logo_circle_l,
 .logo_circle_s {

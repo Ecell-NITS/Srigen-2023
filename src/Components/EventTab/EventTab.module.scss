@@ -1,0 +1,160 @@
+.container {
+  margin: 0 0;
+  padding: 3rem 0;
+  margin-bottom: -1rem;
+  display: block;
+  background-color: #15131a;
+  height: fit-content;
+
+  .head {
+    padding: 1rem 0;
+    font-family: var(--srijan4-font-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 150%;
+    width: 100%;
+    gap: 7vw;
+
+    @media screen and (max-width: 650px) {
+      display: flex;
+      flex-direction: column;
+      font-size: 110%;
+      margin-bottom: -3rem;
+    }
+
+    .heading {
+      height: fit-content;
+      font-weight: 600;
+    }
+
+    .headingGradient {
+      font-weight: 600;
+      background: var(--srijan4-gradient-10);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    .logo {
+      width: 8rem;
+      position: relative;
+      aspect-ratio: 1/1;
+
+      @media screen and (max-width: 650px) {
+        margin: 0 0 4rem 0;
+        width: 6rem;
+      }
+
+      .logoBorder {
+        width: 100%;
+        position: absolute;
+      }
+
+      .logoImage {
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .days {
+    display: flex;
+    row-gap: 0;
+    margin: 0 8.2rem;
+    color: white;
+    align-items: end;
+    justify-content: start;
+    transition: all 1s;
+    position: relative;
+
+    .dayBtn {
+      font-size: 2.2rem;
+      background: none;
+      color: white;
+      border: none;
+      transition: ease 2s;
+      font-weight: 550;
+      font-family: var(--srijan4-font-1);
+      min-width: 6rem;
+
+      &:hover {
+        cursor: pointer;
+        background: var(--srijan4-gradient-10);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+    }
+
+    .long {
+      height: 0.063rem;
+      width: 60vw;
+      animation: ease 1s;
+      transition: all 1s ease;
+    }
+    .short {
+      height: 0.063rem;
+      width: 1rem;
+      min-width: 1rem;
+      animation: ease 1s;
+      transition: all 1s ease;
+    }
+
+    .activeOne {
+      height: 0.263rem;
+      position: absolute;
+      background-color: white;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem, 1rem);
+    }
+
+    .activeTwo {
+      height: 0.263rem;
+      background-color: white;
+      position: absolute;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem+6rem+1rem, 1rem);
+    }
+    .activeThree {
+      height: 0.263rem;
+      background-color: white;
+      position: absolute;
+      width: 5rem;
+      transition: all 0.5s ease;
+      animation: ease 0.5s;
+      transform: translate(0.5rem+ (6rem+1rem) * 2, 1rem);
+    }
+  }
+
+  .cards {
+    margin: 5% 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    place-items: center;
+  }
+
+  .eventTabs {
+    display: block;
+
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+  }
+
+  .eventCarousal {
+    display: none;
+
+    @media screen and (max-width: 700px) {
+      display: block;
+    }
+  }
+}
