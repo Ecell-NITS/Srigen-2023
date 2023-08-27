@@ -9,6 +9,12 @@ const Comingsoon = () => {
   // const bgColor = "transparent";
   const spanColor = "var(--srijan4-gradient-8)";
 
+  const handleGoToBrochure = () => {
+    window.open(
+      "https://drive.google.com/file/d/13_UqI2r2NkvjfC_lIkhcehV7pebS5Az3/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <div className={styles.tophead}>
       <div className={styles.main_content_comingsoon}>
@@ -368,6 +374,12 @@ const Comingsoon = () => {
             alt="SriGen logo"
           />
         </div>
+      </div>
+
+      <div className={styles.btnholder_brochure}>
+        <button onClick={handleGoToBrochure} className={styles.button_download_bro}>
+          Download Brochure
+        </button>
       </div>
     </div>
   );

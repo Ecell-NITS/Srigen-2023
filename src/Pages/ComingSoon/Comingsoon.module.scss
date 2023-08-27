@@ -292,6 +292,25 @@ $animationmobilespeed: 32s;
   }
 }
 
+.btnholder_brochure {
+  padding-bottom: 5vw;
+  .button_download_bro {
+    display: block;
+    color: white;
+    background: var(--srijan4-gradient-1);
+    padding: 0.5vw 2vw;
+    border: none;
+    outline: none;
+    margin: 2vw auto;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: var(--srijan4-font-1);
+    border-radius: 20px;
+    transition: all 0.25s ease-in-out;
+    font-size: 1.25vw;
+  }
+}
+
 @media (max-width: 900px) and (min-width: 661px) {
   .srigen {
     position: absolute;
@@ -331,6 +350,15 @@ $animationmobilespeed: 32s;
 }
 
 @media (max-width: 660px) {
+  //comingsoon.module.scss
+
+  //line334
+
+  .topimg {
+    img {
+      width: 50px;
+    }
+  }
   .diamond {
     position: absolute;
     top: 60%;
@@ -477,7 +505,7 @@ $animationmobilespeed: 32s;
   }
 
   .tshirtsection {
-    margin-top: 15vw;
+    margin-top: 23vw;
     h1 {
       padding-bottom: 10vw;
       span {
@@ -500,6 +528,19 @@ $animationmobilespeed: 32s;
         border-radius: 15px;
         font-weight: 500;
       }
+    }
+  }
+
+  .btnholder_brochure {
+    padding-bottom: 5vw;
+    .button_download_bro {
+      display: block;
+      color: white;
+      background: var(--srijan4-gradient-1);
+      padding: 2vw 6vw;
+      margin: 4vw auto;
+      border-radius: 10px;
+      font-size: 3vw;
     }
   }
 }
