@@ -1,0 +1,182 @@
+{
+  "day1": [
+    {
+      "id": 10,
+      "title1": "IPL Auction day1",
+      "title2": "Lorem ipsum",
+      "image": "https://wallpapercave.com/wp/wp4789782.jpg",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 11,
+      "title1": "Tech Nerds day 1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/free-photo/colleagues-reading-using-laptop-during-study-session_23-2149285397.jpg?w=740&t=st=1677492146~exp=1677492746~hmac=d16efa4df126d4c5afb1125cc7dcf5aea2e81bf3b966d118c10a4ea4af85ee42",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 12,
+      "title1": "Outwit the Board Room day1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/premium-photo/office-business-boardroom-meeting-room-conference-table-modern-style-3d-rendering_43151-405.jpg?w=1480",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 13,
+      "title1": "StartUp Expo day1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/free-photo/young-attractive-business-colleagues-thoughtfully-working-new-project-with-laptop-papers-modern-office_574295-5141.jpg?w=1480&t=st=1677492084~exp=1677492684~hmac=b34d6995be0dffb4c22e5af28e5f79e49e7141167ab39ff6edf6effd91d68185",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    }
+  ],
+
+  "day2": [
+    {
+      "id": 20,
+      "title1": "IPL Auction 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 21,
+      "title1": "Tech Nerds 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 22,
+      "title1": "Outwit the Board Room 2",
+      "title2": "Lorem ipsum",
+      "image": "https://plus.unsplash.com/premium_photo-1661274050137-edc61fa89ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 23,
+      "title1": "StartUp Expo 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    }
+  ],
+
+  "day3": [
+    {
+      "id": 30,
+      "title1": "IPL Auction 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1550686041-366ad85a1355?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 31,
+      "title1": "Tech Nerds 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 32,
+      "title1": "Outwit the Board Room 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 33,
+      "title1": "StartUp Expo 3",
+      "title2": "Lorem ipsum",
+      "image": "https://plus.unsplash.com/premium_photo-1666900440561-94dcb6865554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    }
+  ],
+
+  "DayCarousal": [
+    {
+      "id": 0,
+      "title1": "IPL Auction day1",
+      "title2": "Lorem ipsum",
+      "image": "https://wallpapercave.com/wp/wp4789782.jpg",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 1,
+      "title1": "Tech Nerds day 1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/free-photo/colleagues-reading-using-laptop-during-study-session_23-2149285397.jpg?w=740&t=st=1677492146~exp=1677492746~hmac=d16efa4df126d4c5afb1125cc7dcf5aea2e81bf3b966d118c10a4ea4af85ee42",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 2,
+      "title1": "Outwit the Board Room day1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/premium-photo/office-business-boardroom-meeting-room-conference-table-modern-style-3d-rendering_43151-405.jpg?w=1480",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 3,
+      "title1": "StartUp Expo day1",
+      "title2": "Lorem ipsum",
+      "image": "https://img.freepik.com/free-photo/young-attractive-business-colleagues-thoughtfully-working-new-project-with-laptop-papers-modern-office_574295-5141.jpg?w=1480&t=st=1677492084~exp=1677492684~hmac=b34d6995be0dffb4c22e5af28e5f79e49e7141167ab39ff6edf6effd91d68185",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    },
+    {
+      "id": 4,
+      "title1": "IPL Auction 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 5,
+      "title1": "Tech Nerds 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 6,
+      "title1": "Outwit the Board Room 2",
+      "title2": "Lorem ipsum",
+      "image": "https://plus.unsplash.com/premium_photo-1661274050137-edc61fa89ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 7,
+      "title1": "StartUp Expo 2",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    },
+
+    {
+      "id": 8,
+      "title1": "IPL Auction 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1550686041-366ad85a1355?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Teams will have the option to  Teams will have the option to rLorem ipsum dolor sit amet consectetur adipisicing elit.dolor sit amet consectetur adipisicing elit. Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus.  Libero nisi nostrum et veniam porro cum dignissimos at quasi assumenda repellat debitis aperiam dolorem rerum officiis, sit necessitatibus numquam reprehenderit consequatur commodi expedita. Saepe quos quasi, unde nihil soluta eos voluptatibus laborum corrupti, culpa, reiciendis quidem dicta? Eaque corporis tenetur laborum necessitatibus. Aperiam, commodi velit, porro aliquid pariatur ipsam maiores vero praesentium obcaecati, officia assumenda ex eveniet rerum. Qui voluptas, iure repellat consectetur iste asperiores nihil nesciunt laborum fugiat facere ipsa mollitia quasi corporis similique, placeat nulla aliquid. Id ipsa quia, laborum, soluta ratione necessitatibus laboriosam debitis temporibus magni dolore quasi.  ."
+    },
+    {
+      "id": 9,
+      "title1": "Tech Nerds 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Technerd, a competition that allows you to demonstrate your technical expertise. Utilize your technical competencies to overcome all the barriers to your idea and bring about a satisfactory output that is beneficial to everyone."
+    },
+    {
+      "id": 10,
+      "title1": "Outwit the Board Room 3",
+      "title2": "Lorem ipsum",
+      "image": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Outwit the Board Room” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go."
+    },
+    {
+      "id": 11,
+      "title1": "StartUp Expo 3",
+      "title2": "Lorem ipsum",
+      "image": "https://plus.unsplash.com/premium_photo-1666900440561-94dcb6865554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "content": "Startup Expo is the one-in-all stop to get your startup the boost it needs to reach its full potential. It is the ideal avenue that lures investors, influencers and attendees from anywhere and everywhere."
+    }
+  ]
+}

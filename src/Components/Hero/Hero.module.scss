@@ -3,7 +3,6 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-
   .bg,
   .cliff,
   .bridge,
@@ -63,9 +62,9 @@
   }
   .astronaut {
     width: 15em;
-    height: 20em;
+    height: 18em;
     position: absolute;
-    bottom: -9em;
+    bottom: -10em;
     left: 10%;
     animation: animate 1.5s ease forwards;
 

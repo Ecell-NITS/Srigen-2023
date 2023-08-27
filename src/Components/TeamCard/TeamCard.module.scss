@@ -90,6 +90,7 @@
   .cardContainer {
     width: 9rem;
     height: 12rem;
+    margin: 1.5rem 3rem;
 
     .cardBody {
       .memberName {
@@ -112,8 +113,14 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .cardContainer {
-    margin: 1.5rem 3rem;
+    margin: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cardContainer {
+    margin: 1.5rem 0.4rem;
   }
 }
