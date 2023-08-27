@@ -156,7 +156,6 @@ const PreviousSponsors = ({ spanColor }) => {
         </div>
         <div className={styles.brandGrid}>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
@@ -164,7 +163,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
@@ -172,7 +170,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
@@ -180,7 +177,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
@@ -188,7 +184,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
@@ -196,7 +191,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
@@ -204,7 +198,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
@@ -212,7 +205,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
@@ -220,7 +212,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}
@@ -228,7 +219,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo2} ${styles.brandLogo}`}
@@ -236,7 +226,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo3} ${styles.brandLogo}`}
@@ -244,7 +233,6 @@ const PreviousSponsors = ({ spanColor }) => {
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
               className={`${styles.brandLogo4} ${styles.brandLogo}`}

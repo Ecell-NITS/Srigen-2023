@@ -1,5 +1,4 @@
 .sponsorsMain {
-  //background: var(--srijan4-gradient-3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +33,6 @@
 
 .currSponsors,
 .prevSponsorsmobile {
-  //background-color: var(--srijan4-dark-blue);
   width: 80.9vw;
   max-width: 80.9vw;
   margin: auto;
@@ -81,7 +79,6 @@
 }
 
 .prevSponsors {
-  //background-color: var(--srijan4-dark-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,11 +116,30 @@
   object-fit: cover;
   width: 100%;
 }
+
+.prevSponsors,
+.prevSponsorsmobile {
+  .brandItem {
+    background-color: white;
+    padding: 0.5vw 0.5vw 0 0.5vw;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 5px #b4015f;
+  }
+}
+
 .lastcol {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
-  max-width: min(30rem, 25vw);
+  margin-top: 3rem;
+  width: 31vw;
+  height: 14vw;
 }
 
 @media screen and (max-width: 1200px) {
