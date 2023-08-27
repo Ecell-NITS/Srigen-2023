@@ -19,140 +19,121 @@ const PreviousSponsors = ({ spanColor }) => {
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1685354010/Ecell%20website/edtimes_logo_bhl4ec.webp"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990266/collaboration-ecell/blackmarble00_q3mowc.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989598/collaboration-ecell/Cubeleloresized_jimc2g.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990589/collaboration-ecell/gfgre_xzhxha.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990660/collaboration-ecell/truscholarres_korsx7.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990737/collaboration-ecell/assamStartUpres_n2fbxv.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989494/collaboration-ecell/finlatics_dh1suv.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676524279/collaboration-ecell/PNB_Icon-resize_aghkjd.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676988769/collaboration-ecell/kwikpicghj_x7cy2p.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676988848/collaboration-ecell/ssstartRe_xea2cl.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693146006/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-27_at_19.44.00_wn0xmd.webp"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989170/collaboration-ecell/stockGroRE_ymge3d.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989292/collaboration-ecell/yenRE_zgrknu.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989412/collaboration-ecell/anterprerna_susjet.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989729/collaboration-ecell/IvyCap_bnxqmc.png"
             />
           </div>
+        </div>
+        <div className={styles.lastcol}>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini1} ${styles.brandLogo}`}
-              src="/logos/asus-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989825/collaboration-ecell/jantaGroup_apsnyg.png"
             />
           </div>
           <div className={styles.brandItem}>
             <img
               alt="text"
               className={`${styles.brandLogomini2} ${styles.brandLogo}`}
-              src="/logos/devfolio-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
-              src="/logos/mlh-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
-              src="/logos/polygon-mini.svg"
-            />
-          </div>
-          <div className={styles.brandItem}>
-            <img
-              alt="text"
-              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
-              src="/logos/wolf-mini.svg"
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990018/collaboration-ecell/learningWhileTraveling_bmf0fj.png"
             />
           </div>
         </div>
@@ -175,99 +156,124 @@ const PreviousSponsors = ({ spanColor }) => {
         </div>
         <div className={styles.brandGrid}>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1685354010/Ecell%20website/edtimes_logo_bhl4ec.webp"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990266/collaboration-ecell/blackmarble00_q3mowc.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989598/collaboration-ecell/Cubeleloresized_jimc2g.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990589/collaboration-ecell/gfgre_xzhxha.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990660/collaboration-ecell/truscholarres_korsx7.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990737/collaboration-ecell/assamStartUpres_n2fbxv.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989494/collaboration-ecell/finlatics_dh1suv.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/c_scale,w_360,f_auto,fl_lossy/v1676524279/collaboration-ecell/PNB_Icon-resize_aghkjd.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676988769/collaboration-ecell/kwikpicghj_x7cy2p.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo2} ${styles.brandLogo}`}
-              src="/logos/polygon.png"
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676988848/collaboration-ecell/ssstartRe_xea2cl.png"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo3} ${styles.brandLogo}`}
-              src="/logos/mlh.png"
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693146006/SriGen4.0/coming%20soon/WhatsApp_Image_2023-08-27_at_19.44.00_wn0xmd.webp"
             />
           </div>
           <div className={styles.brandItem}>
-            <p className={styles.brandText}>powered by</p>
             <img
               alt="text"
-              className={`${styles.brandLogo4} ${styles.brandLogo}`}
-              src="/logos/wolf.png"
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989170/collaboration-ecell/stockGroRE_ymge3d.png"
+            />
+          </div>
+          <div className={styles.brandItem}>
+            <img
+              alt="text"
+              className={`${styles.brandLogomini3} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989292/collaboration-ecell/yenRE_zgrknu.png"
+            />
+          </div>
+          <div className={styles.brandItem}>
+            <img
+              alt="text"
+              className={`${styles.brandLogomini4} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989412/collaboration-ecell/anterprerna_susjet.png"
+            />
+          </div>
+          <div className={styles.brandItem}>
+            <img
+              alt="text"
+              className={`${styles.brandLogomini5} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989729/collaboration-ecell/IvyCap_bnxqmc.png"
+            />
+          </div>
+          <div className={styles.brandItem}>
+            <img
+              alt="text"
+              className={`${styles.brandLogomini1} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676989825/collaboration-ecell/jantaGroup_apsnyg.png"
+            />
+          </div>
+        </div>
+        <div className={styles.lastcolmobile}>
+          <div className={styles.brandItem}>
+            <img
+              alt="text"
+              className={`${styles.brandLogomini2} ${styles.brandLogo}`}
+              src="https://res.cloudinary.com/dp92qug2f/image/upload/v1676990018/collaboration-ecell/learningWhileTraveling_bmf0fj.png"
             />
           </div>
         </div>
