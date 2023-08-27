@@ -11,9 +11,6 @@ dependencies:
   aos:
     specifier: 3.0.0-beta.6
     version: 3.0.0-beta.6
-  guidance-grid:
-    specifier: 'link:'
-    version: 'link:'
   hamburger-react:
     specifier: ^2.5.0
     version: 2.5.0(react@18.2.0)
