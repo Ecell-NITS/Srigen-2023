@@ -194,7 +194,7 @@ $animationmobilespeed: 32s;
 }
 
 .comingtranslate {
-  margin-top: -7.5vw;
+  margin-top: -9vw;
   overflow-y: hidden;
   background-color: var(--srijan4-dark-blue);
   transform: rotate(-1.025deg) translateY(-40px);
@@ -346,17 +346,74 @@ $animationmobilespeed: 32s;
   }
 }
 
+@-webkit-keyframes sdb06 {
+  0% {
+    -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb06 {
+  0% {
+    transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#section06 section span {
+  position: absolute;
+  z-index: 21;
+  top: 87%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-animation: sdb06 1.5s infinite;
+  animation: sdb06 1.5s infinite;
+  box-sizing: border-box;
+}
+
+// @media (max-width:990px) and (min-width:770px){
+//   .comingtranslate{
+//     margin-top: -30vw;
+//   }
+// }
+
+// @media (max-width:1300px) and (min-width:991px){
+//   .comingtranslate{
+//         margin-top: -15vh;
+//       }
+// }
+
 @media (max-width: 900px) and (min-width: 661px) {
   .srigen {
     position: absolute;
-    top: 58%;
+    top: 53%;
     left: 58.5%;
     transform: translate(-50%, -50%);
   }
 
   .mirrortxt {
     position: absolute;
-    top: 58%;
+    top: 53%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 8vw;
@@ -364,21 +421,21 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 58% !important;
+    top: 53% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 58% !important;
+    top: 53% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 70%;
     transform: translate(-50%, -50%);
   }
@@ -497,7 +554,7 @@ $animationmobilespeed: 32s;
   }
 
   .comingtranslate {
-    margin-top: -20vw;
+    margin-top: -30vw;
     .slidercomingmain {
       padding-top: 2.5%;
       padding-bottom: 2.5%;

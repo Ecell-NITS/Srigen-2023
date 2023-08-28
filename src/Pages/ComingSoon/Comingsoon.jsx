@@ -16,10 +16,21 @@ const Comingsoon = () => {
       "_blank"
     );
   };
+
+  const handleMoveToAbout = () => {
+    document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className={styles.tophead}>
       <Sidelinks />
-      <div className={styles.main_content_comingsoon}>
+      <div className={styles.main_content_comingsoon} style={{ userSelect: "none" }}>
         <div className={styles.topimg}>
           {/* <img
             src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692642838/SriGen4.0/coming%20soon/sriGen2023_logo-removebg-preview_vxwueo.webp"
@@ -353,6 +364,27 @@ const Comingsoon = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.scrolldown}>
+        <section
+          role="button"
+          tabIndex={0}
+          onClick={handleMoveToAbout}
+          onKeyDown={handleKeyDown}
+          id={styles.section06}
+          className={styles.demo}
+        >
+          <section
+            role="button"
+            tabIndex={0}
+            href="#aboutSection"
+            style={{ cursor: "pointer" }}
+          >
+            <span></span>
+          </section>
+        </section>
+      </div>
+
       <About backgroundColor={backgroundColor} />
 
       {/* <Sponsors bgColor={bgColor} /> */}
