@@ -10,6 +10,7 @@ const GalleryCarousel = () => {
   const LinkArray = Data.links;
   return (
     <div className={styles.Container}>
+      <h1 className={styles.title}>Gallery</h1>
       <Swiper
         className={styles.MySwiper}
         slidesPerView={2.5}

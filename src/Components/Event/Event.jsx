@@ -1,7 +1,9 @@
 import styles from "./Event.module.scss";
 import EventCard from "../EventCard/EventCard";
-import Data from "../../Data/EventCardData.json";
-const evCard = Data.cardDataArray;
+import Data from "../../Data/EventDaysInfo.json";
+const evCard1 = Data.day1;
+// const evCard2 = Data.day2;
+// const evCard3 = Data.day3;
 
 const Event = ({ data, selected }) => {
   return (
@@ -131,9 +133,9 @@ const Event = ({ data, selected }) => {
       </div>
       <div className={styles.right}>
         <h3>Other Events</h3>
-        {evCard
+        {evCard1
           .slice(0, selected)
-          .concat(evCard.slice(selected + 1))
+          .concat(evCard1.slice(selected + 1))
           .map((item) => (
             <EventCard
               key={item.id}

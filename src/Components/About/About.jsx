@@ -4,31 +4,42 @@ import { InView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import style from "./About.module.scss";
-const About = () => {
+const About = ({ backgroundColor }) => {
   useEffect(() => {
     AOS.init();
   }, []);
 
   const [isIntersecting, setIntersecting] = useState(false);
+
+  const sectionBg = {
+    background: backgroundColor.startsWith("linear-gradient")
+      ? backgroundColor
+      : backgroundColor,
+  };
+
   return (
-    <section className={style.about}>
+    <section className={style.about} style={sectionBg}>
       <div className={style.abt_out}>
         <div className={style.abt_txt}>
           <div className={style.abt_event} data-aos="fade-up">
             <div className={style.abt_head}>
               <h1>
-                About <span className={style.abt_span}>The Event</span>
+                <span className={style.aboutti}>About</span>{" "}
+                <span className={style.abt_span}>The Event</span>
               </h1>
             </div>
             <div className={style.abt_content}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, augue
-                mattis condimentum gravida ultrices nunc sagittis, faucibus lacus. Ornare
-                urna nibh pellentesque odio senectus habitasse eu enim sit. Urna enim
-                egestas diam nulla sit. About NIT Silchar Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nisi, augue mattis condimentum gravida
-                ultrices nunc sagittis, faucibus lacus. Ornare urna nibh pellentesque odio
-                senectus habitasse eu enim sit. Urna enim egestas diam nulla sit.
+                Get ready to embark on a journey of innovation and entrepreneurship like
+                never before, as NIT Silchar‘s Entrepreneurship Cell proudly presents
+                ‘SriGen’! This event serves as a common platform for collaboration and
+                community-building among corporate experts and ambitious young
+                entrepreneurs hailing from NIT Silchar and esteemed institutions
+                nationwide. A number of competitions, workshops, webinars and speaker
+                sessions are held under SriGen with the primary goal of giving shape to
+                creative ideas proposed by brilliant minds. It encourages innovative
+                thinking, networking, and turning ideas into real-world ventures,
+                preparing students for the business world‘s challenges and opportunities.
               </p>
             </div>
           </div>
@@ -36,19 +47,23 @@ const About = () => {
             <div className={style.abt_nits} data-aos="fade-up">
               <div className={style.abt_head}>
                 <h1>
-                  About <span className={style.abt_span}>NIT Silchar</span>
+                  <span className={style.aboutti}>About</span>{" "}
+                  <span className={style.abt_span}>NIT Silchar</span>
                 </h1>
               </div>
               <div className={style.abt_content}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, augue
-                  mattis condimentum gravida ultrices nunc sagittis, faucibus lacus.
-                  Ornare urna nibh pellentesque odio senectus habitasse eu enim sit. Urna
-                  enim egestas diam nulla sit. About NIT Silchar Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Nisi, augue mattis condimentum
-                  gravida ultrices nunc sagittis, faucibus lacus. Ornare urna nibh
-                  pellentesque odio senectus habitasse eu enim sit. Urna enim egestas diam
-                  nulla sit.
+                  National Institute of Technology (NIT) Silchar is one of the premier
+                  engineering institutes in India. Established in 1967 as a Regional
+                  Engineering College (REC), it was upgraded to the status of an NIT in
+                  2002. The Institute is known for its rigorous academic standards and
+                  quality faculty. It encourages students and faculty to engage in
+                  research projects, publish papers, and contribute to technological
+                  advancements.It has been actively promoting entrepreneurship and
+                  innovation among its students and faculty. The institute recognizes the
+                  importance of fostering an entrepreneurial mindset and supporting
+                  startups that can contribute to economic growth and technological
+                  innovation.
                 </p>
               </div>
             </div>
