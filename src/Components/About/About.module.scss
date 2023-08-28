@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin: 0 auto;
 }
 .abt_event,
 .abt_nits {
@@ -21,9 +22,10 @@
 }
 .abt_head {
   font-family: var(--srijan4-font-2);
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 50px;
+  font-weight: 600;
+  font-size: 4vh;
+  line-height: 4vh;
+  margin-bottom: 5vh;
 }
 
 .aboutti {
@@ -31,16 +33,14 @@
 }
 
 .abt_span {
-  // background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
   background: linear-gradient(180deg, #0704b9 0%, #b4015f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  // color: #fff !important;
 }
 .abt_content {
   font-family: var(--srijan4-font-2);
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   font-size: 1.3rem;
   line-height: 35.8px;
@@ -54,11 +54,11 @@
   justify-content: center;
   align-items: center;
   position: sticky;
-  top: 25%;
+  top: 18%;
   right: 7%;
   height: fit-content;
   transition: 0.5s ease;
-  margin: 0 auto;
+  margin: 3vh auto;
 }
 .abt_animRotate {
   transform: rotate(180deg);
@@ -127,7 +127,7 @@
     width: 50%;
   }
   .abt_head {
-    font-size: 1.25rem;
+    font-size: 3vh;
   }
   .abt_content {
     font-size: 1.1rem;
@@ -162,7 +162,7 @@
     width: 100vw;
   }
   .abt_head {
-    font-size: 1.5rem;
+    font-size: 2vh;
     line-height: 50px;
     width: 90%;
     margin: auto;
