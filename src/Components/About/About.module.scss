@@ -42,7 +42,7 @@
   font-family: var(--srijan4-font-2);
   font-weight: 500;
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.5vw;
   line-height: 35.8px;
   color: var(--srijan4-dark-grey);
   width: 100%;
@@ -176,9 +176,10 @@
     margin: 1.5% auto;
   }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 660px) {
   .abt_content {
-    font-size: 1rem;
+    font-size: 3.2vw;
     line-height: 25px;
   }
 }

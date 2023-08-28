@@ -60,7 +60,7 @@
   max-width: 60.625rem;
   margin: auto;
   padding-top: 6.1875rem;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
@@ -172,5 +172,11 @@
   .iconSection {
     padding-bottom: 3.125rem;
     gap: 1rem;
+  }
+}
+
+@media (max-width: 660px) {
+  .footerDesc {
+    font-size: 3.2vw;
   }
 }

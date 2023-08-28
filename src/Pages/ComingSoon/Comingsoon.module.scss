@@ -2,27 +2,46 @@
   min-height: 100vh;
   background: var(--srijan4-gradient-4);
 
+  .stardiv {
+    position: absolute;
+    z-index: -0.05;
+    top: 0;
+    img {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+
   .main_content_comingsoon {
     height: 100vh;
+    position: relative;
+    z-index: 20;
+  }
+
+  .main_content_comingsoon {
+    background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 53.6%;
+    top: 48.6%;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 53.6%;
+    top: 48.6%;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 70%;
     transform: translate(-50%, -50%);
   }
@@ -34,19 +53,27 @@
   left: 50%;
   transform: translate(-50%, -50%);
   img {
-    width: 100px;
+    width: 70px;
     // height: 50%;
     // object-fit: cover;
   }
 }
 
+#reverse_star {
+  transform: scaleY(-1);
+}
+
+#reverse3d_star {
+  transform: scaleZ(-1);
+}
+
 .srigen {
   position: absolute;
-  top: 53%;
+  top: 48%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
-  z-index: 2;
+  z-index: 19;
   backdrop-filter: blur(7px);
   h1 {
     user-select: none;
@@ -65,7 +92,7 @@
 .mirrortxt {
   user-select: none;
   position: absolute;
-  top: 53%;
+  top: 48%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -101,7 +128,7 @@
 
 .diamond {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 28%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -118,7 +145,7 @@
 
 .rectangle {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -126,7 +153,7 @@
 
 .circularring {
   position: absolute;
-  top: 63.1%;
+  top: 58.1%;
   left: 50%;
   transform: translate(-50%, -50%);
   svg {
@@ -160,9 +187,10 @@ $animationmobilespeed: 32s;
 }
 
 .comingtranslate {
+  margin-top: -7.5vw;
   overflow-y: hidden;
   background-color: var(--srijan4-dark-blue);
-  transform: rotate(-1deg) translateY(-40px);
+  transform: rotate(-1.025deg) translateY(-40px);
   transform-origin: top right;
   .slidercomingmain {
     // background-color: var(--srijan4-dark-blue);
@@ -354,11 +382,16 @@ $animationmobilespeed: 32s;
 
   //line334
 
+  .stardiv {
+    display: none;
+  }
+
   .topimg {
     img {
       width: 50px;
     }
   }
+
   .diamond {
     position: absolute;
     top: 60%;
@@ -454,6 +487,7 @@ $animationmobilespeed: 32s;
   }
 
   .comingtranslate {
+    margin-top: -20vw;
     .slidercomingmain {
       padding-top: 2.5%;
       padding-bottom: 2.5%;

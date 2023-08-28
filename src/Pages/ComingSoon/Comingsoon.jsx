@@ -34,6 +34,12 @@ const Comingsoon = () => {
         <div className={styles.moveleft}>
           <div className={styles.srigen}>
             <h1>SriGen 23</h1>
+            <div className={styles.stardiv}>
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg"
+                alt=""
+              />
+            </div>
           </div>
 
           <div className={styles.diamond}>
@@ -74,8 +80,7 @@ const Comingsoon = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
+
       <div className={styles.comingtranslate}>
         <div className={styles.slidercomingmain}>
           <div className={styles.slidetrackcoming}>
@@ -383,6 +388,10 @@ const Comingsoon = () => {
           Download Brochure
         </button>
       </div>
+
+      {/* <div className={styles.stardiv}>
+        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg" alt="" />
+      </div> */}
     </div>
   );
 };
