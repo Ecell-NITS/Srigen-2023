@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Team.module.scss";
 import Data from "../../Data/TeamData.json";
-import { Sidelinks, TeamCard } from "../../Components";
+import { TeamCard } from "../../Components";
 
 const Team = () => {
   return (
     <div className={style.teamContainer}>
-      <Sidelinks />
       <div className={style.teamHeader}>
         <div className={style.Our}>
           <h1>Our</h1>
