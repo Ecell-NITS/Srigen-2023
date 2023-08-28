@@ -6,9 +6,14 @@
     position: absolute;
     z-index: -0.05;
     top: 0;
+    height: 60vh;
+    width: 100% !important;
+    overflow: hidden;
     img {
-      max-width: 100%;
+      height: 100%;
+      width: 100%;
       overflow-x: hidden;
+      object-fit: cover;
     }
   }
 
@@ -16,13 +21,6 @@
     height: 100vh;
     position: relative;
     z-index: 20;
-  }
-
-  .main_content_comingsoon {
-    background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .moveleft:hover .srigen {
@@ -75,6 +73,15 @@
   transition: all 0.3s ease-in-out;
   z-index: 19;
   backdrop-filter: blur(7px);
+  #custom_starinsrizen {
+    position: absolute;
+    top: 0;
+    img {
+      max-width: 100%;
+      // height: 100%;
+      object-fit: cover;
+    }
+  }
   h1 {
     user-select: none;
     font-family: var(--Gilroy);
@@ -375,14 +382,17 @@ $animationmobilespeed: 32s;
     left: 70%;
     transform: translate(-50%, -50%);
   }
+
+  #custom_starinsrizen {
+    display: none;
+  }
 }
 
 @media (max-width: 660px) {
   //comingsoon.module.scss
 
   //line334
-
-  .stardiv {
+  #custom_starinsrizen {
     display: none;
   }
 

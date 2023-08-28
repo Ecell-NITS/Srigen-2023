@@ -34,7 +34,7 @@ const Comingsoon = () => {
         <div className={styles.moveleft}>
           <div className={styles.srigen}>
             <h1>SriGen 23</h1>
-            <div className={styles.stardiv}>
+            <div id={styles.custom_starinsrizen}>
               <img
                 src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg"
                 alt=""
@@ -389,9 +389,12 @@ const Comingsoon = () => {
         </button>
       </div>
 
-      {/* <div className={styles.stardiv}>
-        <img src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg" alt="" />
-      </div> */}
+      <div className={styles.stardiv}>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
