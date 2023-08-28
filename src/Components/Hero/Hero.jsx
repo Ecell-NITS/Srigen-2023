@@ -11,21 +11,43 @@ const Hero = () => {
   window.addEventListener("scroll", handleScroll);
   return (
     <div className={style.container} onScroll={handleScroll}>
-      <img className={style.bg} src="/images/bg.png" alt="bg" />
-      <img className={style.rocket} id="rocket" src="/images/rocket.png" alt="rocket" />
-      <img className={style.rocks} id="rocks" src="/images/rocks.png" alt="rocks" />
+      <img
+        className={style.bg}
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693216721/bg_hqgu2o.webp"
+        alt="bg"
+      />
+      <img
+        className={style.rocket}
+        id="rocket"
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693217742/rocket_lq97jf.webp"
+        alt="rocket"
+      />
+      <img
+        className={style.rocks}
+        id="rocks"
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693218694/rocks_l5lams.webp"
+        alt="rocks"
+      />
       <img
         className={style.srigentext}
         id="text"
-        src="/images/srigentext.png"
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693219453/srigentext_pfb2dg.webp"
         alt="srigentext"
       />
-      <img className={style.cliff} src="/images/cliff.png" alt="cliff" />
-      <img className={style.bridge} src="/images/bridge.png" alt="bridge" />
+      <img
+        className={style.cliff}
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693217098/cliff_dsg8l2.webp"
+        alt="cliff"
+      />
+      <img
+        className={style.bridge}
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693216882/bridge_idqs4g.webp"
+        alt="bridge"
+      />
       <img
         className={style.astronaut}
         id="astronaut"
-        src="/images/astronaut.png"
+        src="https://res.cloudinary.com/dmvik1vtf/image/upload/v1693216512/astronaut_vhtypt.webp"
         alt="astronaut"
       />
     </div>
