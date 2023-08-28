@@ -1,12 +1,12 @@
 .iconcontainer {
   height: 20em;
-  position: fixed;
+  position: absolute;
   left: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  top: 7rem;
+  top: 9rem;
   z-index: 1000;
   .iconimgcont {
     .icon {
