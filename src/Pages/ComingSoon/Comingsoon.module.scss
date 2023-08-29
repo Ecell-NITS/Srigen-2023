@@ -25,22 +25,22 @@
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 48.6%;
-    left: 40%;
+    top: 46.6%;
+    left: 43%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 48.6%;
-    left: 40%;
+    top: 46.6%;
+    left: 43%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 55%;
-    left: 70%;
+    top: 53%;
+    left: 69%;
     transform: translate(-50%, -50%);
   }
 }
@@ -67,7 +67,7 @@
 
 .srigen {
   position: absolute;
-  top: 48%;
+  top: 46%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -99,7 +99,7 @@
 .mirrortxt {
   user-select: none;
   position: absolute;
-  top: 48%;
+  top: 46%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -135,8 +135,8 @@
 
 .diamond {
   position: absolute;
-  top: 55%;
-  left: 28%;
+  top: 53%;
+  left: 30%;
   transform: translate(-50%, -50%);
   z-index: 2;
   transition: all 0.3s ease-in-out;
@@ -152,7 +152,7 @@
 
 .rectangle {
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -160,7 +160,7 @@
 
 .circularring {
   position: absolute;
-  top: 58.1%;
+  top: 56.1%;
   left: 50%;
   transform: translate(-50%, -50%);
   svg {
@@ -396,14 +396,14 @@ $animationmobilespeed: 32s;
 @media (max-width: 900px) and (min-width: 661px) {
   .srigen {
     position: absolute;
-    top: 53%;
+    top: 51%;
     left: 58.5%;
     transform: translate(-50%, -50%);
   }
 
   .mirrortxt {
     position: absolute;
-    top: 53%;
+    top: 51%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 8vw;
@@ -411,14 +411,14 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 53% !important;
+    top: 51% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 53% !important;
+    top: 51% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
@@ -432,6 +432,12 @@ $animationmobilespeed: 32s;
 
   #custom_starinsrizen {
     display: none;
+  }
+
+  .diamond {
+    position: absolute;
+    top: 53%;
+    left: 32%;
   }
 }
 
@@ -451,8 +457,8 @@ $animationmobilespeed: 32s;
 
   .diamond {
     position: absolute;
-    top: 55%;
-    left: 38%;
+    top: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
     transition: all 0.3s ease-in-out;
@@ -466,7 +472,7 @@ $animationmobilespeed: 32s;
 
   .srigen {
     position: absolute;
-    top: 49.5%;
+    top: 44.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     transition: all 0.3s ease-in-out;
@@ -482,7 +488,7 @@ $animationmobilespeed: 32s;
 
   .mirrortxt {
     position: absolute;
-    top: 49.5%;
+    top: 44.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 7.5vw;
@@ -509,21 +515,21 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 49.5% !important;
-    left: 38% !important;
+    top: 44.5% !important;
+    left: 42% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 49.5% !important;
-    left: 38% !important;
+    top: 44.5% !important;
+    left: 42% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 55% !important;
+    top: 50% !important;
     right: 2% !important;
     transform: translate(-50%, -50%);
     width: auto;
@@ -573,7 +579,7 @@ $animationmobilespeed: 32s;
 
   .circularring {
     position: absolute;
-    top: 53%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     svg {
