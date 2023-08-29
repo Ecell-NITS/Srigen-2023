@@ -7,7 +7,7 @@ const PreviousSponsors = ({ spanColor }) => {
 
   return (
     <>
-      <div className={styles.prevSponsors}>
+      <div className={styles.prevSponsors} style={{ userSelect: "none" }}>
         <p className={styles.prevSponsorsheader}>
           Previous{" "}
           <span className={styles.previous_custom} style={PreviousColor}>
@@ -149,7 +149,7 @@ const PreviousSponsors = ({ spanColor }) => {
         </div>
       </div>
 
-      <div className={styles.prevSponsorsmobile}>
+      <div className={styles.prevSponsorsmobile} style={{ userSelect: "none" }}>
         <p className={styles.prevSponsorsheader}>
           Previous{" "}
           <span className={styles.previous_custom} style={PreviousColor}>
