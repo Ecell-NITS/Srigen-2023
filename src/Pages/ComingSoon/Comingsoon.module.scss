@@ -194,7 +194,9 @@ $animationmobilespeed: 32s;
 }
 
 .comingtranslate {
-  margin-top: -9vw;
+  max-width: 100%;
+  position: absolute;
+  top: 80%;
   overflow-y: hidden;
   background-color: var(--srijan4-dark-blue);
   transform: rotate(-1.025deg) translateY(-40px);
@@ -391,18 +393,6 @@ $animationmobilespeed: 32s;
   box-sizing: border-box;
 }
 
-// @media (max-width:990px) and (min-width:770px){
-//   .comingtranslate{
-//     margin-top: -30vw;
-//   }
-// }
-
-// @media (max-width:1300px) and (min-width:991px){
-//   .comingtranslate{
-//         margin-top: -15vh;
-//       }
-// }
-
 @media (max-width: 900px) and (min-width: 661px) {
   .srigen {
     position: absolute;
@@ -461,7 +451,7 @@ $animationmobilespeed: 32s;
 
   .diamond {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 38%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -476,7 +466,7 @@ $animationmobilespeed: 32s;
 
   .srigen {
     position: absolute;
-    top: 54.5%;
+    top: 49.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     transition: all 0.3s ease-in-out;
@@ -492,7 +482,7 @@ $animationmobilespeed: 32s;
 
   .mirrortxt {
     position: absolute;
-    top: 54.5%;
+    top: 49.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 7.5vw;
@@ -519,21 +509,21 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 54.5% !important;
+    top: 49.5% !important;
     left: 38% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 54.5% !important;
+    top: 49.5% !important;
     left: 38% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60% !important;
+    top: 55% !important;
     right: 2% !important;
     transform: translate(-50%, -50%);
     width: auto;
@@ -554,7 +544,8 @@ $animationmobilespeed: 32s;
   }
 
   .comingtranslate {
-    margin-top: -30vw;
+    position: absolute;
+    top: 75%;
     .slidercomingmain {
       padding-top: 2.5%;
       padding-bottom: 2.5%;
@@ -582,7 +573,7 @@ $animationmobilespeed: 32s;
 
   .circularring {
     position: absolute;
-    top: 58%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     svg {
