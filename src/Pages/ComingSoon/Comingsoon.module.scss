@@ -457,7 +457,7 @@ $animationmobilespeed: 32s;
 
   .diamond {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -529,7 +529,7 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 50% !important;
+    top: 48% !important;
     right: 2% !important;
     transform: translate(-50%, -50%);
     width: auto;
