@@ -66,6 +66,7 @@ const Footer = () => {
             href="https://www.facebook.com/srijan.nits"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.linkContainer}
           >
             <FiFacebook className={styles.facebookIcon} />
           </a>
@@ -73,6 +74,7 @@ const Footer = () => {
             href="https://www.instagram.com/srijan_nits/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.linkContainer}
           >
             <AiOutlineInstagram className={styles.instaIcon} />
           </a>
@@ -80,6 +82,7 @@ const Footer = () => {
             href="https://www.linkedin.com/company/srijan-nit-silchar"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.linkContainer}
           >
             <FiLinkedin className={styles.linkedinIcon} />
           </a>

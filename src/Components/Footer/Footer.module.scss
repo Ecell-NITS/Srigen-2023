@@ -71,24 +71,21 @@
   width: 2.91rem;
   height: 2.91rem;
   color: var(--srijan4-white);
-  margin-right: 4.1475rem;
-  margin-left: 4.1475rem;
 }
 .instaIcon {
   width: 2.91rem;
   height: 2.91rem;
   color: var(--srijan4-white);
-  margin-right: 4.1475rem;
 }
 .linkedinIcon {
   width: 2.91rem;
   height: 2.91rem;
   color: var(--srijan4-white);
-  margin-right: 4.1475rem;
 }
 .iconSection {
   display: flex;
   justify-content: center;
+  gap: 3.5rem;
   margin-top: 5.4375rem;
   padding-bottom: 9.25rem;
 }
@@ -131,7 +128,7 @@
   .credText {
     font-size: 0.5rem;
     line-height: 0.75rem;
-    //max-width: 7.4375rem;
+    max-width: 7.4375rem;
     max-width: 75%;
     margin: auto;
     margin-top: 0.5rem;
@@ -152,22 +149,21 @@
   .containerFooter {
     margin-top: 0;
   }
+
   .facebookIcon {
     height: 2rem;
     width: 2rem;
-    margin-left: 6.25rem;
-    margin-right: 0;
+    margin: 0;
   }
   .instaIcon {
     height: 2rem;
     width: 2rem;
-    margin-left: 0;
-    margin-right: 0.5rem;
+    margin: 0;
   }
   .linkedinIcon {
     height: 2rem;
     width: 2rem;
-    margin-right: 5.875rem;
+    margin: 0;
   }
   .iconSection {
     padding-bottom: 3.125rem;
