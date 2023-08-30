@@ -5,36 +5,16 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@vitejs/plugin-react':
-    specifier: ^2.2.0
-    version: 2.2.0(vite@3.2.4)
-  aos:
-    specifier: 3.0.0-beta.6
-    version: 3.0.0-beta.6
-  react:
-    specifier: ^18.2.0
-    version: 18.2.0
-  react-dom:
-    specifier: ^18.2.0
-    version: 18.2.0(react@18.2.0)
-  react-icons:
-    specifier: ^4.7.1
-    version: 4.7.1(react@18.2.0)
-  react-intersection-observer:
-    specifier: ^9.4.3
-    version: 9.4.3(react@18.2.0)
-  react-router-dom:
-    specifier: ^6.4.3
-    version: 6.4.3(react-dom@18.2.0)(react@18.2.0)
-  react-toastify:
-    specifier: ^9.1.1
-    version: 9.1.1(react-dom@18.2.0)(react@18.2.0)
-  swiper:
-    specifier: ^9.0.5
-    version: 9.0.5
-  vite:
-    specifier: ^3.2.3
-    version: 3.2.4(sass@1.56.1)
+  '@vitejs/plugin-react': 2.2.0_vite@3.2.4
+  aos: 3.0.0-beta.6
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
+  react-intersection-observer: 9.4.3_react@18.2.0
+  react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
+  react-toastify: 9.1.1_biqbaboplfbrettd7655fr4n2y
+  swiper: 9.0.5
+  vite: 3.2.4_sass@1.56.1
 
 devDependencies:
   '@types/react':
@@ -1665,7 +1645,7 @@ packages:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
-  /has-bigints@1.0.2:
+  /has-bigints/1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
     dev: true
 

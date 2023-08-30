@@ -6,6 +6,7 @@ import {
   GalleryCarousel,
   Hero,
   EventTab,
+  Sidelinks,
 } from "../../Components";
 
 import style from "./Home.module.scss";
@@ -16,6 +17,7 @@ const Home = () => {
 
   return (
     <main className={style.home}>
+      <Sidelinks />
       {/* <h1>Home Page for Srijan 2023</h1>
       <Button type="button" /> */}
       <Hero />

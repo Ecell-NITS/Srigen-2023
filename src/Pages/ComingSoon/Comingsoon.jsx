@@ -3,14 +3,22 @@ import styles from "./Comingsoon.module.scss";
 import About from "../../Components/About/About";
 // import Sponsors from "../Sponsors/Sponsors";
 import PreviousSponsors from "../Sponsors/PreviousSponsors";
+import { Sidelinks } from "../../Components";
 
 const Comingsoon = () => {
   const backgroundColor = "transparent";
   // const bgColor = "transparent";
   const spanColor = "var(--srijan4-gradient-8)";
 
+  const handleGoToBrochure = () => {
+    window.open(
+      "https://drive.google.com/file/d/13_UqI2r2NkvjfC_lIkhcehV7pebS5Az3/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <div className={styles.tophead}>
+      <Sidelinks />
       <div className={styles.main_content_comingsoon}>
         <div className={styles.topimg}>
           {/* <img
@@ -345,7 +353,7 @@ const Comingsoon = () => {
       {/* <Sponsors bgColor={bgColor} /> */}
       <PreviousSponsors spanColor={spanColor} />
 
-      <div className={styles.tshirtsection}>
+      {/* <div className={styles.tshirtsection}>
         <h1>
           <span id={styles.tshirt_iso}>SriGen</span> <span>T-shirt</span>
         </h1>
@@ -359,7 +367,7 @@ const Comingsoon = () => {
         <div className={styles.btn_buy_shrigen_tshirt}>
           <button>Order Now</button>
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.srijanlogo_bottom}>
         <div className={styles.logo_parent}>
@@ -368,6 +376,12 @@ const Comingsoon = () => {
             alt="SriGen logo"
           />
         </div>
+      </div>
+
+      <div className={styles.btnholder_brochure}>
+        <button onClick={handleGoToBrochure} className={styles.button_download_bro}>
+          Download Brochure
+        </button>
       </div>
     </div>
   );

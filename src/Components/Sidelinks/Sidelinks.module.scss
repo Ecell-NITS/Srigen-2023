@@ -1,23 +1,33 @@
 .iconcontainer {
   height: 20em;
-  position: fixed;
+  position: absolute;
   left: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  top: 7rem;
+  top: 9rem;
+  z-index: 1000;
   .iconimgcont {
     .icon {
-      font-size: 2.5em;
+      font-size: 2.6vw;
       color: var(--srijan-white-1);
+    }
+    button {
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      outline: none;
     }
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .iconcontainer {
     .iconimgcont {
+      .icon {
+        font-size: 4.2vw;
+      }
       width: 80%;
       display: flex;
       justify-content: center;
@@ -27,16 +37,8 @@
 
 @media (max-width: 640px) {
   .iconcontainer {
-    .iconimgcont {
-      width: 60%;
-    }
+    display: none;
   }
 }
 
-@media (max-width: 359px) {
-  .iconcontainer {
-    .iconimgcont {
-      width: 60%;
-    }
-  }
-}
+//sidelinks.css
