@@ -409,7 +409,7 @@ const Comingsoon = () => {
       <div className={styles.srijanlogo_bottom} style={{ userSelect: "none" }}>
         <div className={styles.logo_parent}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692819661/SriGen4.0/WhatsApp_Image_2023-08-24_at_01.08.14-removebg-preview_hxy0s0.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693859476/coming%20soon/SriGen4.0_z2tjky.webp"
             alt="SriGen logo"
           />
         </div>
