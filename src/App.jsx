@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { NotFound404, Comingsoon } from "./Pages";
 
 import { Footer } from "./Components";
+import Loader from "./Components/Loader/Loader";
 
 const App = () => {
   // const backgroundColor = "var(--srijan4-gradient-4)"
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <>
       {/* <Navbar /> */}
+      <Loader />
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         {/* <Route path="/registration/:event" element={<Registration />} />

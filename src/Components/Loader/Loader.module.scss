@@ -1,0 +1,28 @@
+.loader {
+  display: none;
+}
+
+.loader.active {
+  display: block;
+  height: 100vh;
+  background: var(--srijan4-gradient-4);
+  position: absolute;
+  top: 0;
+  z-index: 50000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_loader_wrapper {
+  pointer-events: none;
+  user-select: none;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    object-fit: contain;
+  }
+}
