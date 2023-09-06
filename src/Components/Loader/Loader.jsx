@@ -35,6 +35,7 @@ const Loader = () => {
           src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692721416/SriGen4.0/coming%20soon/6-removebg-preview_bnogvg.webp"
           alt=""
         />
+        <h2 className={styles.loading_text}>loading...</h2>
       </div>
     </div>
   );

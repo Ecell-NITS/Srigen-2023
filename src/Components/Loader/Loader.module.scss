@@ -15,9 +15,28 @@
   align-items: center;
 }
 
+@keyframes animate_img_loader_rocket {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .img_loader_wrapper {
   pointer-events: none;
   user-select: none;
+  animation: animate_img_loader_rocket 2s infinite;
   img {
     display: block;
     margin-left: auto;
@@ -25,4 +44,9 @@
     width: 80%;
     object-fit: contain;
   }
+}
+
+.loading_text {
+  color: white;
+  text-align: center;
 }
