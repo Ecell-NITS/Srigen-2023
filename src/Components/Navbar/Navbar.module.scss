@@ -1,0 +1,204 @@
+.navbar {
+  height: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10000;
+}
+.logo {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 6vw;
+  z-index: 9000;
+  margin-top: 1rem;
+}
+.hamburger {
+  z-index: 100000;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+}
+
+.menu {
+  position: fixed;
+  right: -50%;
+  height: 100vh;
+  width: 50%;
+  z-index: 10000;
+  background: var(--srijan4-gradient-4);
+  transition: all 0.4s;
+}
+.activate {
+  position: fixed;
+  right: -50%;
+  height: 100vh;
+  width: 50%;
+  z-index: 10000;
+  background: var(--srijan4-gradient-4);
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+
+.mainMenu {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 6.75vh;
+  padding: 2rem;
+}
+.item {
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+.links {
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.linkActive {
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(90deg, #0066ff, #00d0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.item:hover {
+  transform: translateX(1.875rem);
+}
+
+.ham {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  right: 6vw;
+  top: 2.9375rem;
+}
+.hamActive {
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  right: 6vw;
+  top: 2.9375rem;
+}
+
+.bar {
+  display: block;
+  width: 2.75rem;
+  height: 0.1875rem;
+  background-color: white;
+  margin: 0.75rem 0;
+  transition: all 0.3s;
+  border-radius: 0.3125rem;
+}
+.barActive:nth-child(1) {
+  display: block;
+  width: 2.75rem;
+  height: 0.3125rem;
+  background-color: white;
+  margin: 0.75rem 0;
+  transform: translateY(1.075rem) rotate(45deg);
+  transition: all 0.3s;
+
+  border-radius: 0.3125rem;
+  background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
+}
+
+.barActive:nth-child(2) {
+  display: block;
+  width: 2.75rem;
+  height: 0.3125rem;
+  background-color: white;
+  margin: 0.75rem 0;
+  transform: rotate(-45deg);
+  transition: all 0.3s;
+
+  border-radius: 0.3125rem;
+  background: linear-gradient(180deg, #ffffff 0%, #1fd1f9 112.42%);
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    position: relative;
+  }
+
+  .menu {
+    width: 100%;
+    right: -100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .activate {
+    width: 100%;
+    height: 101dvh;
+    transform: translateX(-50.1%);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .bar {
+    width: max(2rem, 5vw);
+    height: max(0.15625rem, 0.4vw);
+  }
+  .barActive:nth-child(1) {
+    transform: translateY(1.075rem) rotate(45deg) scale(0.75);
+  }
+  .barActive:nth-child(2) {
+    transform: rotate(-45deg) scale(0.75);
+  }
+
+  .ham {
+    right: -1.5rem;
+    top: -0.5rem;
+  }
+  .hamActive {
+    right: 1rem;
+    top: 0.5rem;
+  }
+  .hamburger {
+    position: relative;
+    right: -0.5rem;
+    top: -0.5rem;
+  }
+  .logo {
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.875rem;
+  }
+  .mainMenu {
+    font-size: 5vh;
+    gap: 2rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .mainMenu {
+    gap: 0;
+    justify-content: space-around;
+    font-size: 5vh;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1000px) {
+  .ham {
+    margin-top: 0.5rem;
+  }
+  .hamActive {
+    margin-top: 0.5rem;
+  }
+  .logo {
+    margin-top: 1.25rem;
+  }
+}
