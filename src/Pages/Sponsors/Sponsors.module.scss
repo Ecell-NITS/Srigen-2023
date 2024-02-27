@@ -4,6 +4,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.prevsponsors_text {
+  color: #ffffffb8;
+  line-height: 1.6;
+  font-size: 1.5vw;
+  margin-bottom: 3vw;
+  font-weight: 500;
+}
+
 .sponsorsHeader {
   display: flex;
   flex-direction: column;
@@ -93,7 +102,7 @@
 .prevSponsorsheader {
   color: var(--srijan4-white);
   margin-top: 2.375rem;
-  margin-bottom: 3.8125rem;
+  margin-bottom: 1.5vw;
   font-family: var(--srijan4-white);
   font-style: normal;
   font-weight: 600;
@@ -202,7 +211,7 @@
     font-size: 1.25rem;
     line-height: 1.875rem;
     text-align: center;
-    margin-bottom: 9vw;
+    margin-bottom: 5vw;
   }
   .prevSponsors {
     display: none;
@@ -210,5 +219,14 @@
   .lastcolmobile {
     width: 45%;
     margin: auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .prevsponsors_text {
+    font-size: 3.2vw !important;
+    margin-bottom: 10vw;
+    line-height: 2;
+    text-align: center;
   }
 }

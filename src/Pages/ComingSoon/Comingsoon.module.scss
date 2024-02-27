@@ -2,28 +2,45 @@
   min-height: 100vh;
   background: var(--srijan4-gradient-4);
 
+  .stardiv {
+    position: absolute;
+    z-index: -0.05;
+    top: 0;
+    height: 60vh;
+    width: 100% !important;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      object-fit: cover;
+    }
+  }
+
   .main_content_comingsoon {
     height: 100vh;
+    position: relative;
+    z-index: 20;
   }
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 53.6%;
-    left: 40%;
+    top: 46.6%;
+    left: 43%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 53.6%;
-    left: 40%;
+    top: 46.6%;
+    left: 43%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60%;
-    left: 70%;
+    top: 53%;
+    left: 69%;
     transform: translate(-50%, -50%);
   }
 }
@@ -34,20 +51,37 @@
   left: 50%;
   transform: translate(-50%, -50%);
   img {
-    width: 100px;
+    width: 70px;
     // height: 50%;
     // object-fit: cover;
   }
 }
 
+#reverse_star {
+  transform: scaleY(-1);
+}
+
+#reverse3d_star {
+  transform: scaleZ(-1);
+}
+
 .srigen {
   position: absolute;
-  top: 53%;
+  top: 46%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
-  z-index: 2;
+  z-index: 19;
   backdrop-filter: blur(7px);
+  #custom_starinsrizen {
+    position: absolute;
+    top: 0;
+    img {
+      max-width: 100%;
+      // height: 100%;
+      object-fit: cover;
+    }
+  }
   h1 {
     user-select: none;
     font-family: var(--Gilroy);
@@ -65,7 +99,7 @@
 .mirrortxt {
   user-select: none;
   position: absolute;
-  top: 53%;
+  top: 46%;
   left: 56%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -101,8 +135,8 @@
 
 .diamond {
   position: absolute;
-  top: 60%;
-  left: 28%;
+  top: 53%;
+  left: 30%;
   transform: translate(-50%, -50%);
   z-index: 2;
   transition: all 0.3s ease-in-out;
@@ -118,7 +152,7 @@
 
 .rectangle {
   position: absolute;
-  top: 60%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
@@ -126,7 +160,7 @@
 
 .circularring {
   position: absolute;
-  top: 63.1%;
+  top: 56.1%;
   left: 50%;
   transform: translate(-50%, -50%);
   svg {
@@ -160,9 +194,14 @@ $animationmobilespeed: 32s;
 }
 
 .comingtranslate {
+  max-width: 99.5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 80%;
   overflow-y: hidden;
   background-color: var(--srijan4-dark-blue);
-  transform: rotate(-1deg) translateY(-40px);
+  transform: rotate(-1.5deg) translateY(-40px);
   transform-origin: top right;
   .slidercomingmain {
     // background-color: var(--srijan4-dark-blue);
@@ -221,28 +260,31 @@ $animationmobilespeed: 32s;
   text-align: center;
   margin-top: 4vw;
   padding: 2vw 0 5vw 0;
-  .logo_parent {
-    border-radius: 10px;
-    background: linear-gradient(
-      138deg,
-      rgba(255, 255, 255, 0.56) 0%,
-      rgba(255, 255, 255, 0.29) 100%
-    );
-    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(20px);
-    height: 20vw;
-    width: 22.5vw;
-    flex-shrink: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  // .logo_parent {
+  //   border-radius: 10px;
+  //   background: linear-gradient(
+  //     138deg,
+  //     rgba(255, 255, 255, 0.56) 0%,
+  //     rgba(255, 255, 255, 0.29) 100%
+  //   );
+  //   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  //   backdrop-filter: blur(20px);
+  //   height: 20vw;
+  //   width: 22.5vw;
+  //   flex-shrink: 0;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
   img {
     width: 60%;
     pointer-events: none;
     object-fit: contain;
+    box-shadow: 0px 0px 4px 0px rgba(0, 157, 191, 0.25),
+      0px 0px 4px 0px rgba(0, 157, 191, 0.25), 0px 0px 4px 0px rgba(0, 157, 191, 0.25),
+      0px 4px 7px 0px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -311,17 +353,62 @@ $animationmobilespeed: 32s;
   }
 }
 
+@-webkit-keyframes sdb06 {
+  0% {
+    -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb06 {
+  0% {
+    transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#section06 section span {
+  position: absolute;
+  z-index: 21;
+  top: 87%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-animation: sdb06 1.5s infinite;
+  animation: sdb06 1.5s infinite;
+  box-sizing: border-box;
+}
+
 @media (max-width: 900px) and (min-width: 661px) {
   .srigen {
     position: absolute;
-    top: 58%;
+    top: 51%;
     left: 58.5%;
     transform: translate(-50%, -50%);
   }
 
   .mirrortxt {
     position: absolute;
-    top: 58%;
+    top: 51%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 8vw;
@@ -329,23 +416,33 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 58% !important;
+    top: 51% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 58% !important;
+    top: 51% !important;
     left: 40%;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 70%;
     transform: translate(-50%, -50%);
+  }
+
+  #custom_starinsrizen {
+    display: none;
+  }
+
+  .diamond {
+    position: absolute;
+    top: 53%;
+    left: 32%;
   }
 }
 
@@ -353,16 +450,20 @@ $animationmobilespeed: 32s;
   //comingsoon.module.scss
 
   //line334
+  #custom_starinsrizen {
+    display: none;
+  }
 
   .topimg {
     img {
       width: 50px;
     }
   }
+
   .diamond {
     position: absolute;
-    top: 60%;
-    left: 38%;
+    top: 48%;
+    left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
     transition: all 0.3s ease-in-out;
@@ -376,7 +477,7 @@ $animationmobilespeed: 32s;
 
   .srigen {
     position: absolute;
-    top: 54.5%;
+    top: 44.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     transition: all 0.3s ease-in-out;
@@ -392,7 +493,7 @@ $animationmobilespeed: 32s;
 
   .mirrortxt {
     position: absolute;
-    top: 54.5%;
+    top: 44.5%;
     left: 58.5%;
     transform: translate(-50%, -50%);
     margin-top: 7.5vw;
@@ -419,21 +520,21 @@ $animationmobilespeed: 32s;
 
   .moveleft:hover .srigen {
     position: absolute;
-    top: 54.5% !important;
-    left: 38% !important;
+    top: 44.5% !important;
+    left: 42% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .mirrortxt {
     position: absolute;
-    top: 54.5% !important;
-    left: 38% !important;
+    top: 44.5% !important;
+    left: 42% !important;
     transform: translate(-50%, -50%);
   }
 
   .moveleft:hover .diamond {
     position: absolute;
-    top: 60% !important;
+    top: 48% !important;
     right: 2% !important;
     transform: translate(-50%, -50%);
     width: auto;
@@ -454,6 +555,8 @@ $animationmobilespeed: 32s;
   }
 
   .comingtranslate {
+    position: absolute;
+    top: 75%;
     .slidercomingmain {
       padding-top: 2.5%;
       padding-bottom: 2.5%;
@@ -481,7 +584,7 @@ $animationmobilespeed: 32s;
 
   .circularring {
     position: absolute;
-    top: 58%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     svg {
@@ -494,12 +597,12 @@ $animationmobilespeed: 32s;
     text-align: center;
     padding: 4vw 0 14vw 0;
     margin-top: 9vw;
-    .logo_parent {
-      height: 40vw;
-      width: 42.5vw;
-    }
+    // .logo_parent {
+    //   height: 40vw;
+    //   width: 42.5vw;
+    // }
     img {
-      width: 60%;
+      width: 80%;
       object-fit: contain;
     }
   }

@@ -7,12 +7,22 @@ const PreviousSponsors = ({ spanColor }) => {
 
   return (
     <>
-      <div className={styles.prevSponsors}>
+      <div className={styles.prevSponsors} style={{ userSelect: "none" }}>
         <p className={styles.prevSponsorsheader}>
           Previous{" "}
           <span className={styles.previous_custom} style={PreviousColor}>
             Sponsors
           </span>{" "}
+        </p>
+        <p className={styles.prevsponsors_text}>
+          In previous years, our E-Summit, SriGen, has been fortunate to have received
+          sponsorship from a diverse array of companies and organisations. These sponsors
+          provided the crucial financial support and resources that allowed us to bring
+          the big event to life. Their commitment to fostering innovation and
+          entrepreneurship has helped us create a dynamic platform for networking,
+          learning, and collaboration. We extend our deepest appreciation to them for
+          making our last E-Summit a resounding success while looking forward to the
+          prospect of the upcoming SriGen 2023!
         </p>
         <div className={styles.brandGrid2}>
           <div className={styles.brandItem}>
@@ -139,13 +149,25 @@ const PreviousSponsors = ({ spanColor }) => {
         </div>
       </div>
 
-      <div className={styles.prevSponsorsmobile}>
+      <div className={styles.prevSponsorsmobile} style={{ userSelect: "none" }}>
         <p className={styles.prevSponsorsheader}>
           Previous{" "}
           <span className={styles.previous_custom} style={PreviousColor}>
             Sponsors
           </span>
         </p>
+
+        <p className={styles.prevsponsors_text}>
+          In previous years, our E-Summit, SriGen, has been fortunate to have received
+          sponsorship from a diverse array of companies and organisations. These sponsors
+          provided the crucial financial support and resources that allowed us to bring
+          the big event to life. Their commitment to fostering innovation and
+          entrepreneurship has helped us create a dynamic platform for networking,
+          learning, and collaboration. We extend our deepest appreciation to them for
+          making our last E-Summit a resounding success while looking forward to the
+          prospect of the upcoming SriGen 2023!
+        </p>
+
         <div className={styles.brandItem1}>
           <p className={styles.brandText}>powered by</p>
           <img

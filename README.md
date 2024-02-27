@@ -1,14 +1,2 @@
-# React-JS-App Template v1.0.0
-GDSC NIT Silchar's Template for a JS + React + SASS app.
-
-## Features, Tools and Technologies
-- JavaScript
-- React 18
-- React Router 6
-- SASS Modules
-- Vite
-- pnpm
-- Prettier
-- Very Strict ESLint
-- Auto Lint and Pretty on commit using simple-git-hooks (compatible with Windows unlike husky)
-- Deploy preview on all PRs (creates an extra gh-pages branch)
+Pre-release version of SriGen 2023 Website (Coming soon) for Marketing purpose and sneak peak to the public.<br>
+Deployed at https://srigen-2023.netlify.app/ on `dev_comingsoon` branch.

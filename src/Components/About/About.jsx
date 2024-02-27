@@ -18,7 +18,7 @@ const About = ({ backgroundColor }) => {
   };
 
   return (
-    <section className={style.about} style={sectionBg}>
+    <section className={style.about} style={sectionBg} id="aboutSection">
       <div className={style.abt_out}>
         <div className={style.abt_txt}>
           <div className={style.abt_event} data-aos="fade-up">

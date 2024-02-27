@@ -16,10 +16,21 @@ const Comingsoon = () => {
       "_blank"
     );
   };
+
+  const handleMoveToAbout = () => {
+    document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className={styles.tophead}>
       <Sidelinks />
-      <div className={styles.main_content_comingsoon}>
+      <div className={styles.main_content_comingsoon} style={{ userSelect: "none" }}>
         <div className={styles.topimg}>
           {/* <img
             src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692642838/SriGen4.0/coming%20soon/sriGen2023_logo-removebg-preview_vxwueo.webp"
@@ -34,6 +45,12 @@ const Comingsoon = () => {
         <div className={styles.moveleft}>
           <div className={styles.srigen}>
             <h1>SriGen 23</h1>
+            <div id={styles.custom_starinsrizen}>
+              <img
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg"
+                alt=""
+              />
+            </div>
           </div>
 
           <div className={styles.diamond}>
@@ -74,8 +91,7 @@ const Comingsoon = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
+
       <div className={styles.comingtranslate}>
         <div className={styles.slidercomingmain}>
           <div className={styles.slidetrackcoming}>
@@ -348,6 +364,27 @@ const Comingsoon = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.scrolldown}>
+        <section
+          role="button"
+          tabIndex={0}
+          onClick={handleMoveToAbout}
+          onKeyDown={handleKeyDown}
+          id={styles.section06}
+          className={styles.demo}
+        >
+          <section
+            role="button"
+            tabIndex={0}
+            href="#aboutSection"
+            style={{ cursor: "pointer" }}
+          >
+            <span></span>
+          </section>
+        </section>
+      </div>
+
       <About backgroundColor={backgroundColor} />
 
       {/* <Sponsors bgColor={bgColor} /> */}
@@ -369,10 +406,10 @@ const Comingsoon = () => {
         </div>
       </div> */}
 
-      <div className={styles.srijanlogo_bottom}>
+      <div className={styles.srijanlogo_bottom} style={{ userSelect: "none" }}>
         <div className={styles.logo_parent}>
           <img
-            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1692819661/SriGen4.0/WhatsApp_Image_2023-08-24_at_01.08.14-removebg-preview_hxy0s0.png"
+            src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693859476/coming%20soon/SriGen4.0_z2tjky.webp"
             alt="SriGen logo"
           />
         </div>
@@ -382,6 +419,13 @@ const Comingsoon = () => {
         <button onClick={handleGoToBrochure} className={styles.button_download_bro}>
           Download Brochure
         </button>
+      </div>
+
+      <div className={styles.stardiv}>
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1693241859/coming%20soon/stars_4_fneivu.svg"
+          alt=""
+        />
       </div>
     </div>
   );
