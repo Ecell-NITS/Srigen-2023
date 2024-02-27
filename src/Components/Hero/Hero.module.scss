@@ -47,7 +47,7 @@
   .rocket {
     position: absolute;
     height: 40%;
-    right: 20%;
+    right: 10%;
     top: 50%;
     animation: animaterocket 1.5s ease forwards;
 
@@ -147,6 +147,14 @@
       height: 45%;
       left: 7%;
       bottom: -9em;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    .astronaut {
+      height: 42%;
     }
   }
 }
